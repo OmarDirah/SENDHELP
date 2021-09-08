@@ -1,2 +1,2 @@
 # SENDHELP
-Capping Game
+Cybersecurity Capping Game Project
