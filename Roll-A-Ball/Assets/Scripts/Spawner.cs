@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+
 
 public class Spawner : MonoBehaviour
 {
@@ -9,7 +11,26 @@ public class Spawner : MonoBehaviour
     public List<GameObject> spawnPool;
     public GameObject quad;
 
-    void Start()
+
+
+	public GameObject ItemPrefab;
+
+	private char[] lowerChars = new char[] {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+											'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+	private char[] upperChars = new char[] {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+											'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
+	private char[] digits = new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+	private char[] specialChars = new char[] {'!', '"', '#', '$', '%', '&', '\'', '*', '+', ',', '.', '/',
+												':', ';', '=', '?', '@', '\\', '^', '~', '`', '|'};
+
+	public int lowerCharCount = 5;
+	public int upperCharCount = 5;
+	public int digitCount = 5;
+	public int specialCharCount = 5;
+	
+	public TextMeshPro itemText;
+
+	void Start()
     {
         SpawnObjects();
     }
@@ -36,19 +57,38 @@ public class Spawner : MonoBehaviour
 			Instantiate(toSpawn, pos, toSpawn.transform.rotation);
 		}
 
-		for (int i = 0; i < charsToSpawn; i++)
+		for (int j = 0; j < charsToSpawn; j++)
 		{
 			toSpawn = spawnPool[1];
-			
+
 			screenX = Random.Range(c.bounds.min.x + 1, c.bounds.max.x - 1);
 			screenZ = Random.Range(c.bounds.min.z + 3, c.bounds.max.z - 1);
 
 			pos = new Vector3(screenX, .5f, screenZ);
 
-			Instantiate(toSpawn, pos, toSpawn.transform.rotation);
+			char thisChar = 'f';
+			if ( (0 <= j) && (j < 5) )
+            {
+				thisChar = lowerChars[Random.Range(0, 25)];
+            }
+			else if ((5 <= j) && (j < 10))
+			{
+				thisChar = upperChars[Random.Range(0, 25)];
+			}
+			if ((10 <= j) && (j < 12))
+			{
+				thisChar = digits[Random.Range(0, 8)];
+			}
+			if ((12 <= j) && (j < 16))
+			{
+				thisChar = specialChars[Random.Range(0, specialChars.Length - 1)];
+			}
+			
+			itemText.text = thisChar.ToString();
+			GameObject a = Instantiate(toSpawn, pos, toSpawn.transform.rotation);
+			a.name = thisChar.ToString();
 		}
-
-
-
 	}
+
 }
+

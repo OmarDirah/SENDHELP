@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 
 public class Rotator : MonoBehaviour
 {
@@ -13,12 +14,25 @@ public class Rotator : MonoBehaviour
 	private char[] specialChars = new char[] {'!', '"', '#', '$', '%', '&', '\'', '*', '+', ',', '.', '/',
 												':', ';', '=', '?', '@', '\\', '^', '~', '`', '|'};
 
+
 	public GameObject ItemPrefab;
 	public float radius = 1;
+	public char thisChar;
+	public TextMeshPro itemText;
 
-	void Update()
+	/*	void Update()
+		{
+			transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
+		} */
+	
+	void Start()
+    {
+		SetItemText('l');
+    }
+
+	void SetItemText(char c)
 	{
-		transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
+		itemText.text = c.ToString();
 	}
 
 }

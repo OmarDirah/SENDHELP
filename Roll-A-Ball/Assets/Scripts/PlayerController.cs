@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
+using System.Linq;
 
 public class PlayerController : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class PlayerController : MonoBehaviour
 	private float movementY;
 	private Rigidbody rb;
 
-	private int count;
+	private string count;
 	private GameObject[] characters;
 	private Vector3 startPos;
 
@@ -26,15 +27,17 @@ public class PlayerController : MonoBehaviour
 	private char[] digits = new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 	private char[] specialChars = new char[] {'!', '"', '#', '$', '%', '&', '\'', '*', '+', ',', '.', '/',
 												':', ';', '=', '?', '@', '\\', '^', '~', '`', '|'};
+	
+	private bool hasLower, hasUpper, hasDigit, hasSpecial = false;
 
-
+	public TextMeshPro objectText;
 
 	// At the start of the game..
 	void Start()
 	{
 		rb = GetComponent<Rigidbody>();
 
-		count = 0;
+		count = "";
 
 		characters = GameObject.FindGameObjectsWithTag("PickUps");
 
@@ -67,8 +70,9 @@ public class PlayerController : MonoBehaviour
 		if (other.gameObject.CompareTag("PickUps"))
 		{
 			other.gameObject.SetActive(false);
+			Debug.Log(other.gameObject.ToString().Substring(0, 1) + " PICKED UP");
 
-			count = count + 1;
+			count += other.gameObject.ToString().Substring(0,1);
 
 			SetCountText();
 		}
@@ -95,14 +99,60 @@ public class PlayerController : MonoBehaviour
 
 	void SetCountText()
 	{
-		countText.text = "Count: " + count.ToString();
+		countText.text = "Password: " + count.ToString();
 	}
 
 	void WinCondition()
     {
-		if (count >= 12)
+		if (count.Length >= 12)
 		{
-			winTextObject.SetActive(true);
+			char[] charArr = count.ToCharArray();
+			foreach (char c in charArr)
+			{
+			/*	Debug.Log("THIS C: " + c);
+				if (charArr.Exists(lowerChars, elem => elem == c))
+                {
+					hasLower = true;
+                }				
+				else if (charArr.Exists(upperChars, elem => elem == c))
+                {
+					hasUpper = true;
+                }				
+				else if (charArr.Exists(digits, elem => elem == c))
+                {
+					hasDigit = true;
+                }				
+				else if (charArr.Exists(specialChars, elem => elem == c))
+                {
+					hasSpecial = true;
+                }  */
+
+				if(lowerChars.Contains(c))
+                {
+					hasLower = true;
+                }				
+				else if(upperChars.Contains(c))
+                {
+					hasUpper = true;
+                }
+				else if (digits.Contains(c))
+				{
+					hasDigit = true;
+				}
+				else if (specialChars.Contains(c))
+				{
+					hasSpecial = true;
+				}
+			}
+
+			if(hasLower & hasUpper & hasDigit & hasSpecial)
+            {
+				winTextObject.SetActive(true);
+            }
+            else
+            {
+				countText.text = "YOU ARE MISSING STUFF!";
+            }
 		}
         else
         {
@@ -113,7 +163,7 @@ public class PlayerController : MonoBehaviour
 
 	void Restart()
     {
-		count = 0;
+		count = "";
 		SetCountText();
 
 		for (int i = 0; i < characters.Length; i++)

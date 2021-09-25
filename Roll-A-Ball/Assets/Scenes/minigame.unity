@@ -268,7 +268,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 10, y: -10}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &174460952
 MonoBehaviour:
@@ -317,8 +317,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -884,12 +884,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 202f73fd690f9a44fb8d96dfca9be933, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bouncersToSpawn: 8
+  bouncersToSpawn: 6
   charsToSpawn: 16
   spawnPool:
   - {fileID: 2767451405005333984, guid: 5f6c1be78a569a04789f3964b991b506, type: 3}
-  - {fileID: 1721726902018134554, guid: b91035a9a74f7f14f83980ff7a4f8101, type: 3}
+  - {fileID: 8897666307831705112, guid: b91035a9a74f7f14f83980ff7a4f8101, type: 3}
   quad: {fileID: 1227514946}
+  ItemPrefab: {fileID: 8897666307831705112, guid: b91035a9a74f7f14f83980ff7a4f8101, type: 3}
+  lowerCharCount: 5
+  upperCharCount: 5
+  digitCount: 5
+  specialCharCount: 5
+  itemText: {fileID: 5798893787964953170, guid: b91035a9a74f7f14f83980ff7a4f8101, type: 3}
 --- !u!4 &544581260
 Transform:
   m_ObjectHideFlags: 0
@@ -1243,6 +1249,7 @@ MonoBehaviour:
   maxSpeed: 15
   countText: {fileID: 174460952}
   winTextObject: {fileID: 1622230578}
+  objectText: {fileID: 5798893787964953170, guid: b91035a9a74f7f14f83980ff7a4f8101, type: 3}
 --- !u!114 &1219005439
 MonoBehaviour:
   m_ObjectHideFlags: 0
