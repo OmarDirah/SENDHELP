@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class Player : MonoBehaviour
 
     public GameObject winTextObject;
     public GameObject lostTextObject;
+    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI livesText;
 
     void Start()
     {
@@ -22,6 +25,9 @@ public class Player : MonoBehaviour
 
         winTextObject.SetActive(false);
         lostTextObject.SetActive(false);
+
+        FindObjectOfType<GameManager>().SetScoreText();
+        FindObjectOfType<GameManager>().SetLivesText();
     }
 
     void Update()

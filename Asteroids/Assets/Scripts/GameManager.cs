@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,10 +11,12 @@ public class GameManager : MonoBehaviour
     public int respawnTimer = 3;
     public int spawnProtection = 3;
 
-    private int score = 0;
+    private int score;
 
     public GameObject winTextObject;
     public GameObject lostTextObject;
+    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI livesText;
 
     public ParticleSystem explosion;
 
@@ -35,8 +38,11 @@ public class GameManager : MonoBehaviour
         {
             score += 25;
         }
+        Debug.Log("NEW SCORE: " + score);
 
-        if (score > 500)
+        SetScoreText();
+
+        if (score > 1500)
         {
             GameWon();
         }
@@ -53,22 +59,26 @@ public class GameManager : MonoBehaviour
 
         if (this.lives <= 0)
         {
-            GameLost();
+            lostTextObject.SetActive(true);
+            Invoke(nameof(GameLost), this.respawnTimer);
         }
         else
         {
             Invoke(nameof(Respawn), this.respawnTimer);
         }
+
+        SetLivesText();
+
     }
 
     void GameLost()
     {
-        lostTextObject.SetActive(true);
-
+        
+        Invoke(nameof(Respawn), this.respawnTimer);
+        
         this.lives = 3;
         this.score = 0;
 
-        Invoke(nameof(Respawn), this.respawnTimer);
         lostTextObject.SetActive(false);
     }
 
@@ -89,5 +99,15 @@ public class GameManager : MonoBehaviour
     private void TurnOnCollisions()
     {
         this.player.gameObject.layer = LayerMask.NameToLayer("Player");
+    }
+
+    public void SetScoreText()
+    {
+        scoreText.text = "Score: " + score.ToString();
+    }
+
+    public void SetLivesText()
+    {
+        livesText.text = "Lives: " + lives.ToString();
     }
 }
