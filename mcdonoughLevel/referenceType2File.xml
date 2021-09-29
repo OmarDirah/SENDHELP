@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>fcf7219bab7fe46a1ad266029b2fee19</guid>
+    <fileName>Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Readme.cs</fileName>
+    <timeStamp>2020-06-04T08:11:19-04:00</timeStamp>
+    <typeFullName>
+      <string>Readme</string>
+      <string>Readme+Section</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>476cc7d7cd9874016adc216baab94a0a</guid>
+    <fileName>Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs</fileName>
+    <timeStamp>2020-06-04T08:08:45-04:00</timeStamp>
+    <typeFullName>
+      <string>ReadmeEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e5db311af2de23b4c867513437ed45a4</guid>
+    <fileName>Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker/PackageChecker.cs</fileName>
+    <timeStamp>2020-06-04T08:11:03-04:00</timeStamp>
+    <typeFullName>
+      <string>SNAP.PackageChecker</string>
+      <string>SNAP.PackageChecker+PackageEntry</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>26b424ff8b698674c97872cb17ef2789</guid>
+    <fileName>Assets/AssetStoreOriginals/_SNAPS_Tools/AssetSwapTool/Scripts/SwapShader.cs</fileName>
+    <timeStamp>2019-09-24T00:47:10-04:00</timeStamp>
+    <typeFullName>
+      <string>SNAP.SnapRP</string>
+      <string>SNAP.SwapShader</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>acfa255e3db0d2e4a83a478e8e7bb801</guid>
+    <fileName>Assets/AssetStoreOriginals/_SNAPS_Tools/AssetSwapTool/Scripts/SwapTool.cs</fileName>
+    <timeStamp>2021-09-29T15:48:31.6195779-04:00</timeStamp>
+    <typeFullName>
+      <string>SNAP.SwapTool</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a32d52b88bcb04e40bf1cf98a65a3c3f</guid>
+    <fileName>Assets/AssetStoreOriginals/_SNAPS_Tools/AssetSwapTool/Scripts/UnpackNestedPrefab.cs</fileName>
+    <timeStamp>2019-09-24T00:47:11-04:00</timeStamp>
+    <typeFullName>
+      <string>SNAP.UnpackNestedPrefab</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>842f43ac94b4b4f72ac0898650ddcc44</guid>
+    <fileName>Assets/Cleaner/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2015-12-09T13:51:26-05:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.AssetCollector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>805140a4856714e288ea84985d3023df</guid>
+    <fileName>Assets/Cleaner/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T13:51:26-05:00</timeStamp>
+    <typeFullName>
+      <string>AssetReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>202c278a17939b24c8b79c0ee1f94d8f</guid>
+    <fileName>Assets/Cleaner/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T13:51:26-05:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.ClassReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0d05386265df34bac8d0b6df44aa494c</guid>
+    <fileName>Assets/Cleaner/Editor/CollectionData.cs</fileName>
+    <timeStamp>2015-12-09T13:51:26-05:00</timeStamp>
+    <typeFullName>
+      <string>CollectionData</string>
+      <string>TypeDate</string>
+      <string>IReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>74eec3bfba0594259ac2843353c082a3</guid>
+    <fileName>Assets/Cleaner/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2015-12-09T13:51:26-05:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.FindUnusedAssetsWindow</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2c4f01a79a77a45a9a84004cc2b78098</guid>
+    <fileName>Assets/Cleaner/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T13:51:26-05:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.ShaderReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ee5f39c5d8570ff4099153ac70495cfb</guid>
+    <fileName>Assets/Megapoly.Art/Vintage Controls/Scripts/ButtonLamp.cs</fileName>
+    <timeStamp>2021-03-02T03:00:51-05:00</timeStamp>
+    <typeFullName>
+      <string>ButtonLamp</string>
+      <string>ButtonLamp+eColor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>df146c2c2985e3b4bb6863e0859b8b9b</guid>
+    <fileName>Assets/Megapoly.Art/Vintage Controls/Scripts/ControlAnimateLights.cs</fileName>
+    <timeStamp>2021-03-02T03:00:48-05:00</timeStamp>
+    <typeFullName>
+      <string>ControlAnimateLights</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>681f62a0235015342b909cdc207eb945</guid>
+    <fileName>Assets/Megapoly.Art/Vintage Controls/Scripts/Monitor.cs</fileName>
+    <timeStamp>2021-03-02T03:00:26-05:00</timeStamp>
+    <typeFullName>
+      <string>Monitor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1560e0c42f6e77d429c1440b33c57ccc</guid>
+    <fileName>Assets/SciFi Warehouse Kit/Demo/Scripts/LightFlicker.cs</fileName>
+    <timeStamp>2020-06-07T23:30:31-04:00</timeStamp>
+    <typeFullName>
+      <string>LightFlicker</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2bd920a6d4c8a664f87d50801bfee470</guid>
+    <fileName>Assets/SciFi Warehouse Kit/Demo/Scripts/MouseComponent.cs</fileName>
+    <timeStamp>2020-06-07T23:30:48-04:00</timeStamp>
+    <typeFullName>
+      <string>MouseComponent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9ab0fc542e6aa6e48bf61987d199042b</guid>
+    <fileName>Assets/SciFi Warehouse Kit/Demo/Scripts/PlayerMovement.cs</fileName>
+    <timeStamp>2020-06-07T23:32:11-04:00</timeStamp>
+    <typeFullName>
+      <string>PlayerMovement</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fa804e3faf03f6e4c8bcc4681f3077fc</guid>
+    <fileName>Assets/SciFi Warehouse Kit/Demo/Scripts/PlayRandomSound.cs</fileName>
+    <timeStamp>2020-06-07T23:34:05-04:00</timeStamp>
+    <typeFullName>
+      <string>PlayRandomSound</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d0b3d149154e23543992bf2ff78e15ad</guid>
+    <fileName>Assets/SciFi Warehouse Kit/Demo/Scripts/PushPhysics.cs</fileName>
+    <timeStamp>2020-06-07T23:33:12-04:00</timeStamp>
+    <typeFullName>
+      <string>PushPhysics</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f78b45fc9b1ca7443980bd236eab5946</guid>
+    <fileName>Assets/ScifiOfficeLite/Scripts/DemoDoor.cs</fileName>
+    <timeStamp>2021-05-17T08:40:29-04:00</timeStamp>
+    <typeFullName>
+      <string>ScifiOfficeLite.DemoDoor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1ecdae056ad6f954496b395d7469d96e</guid>
+    <fileName>Assets/ScifiOfficeLite/Scripts/DemoFirstPersonController.cs</fileName>
+    <timeStamp>2021-05-17T08:38:00-04:00</timeStamp>
+    <typeFullName>
+      <string>ScifiOfficeLite.DemoFirstPersonController</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>db7667203062c644ea1877077e30ebd6</guid>
+    <fileName>Assets/SKY city lite/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs</fileName>
+    <timeStamp>2021-09-29T15:48:54.0391822-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ba15fa37442517749a3c4640a4ad4054</guid>
+    <fileName>Assets/SKY city lite/Editor/ImageEffects/AntialiasingEditor.cs</fileName>
+    <timeStamp>2016-06-30T01:04:20-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.AntialiasingEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4deca87cb459d1642ac8f734856ca84e</guid>
+    <fileName>Assets/SKY city lite/Editor/ImageEffects/BloomAndFlaresEditor.cs</fileName>
+    <timeStamp>2021-09-29T15:48:37.0222993-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.BloomAndFlaresEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>43fcc28c40e404d4eabfc88b1dbda7b5</guid>
+    <fileName>Assets/SKY city lite/Editor/ImageEffects/BloomEditor.cs</fileName>
+    <timeStamp>2021-09-29T15:48:37.0232969-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.BloomEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>80cbbe1c107bf5e43a96347d3dfc2658</guid>
+    <fileName>Assets/SKY city lite/Editor/ImageEffects/CameraMotionBlurEditor.cs</fileName>
+    <timeStamp>2016-06-30T01:03:51-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.CameraMotionBlurEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a4a9489f73e4f0344ab3fc97bdf5170b</guid>
+    <fileName>Assets/SKY city lite/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs</fileName>
+    <timeStamp>2016-06-30T01:04:08-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ColorCorrectionCurvesEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>66c17be95fbf398439ea09f8892a8b43</guid>
+    <fileName>Assets/SKY city lite/Editor/ImageEffects/ColorCorrectionLookupEditor.cs</fileName>
+    <timeStamp>2016-06-30T01:03:14-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ColorCorrectionLookupEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>943c59645eb905144a0990b57e13a6f9</guid>
+    <fileName>Assets/SKY city lite/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs</fileName>
+    <timeStamp>2016-06-30T01:03:58-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.DepthOfFieldDeprecatedEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>427fdf36119bab44a9131abd19b90f57</guid>
+    <fileName>Assets/SKY city lite/Editor/ImageEffects/DepthOfFieldEditor.cs</fileName>
+    <timeStamp>2016-06-30T01:02:13-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.DepthOfFieldEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b5f1618d14cd80f4da910f00b04af37f</guid>
+    <fileName>Assets/SKY city lite/Editor/ImageEffects/EdgeDetectionEditor.cs</fileName>
+    <timeStamp>2016-06-30T01:04:18-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.EdgeDetectionEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>abd63abcc46fbcb4588164b671b52d3b</guid>
+    <fileName>Assets/SKY city lite/Editor/ImageEffects/NoiseAndGrainEditor.cs</fileName>
+    <timeStamp>2016-06-30T01:04:12-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.NoiseAndGrainEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>54f6f6313f2aecc4d81035ec0031e313</guid>
+    <fileName>Assets/SKY city lite/Editor/ImageEffects/SunShaftsEditor.cs</fileName>
+    <timeStamp>2016-06-30T01:02:34-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.SunShaftsEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0f7cab214f141f642b87a5bdbd14653e</guid>
+    <fileName>Assets/SKY city lite/Editor/ImageEffects/TonemappingEditor.cs</fileName>
+    <timeStamp>2021-09-29T15:48:37.024294-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.TonemappingEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>08126bf2baa528c4cb9c60340a24e5d6</guid>
+    <fileName>Assets/SKY city lite/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs</fileName>
+    <timeStamp>2016-06-30T01:01:05-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.VignetteAndChromaticAberrationEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>05ec5cf00ca181d45a42ba1870e148c3</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs</fileName>
+    <timeStamp>2016-06-30T01:01:04-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Characters.FirstPerson.FirstPersonController</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>83c81407209f85e4c87c0cda8b32868e</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs</fileName>
+    <timeStamp>2016-06-30T01:03:52-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Characters.FirstPerson.HeadBob</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>37e60a97f2c87ae41b6cdc1055d78cb9</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs</fileName>
+    <timeStamp>2016-06-30T01:01:54-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Characters.FirstPerson.MouseLook</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>81c9795a96c094f4cbde4d65546aa9b2</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs</fileName>
+    <timeStamp>2016-06-30T01:03:51-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController</string>
+      <string>UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController+MovementSettings</string>
+      <string>UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController+AdvancedSettings</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e004fefca5c7ba44d9c5ffd46fdee2ed</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Characters/RollerBall/Scripts/Ball.cs</fileName>
+    <timeStamp>2016-06-30T01:04:45-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Ball.Ball</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>daa7e0829bc72c94babd728cc0466196</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs</fileName>
+    <timeStamp>2016-06-30T01:04:36-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Ball.BallUserControl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8c5335f0882fe4d478883cc8c58ce906</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs</fileName>
+    <timeStamp>2021-09-29T13:13:31.7214986-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Characters.ThirdPerson.AICharacterControl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ce7a80d520cacc042b5fe14f373d8173</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs</fileName>
+    <timeStamp>2016-06-30T01:04:29-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>521b611700410be45810047f0a74e899</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs</fileName>
+    <timeStamp>2016-06-30T01:02:32-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9ab98b66288df7b4fa182075f2f12bd6</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs</fileName>
+    <timeStamp>2016-06-30T01:04:02-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.AxisTouchButton</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>85bf3be603548374ca46f521a3aa7fda</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs</fileName>
+    <timeStamp>2016-06-30T01:03:54-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.ButtonHandler</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6ac1ce5a5adfd9f46adbf5b6f752a47c</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs</fileName>
+    <timeStamp>2016-06-30T01:03:18-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager</string>
+      <string>UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager+ActiveInputMethod</string>
+      <string>UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager+VirtualAxis</string>
+      <string>UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager+VirtualButton</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7d3269566d48b8447bb48d2259e28f8b</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs</fileName>
+    <timeStamp>2016-06-30T01:03:50-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>00c3c865782347f41b6358d9fba14b48</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs</fileName>
+    <timeStamp>2016-06-30T01:01:01-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.Joystick</string>
+      <string>UnityStandardAssets.CrossPlatformInput.Joystick+AxisOption</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>71398ce7fbc3a5b4fa50b50bd54317a7</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs</fileName>
+    <timeStamp>2016-06-30T01:03:43-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.MobileControlRig</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5c2d84226fbbaf94e9c1451f1c39b06a</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs</fileName>
+    <timeStamp>2016-06-30T01:02:37-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.TiltInput</string>
+      <string>UnityStandardAssets.CrossPlatformInput.TiltInput+AxisOptions</string>
+      <string>UnityStandardAssets.CrossPlatformInput.TiltInput+AxisMapping</string>
+      <string>UnityStandardAssets.CrossPlatformInput.Inspector.TiltInputAxisStylePropertyDrawer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1caf40fc8bebb6b43b2550c05ca791d6</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs</fileName>
+    <timeStamp>2016-06-30T01:01:37-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.TouchPad</string>
+      <string>UnityStandardAssets.CrossPlatformInput.TouchPad+AxisOption</string>
+      <string>UnityStandardAssets.CrossPlatformInput.TouchPad+ControlStyle</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0f57aeb1b8dce3342bea5c28ac17db24</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs</fileName>
+    <timeStamp>2016-06-30T01:01:28-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.VirtualInput</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9703d53e47195aa4190acd11369ccd1b</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs</fileName>
+    <timeStamp>2016-06-30T01:04:00-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9961032f4f02c4f41997c3ea399d2f22</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs</fileName>
+    <timeStamp>2016-06-30T01:04:01-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>646b5bc27a658f447b1d929fd5ffbd70</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs</fileName>
+    <timeStamp>2016-06-30T01:03:14-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.AAMode</string>
+      <string>UnityStandardAssets.ImageEffects.Antialiasing</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7fceaeb339b971b429c4cc600acabd13</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs</fileName>
+    <timeStamp>2021-09-29T13:13:31.7244909-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Bloom</string>
+      <string>UnityStandardAssets.ImageEffects.Bloom+LensFlareStyle</string>
+      <string>UnityStandardAssets.ImageEffects.Bloom+TweakMode</string>
+      <string>UnityStandardAssets.ImageEffects.Bloom+HDRBloomMode</string>
+      <string>UnityStandardAssets.ImageEffects.Bloom+BloomScreenBlendMode</string>
+      <string>UnityStandardAssets.ImageEffects.Bloom+BloomQuality</string>
+      <string>UnityStandardAssets.ImageEffects.HDRBloomMode</string>
+      <string>UnityStandardAssets.ImageEffects.BloomScreenBlendMode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>02536f33053638549ab5c50ff3ecc0de</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs</fileName>
+    <timeStamp>2021-09-29T13:13:31.7254879-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.LensflareStyle34</string>
+      <string>UnityStandardAssets.ImageEffects.TweakMode34</string>
+      <string>UnityStandardAssets.ImageEffects.HDRBloomMode</string>
+      <string>UnityStandardAssets.ImageEffects.BloomScreenBlendMode</string>
+      <string>UnityStandardAssets.ImageEffects.BloomAndFlares</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4975a6e437fc3b149a8cd508ce5bdd69</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs</fileName>
+    <timeStamp>2016-06-30T01:02:18-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.BloomOptimized</string>
+      <string>UnityStandardAssets.ImageEffects.BloomOptimized+Resolution</string>
+      <string>UnityStandardAssets.ImageEffects.BloomOptimized+BlurType</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>34382083ad114a07d000fbfb8d76c639</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs</fileName>
+    <timeStamp>2016-06-30T01:01:54-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Blur</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7fc6bde01469c7b4badee5362f191d96</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs</fileName>
+    <timeStamp>2016-06-30T01:03:50-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.BlurOptimized</string>
+      <string>UnityStandardAssets.ImageEffects.BlurOptimized+BlurType</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>97e9b95cf609d96409b6c40519432957</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs</fileName>
+    <timeStamp>2016-06-30T01:04:00-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.CameraMotionBlur</string>
+      <string>UnityStandardAssets.ImageEffects.CameraMotionBlur+MotionBlurFilter</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1fd999d1b2cf94a45a5b0a47ce074bef</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs</fileName>
+    <timeStamp>2016-06-30T01:01:39-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ColorCorrectionCurves</string>
+      <string>UnityStandardAssets.ImageEffects.ColorCorrectionCurves+ColorCorrectionMode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8cde8c0fd649d9b46bb403ba5e157391</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs</fileName>
+    <timeStamp>2016-06-30T01:03:57-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ColorCorrectionLookup</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ea59781cad112c75d0008dfa8d76c639</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs</fileName>
+    <timeStamp>2016-06-30T01:04:59-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ColorCorrectionRamp</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3309686a9fbbe6e42a182d5e0257704c</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs</fileName>
+    <timeStamp>2016-06-30T01:01:53-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ContrastEnhance</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ec92b071d2d424aecb3e46f28eb63174</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs</fileName>
+    <timeStamp>2016-06-30T01:05:00-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ContrastStretch</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d64b4f3a592f28b44bf19223ac8b6cd2</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs</fileName>
+    <timeStamp>2016-06-30T01:04:31-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.CreaseShading</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bd70d448b18cfbc46af26466f752332c</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs</fileName>
+    <timeStamp>2021-09-29T13:13:31.7274828-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.DepthOfField</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfField+BlurType</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfField+BlurSampleCount</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>83d8db0ec466c14429f58c68c16398a1</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs</fileName>
+    <timeStamp>2016-06-30T01:03:52-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated+Dof34QualitySetting</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated+DofResolution</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated+DofBlurriness</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated+BokehDestination</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>730475ee64f9a894bbac0d9e6f22e813</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs</fileName>
+    <timeStamp>2016-06-30T01:03:43-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.EdgeDetection</string>
+      <string>UnityStandardAssets.ImageEffects.EdgeDetection+EdgeDetectMode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4739c22ef73ad62488fe344c8fe9addd</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs</fileName>
+    <timeStamp>2016-06-30T01:02:16-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Fisheye</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>76b5ec6153a1d55438228df10fe66844</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs</fileName>
+    <timeStamp>2016-06-30T01:03:45-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.GlobalFog</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>243a781cad112c75d0008dfa8d76c639</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs</fileName>
+    <timeStamp>2016-06-30T01:01:48-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Grayscale</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f6469eb0ad1119d6d00011d98d76c639</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs</fileName>
+    <timeStamp>2016-06-30T01:05:05-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ImageEffectBase</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>89a037199d11087f1100e2b844295342</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs</fileName>
+    <timeStamp>2016-06-30T01:03:55-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ImageEffects</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>478a2083ad114a07d000fbfb8d76c639</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs</fileName>
+    <timeStamp>2016-06-30T01:02:17-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.MotionBlur</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9191284b058eef549b7108b5f04e1117</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs</fileName>
+    <timeStamp>2016-06-30T01:03:57-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.NoiseAndGrain</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a88a26a276b4e47619ce2c5adad33fab</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs</fileName>
+    <timeStamp>2016-06-30T01:04:10-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.NoiseAndScratches</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b6f4318ec6c2bf643a0f9edfeeaba0ec</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs</fileName>
+    <timeStamp>2016-06-30T01:04:19-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.PostEffectsBase</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>50b03df8f04b5c441aaac5b7fccb4734</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs</fileName>
+    <timeStamp>2016-06-30T01:02:30-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.PostEffectsHelper</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a20852ce049f64e4695a48b6a354be83</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs</fileName>
+    <timeStamp>2016-06-30T01:04:05-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Quads</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6f19108706fdce9469603d07980eb8ad</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs</fileName>
+    <timeStamp>2016-06-30T01:03:40-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ScreenOverlay</string>
+      <string>UnityStandardAssets.ImageEffects.ScreenOverlay+OverlayBlendMode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>75febd242c999f04d9654522a10c006b</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs</fileName>
+    <timeStamp>2016-06-30T01:03:44-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ScreenSpaceAmbientObscurance</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b0923359e9e352a4b9b11c7b7161ad67</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs</fileName>
+    <timeStamp>2016-06-30T01:04:13-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ScreenSpaceAmbientOcclusion</string>
+      <string>UnityStandardAssets.ImageEffects.ScreenSpaceAmbientOcclusion+SSAOSamples</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a07a781cad112c75d0008dfa8d76c639</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs</fileName>
+    <timeStamp>2016-06-30T01:04:04-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.SepiaTone</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>60e318a6043c1cb4a8ce1c8805bab930</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs</fileName>
+    <timeStamp>2021-09-29T13:13:31.729477-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.SunShafts</string>
+      <string>UnityStandardAssets.ImageEffects.SunShafts+SunShaftsResolution</string>
+      <string>UnityStandardAssets.ImageEffects.SunShafts+ShaftsScreenBlendMode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a22b3a7095a744a428c134b5e26ad68e</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs</fileName>
+    <timeStamp>2016-06-30T01:04:05-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.TiltShift</string>
+      <string>UnityStandardAssets.ImageEffects.TiltShift+TiltShiftMode</string>
+      <string>UnityStandardAssets.ImageEffects.TiltShift+TiltShiftQuality</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e50e925fb93c78246bf995d9dc3a2330</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs</fileName>
+    <timeStamp>2016-06-30T01:04:54-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Tonemapping</string>
+      <string>UnityStandardAssets.ImageEffects.Tonemapping+TonemapperType</string>
+      <string>UnityStandardAssets.ImageEffects.Tonemapping+AdaptiveTexSize</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>18b91636de2ba3445913e4cf38528dc8</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs</fileName>
+    <timeStamp>2016-06-30T01:01:34-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Triangles</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bdda781cad112c75d0008dfa8d76c639</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs</fileName>
+    <timeStamp>2016-06-30T01:04:22-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Twirl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dd6d4281e5d7cd44d8c6e38bc2c1b8d8</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs</fileName>
+    <timeStamp>2016-06-30T01:04:40-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.VignetteAndChromaticAberration</string>
+      <string>UnityStandardAssets.ImageEffects.VignetteAndChromaticAberration+AberrationMode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a94b781cad112c75d0008dfa8d76c639</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs</fileName>
+    <timeStamp>2016-06-30T01:04:11-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Vortex</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c8634e062924929664361c08745211fb</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/ActivateTrigger.cs</fileName>
+    <timeStamp>2016-06-30T01:04:26-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.ActivateTrigger</string>
+      <string>UnityStandardAssets.Utility.ActivateTrigger+Mode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9c4978ff6447f9040b84acc89b0bbdc8</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/AutoMobileShaderSwitch.cs</fileName>
+    <timeStamp>2016-06-30T01:04:03-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.AutoMobileShaderSwitch</string>
+      <string>UnityStandardAssets.Utility.AutoMobileShaderSwitch+ReplacementDefinition</string>
+      <string>UnityStandardAssets.Utility.AutoMobileShaderSwitch+ReplacementList</string>
+      <string>UnityStandardAssets.Utility.Inspector.ReplacementListDrawer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a1347817507220a4384f3ff6f7c24546</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/AutoMoveAndRotate.cs</fileName>
+    <timeStamp>2016-06-30T01:04:04-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.AutoMoveAndRotate</string>
+      <string>UnityStandardAssets.Utility.AutoMoveAndRotate+Vector3andSpace</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d1e2e7a54dcc8694ab1eca46d072f264</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/CameraRefocus.cs</fileName>
+    <timeStamp>2016-06-30T01:04:30-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.CameraRefocus</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>492f54f4accf00440828ffcb9e4fcc19</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/CurveControlledBob.cs</fileName>
+    <timeStamp>2016-06-30T01:02:17-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.CurveControlledBob</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>58650e15a2607e44daa0f150e0061d89</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/DragRigidbody.cs</fileName>
+    <timeStamp>2016-06-30T01:02:36-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.DragRigidbody</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8566902b50d5bfb4fb7f8b89f9cdbe8b</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/DynamicShadowSettings.cs</fileName>
+    <timeStamp>2016-06-30T01:03:53-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.DynamicShadowSettings</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>246cc59c7a84ea44f87f6b70acfe30c5</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/FollowTarget.cs</fileName>
+    <timeStamp>2016-06-30T01:01:49-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.FollowTarget</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9b886447cba80f74e820adb3c9e70c76</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/ForcedReset.cs</fileName>
+    <timeStamp>2021-09-29T15:46:18.0196205-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6045a93fb05b9c74884821030da2c46c</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/FOVKick.cs</fileName>
+    <timeStamp>2016-06-30T01:03:10-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.FOVKick</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>22bbf57ec543cee42a5aa0ec2dd9e457</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/FPSCounter.cs</fileName>
+    <timeStamp>2021-09-29T15:46:07.1983081-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c1bbfafbde15c854681023b9e01e12dd</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/LerpControlledBob.cs</fileName>
+    <timeStamp>2016-06-30T01:04:24-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.LerpControlledBob</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>643c971818f68d3439e84b5d8bdafe07</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/ObjectResetter.cs</fileName>
+    <timeStamp>2016-06-30T01:03:14-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.ObjectResetter</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>29014cd42b6d273408e0ceefd336c0b3</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/ParticleSystemDestroyer.cs</fileName>
+    <timeStamp>2016-06-30T01:01:51-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.ParticleSystemDestroyer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b27507c5d0efbbd47ac8c1de9a1a0a35</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/PlatformSpecificContent.cs</fileName>
+    <timeStamp>2016-06-30T01:04:17-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.PlatformSpecificContent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>69b69a5b0e0a85b4aa97a7edc40c37d1</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/SimpleActivatorMenu.cs</fileName>
+    <timeStamp>2021-09-29T15:46:32.4642802-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cadd54e4832aeef4b9359f44cbe335cd</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/SimpleMouseRotator.cs</fileName>
+    <timeStamp>2016-06-30T01:04:28-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.SimpleMouseRotator</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f76806479d916a64aa03f8e3eba7912f</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/SmoothFollow.cs</fileName>
+    <timeStamp>2016-06-30T01:05:07-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.SmoothFollow</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3a7cedf246fca744f90cbdc9dbe41166</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/TimedObjectActivator.cs</fileName>
+    <timeStamp>2016-06-30T01:01:56-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.TimedObjectActivator</string>
+      <string>UnityStandardAssets.Utility.TimedObjectActivator+Action</string>
+      <string>UnityStandardAssets.Utility.TimedObjectActivator+Entry</string>
+      <string>UnityStandardAssets.Utility.TimedObjectActivator+Entries</string>
+      <string>UnityStandardAssets.Utility.Inspector.EntriesDrawer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>37fac21d1f093d344816942d1abce94e</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/TimedObjectDestructor.cs</fileName>
+    <timeStamp>2016-06-30T01:01:55-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.TimedObjectDestructor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>70852dc981465ea48bb527b9e33a87fd</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/WaypointCircuit.cs</fileName>
+    <timeStamp>2016-06-30T01:03:42-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.WaypointCircuit</string>
+      <string>UnityStandardAssets.Utility.WaypointCircuit+WaypointList</string>
+      <string>UnityStandardAssets.Utility.WaypointCircuit+RoutePoint</string>
+      <string>UnityStandardAssets.Utility.Inspector.WaypointListDrawer</string>
+      <string>UnityStandardAssets.Utility.Inspector.WaypointListDrawer+TransformNameComparer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c5cb22d331ef7d64796f917c6a455a32</guid>
+    <fileName>Assets/SKY city lite/Standard Assets/Utility/WaypointProgressTracker.cs</fileName>
+    <timeStamp>2016-06-30T01:04:26-04:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.WaypointProgressTracker</string>
+      <string>UnityStandardAssets.Utility.WaypointProgressTracker+ProgressStyle</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+</ArrayOfTypeDate>
