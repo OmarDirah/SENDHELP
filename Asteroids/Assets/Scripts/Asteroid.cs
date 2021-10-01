@@ -8,6 +8,7 @@ public class Asteroid : MonoBehaviour
     private SpriteRenderer sr;
 
     public Sprite[] sprites;
+    private int spriteIndex;
 
     public float size = 1.0f;
     public float minSize = 0.5f;
@@ -25,7 +26,9 @@ public class Asteroid : MonoBehaviour
 
         this.sr = GetComponent<SpriteRenderer>();
 
-        this.sr.sprite = sprites[Random.Range(0, sprites.Length)];
+        this.spriteIndex = Random.Range(0, sprites.Length);
+
+        this.sr.sprite = sprites[spriteIndex];
 
         this.transform.eulerAngles = new Vector3(0.0f, 0.0f, Random.value * 360.0f);
         this.transform.localScale = Vector3.one * this.size;
@@ -35,8 +38,6 @@ public class Asteroid : MonoBehaviour
 
     public void SetTrajectory(Vector2 direction)
     {
-        // The asteroid only needs a force to be added once since they have no
-        // drag to make them stop moving;
         this.rigidbody = GetComponent<Rigidbody2D>();
 
         this.rigidbody.AddForce(direction * this.speed);
@@ -48,6 +49,7 @@ public class Asteroid : MonoBehaviour
         {
             if ((this.size / 2) >= this.minSize)
             {
+                Debug.Log(this);
                 SplitAsteroid();
             }
 

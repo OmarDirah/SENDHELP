@@ -38,7 +38,6 @@ public class GameManager : MonoBehaviour
         {
             score += 25;
         }
-        Debug.Log("NEW SCORE: " + score);
 
         SetScoreText();
 
