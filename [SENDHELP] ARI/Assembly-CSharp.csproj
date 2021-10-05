@@ -52,7 +52,7 @@
      <Compile Include="Assets\Imported Assets\[Obj] Gems\Scripts\AnimationScript.cs" />
      <Compile Include="Assets\Imported Assets\[World Building] SNAPS Sci-Fi Assets\About\Scripts\Readme.cs" />
      <Compile Include="Assets\Imported Assets\[Character] Jammo\Scripts\MovementInput.cs" />
-     <Compile Include="Assets\Scripts\AsteroidSpin.cs" />
+     <Compile Include="Assets\Scripts\Spin.cs" />
      <None Include="Assets\Imported Assets\[Obj] Gems\READ ME.txt" />
      <None Include="Assets\Imported Assets\[UI] Lean GUI\READ ME.txt" />
      <None Include="Assets\Imported Assets\[Particles] Fire\Shaders\FireSphere.shader" />
