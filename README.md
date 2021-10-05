@@ -1,4 +1,4 @@
 # SENDHELP
 Cybersecurity Capping Game Project
 
-Asteroids minigame is to serve as a fun "punishment" for the user failing at a certain point in the network security module
+Lock minigame - user has to pick the lock (3 consecutive hits) to open the drawer to obtain the phone in the puzzle level
