@@ -52,10 +52,10 @@
      <Compile Include="Assets\Imported Assets\[Obj] Gems\Scripts\AnimationScript.cs" />
      <Compile Include="Assets\Imported Assets\[World Building] SNAPS Sci-Fi Assets\About\Scripts\Readme.cs" />
      <Compile Include="Assets\Imported Assets\[Character] Jammo\Scripts\MovementInput.cs" />
-     <Compile Include="Assets\Scripts\Spin.cs" />
+     <Compile Include="Assets\Scripts\dialog.cs" />
      <Compile Include="Assets\Scripts\UIBehavior.cs" />
      <Compile Include="Assets\Scripts\MouseViewController.cs" />
-     <Compile Include="Assets\Scripts\dialog.cs" />
+     <Compile Include="Assets\Scripts\Spin.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
