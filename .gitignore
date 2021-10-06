@@ -1,3 +1,10 @@
 
 [SENDHELP] ARI/Temp/UnityLockfile
 *.log
+[SENDHELP] ARI/Library/ArtifactDB
+*.json
+[SENDHELP] ARI/Library/ShaderCache/EditorEncounteredVariants
+[SENDHELP] ARI/Library/SourceAssetDB
+*.log
+[SENDHELP] ARI/Temp/UnityLockfile
+[SENDHELP] ARI/Temp/workerlic
