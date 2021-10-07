@@ -104,28 +104,11 @@ public class PlayerController : MonoBehaviour
 
 	void WinCondition()
     {
-		if (count.Length >= 12)
+		if (count.Length >= 8)
 		{
 			char[] charArr = count.ToCharArray();
 			foreach (char c in charArr)
 			{
-			/*	Debug.Log("THIS C: " + c);
-				if (charArr.Exists(lowerChars, elem => elem == c))
-                {
-					hasLower = true;
-                }				
-				else if (charArr.Exists(upperChars, elem => elem == c))
-                {
-					hasUpper = true;
-                }				
-				else if (charArr.Exists(digits, elem => elem == c))
-                {
-					hasDigit = true;
-                }				
-				else if (charArr.Exists(specialChars, elem => elem == c))
-                {
-					hasSpecial = true;
-                }  */
 
 				if(lowerChars.Contains(c))
                 {
@@ -156,7 +139,7 @@ public class PlayerController : MonoBehaviour
 		}
         else
         {
-			countText.text = "NOT DONE";
+			countText.text = "PASSWORD SHOULD BE AT LEAST 8 CHARACTERS";
 
 		}
 	}

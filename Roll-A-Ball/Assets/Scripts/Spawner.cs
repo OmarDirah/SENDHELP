@@ -23,17 +23,41 @@ public class Spawner : MonoBehaviour
 	private char[] specialChars = new char[] {'!', '"', '#', '$', '%', '&', '\'', '*', '+', ',', '.', '/',
 												':', ';', '=', '?', '@', '\\', '^', '~', '`', '|'};
 
-	public int lowerCharCount = 5;
-	public int upperCharCount = 5;
-	public int digitCount = 5;
-	public int specialCharCount = 5;
-	
+	private float percentOfLetters = .7f;
+	private float percentOfOther = .2f;
+
+	private float lowerCount;
+	private float upperCount;
+	private int lowerCharCount;
+	private int upperCharCount;
+	private int digitCount;
+	private int specialCharCount;
+
 	public TextMeshPro itemText;
 
 	void Start()
     {
-        SpawnObjects();
+		CharCreation();
+
+		bouncersToSpawn = 8;
+
+		SpawnObjects();
     }
+
+	void CharCreation()
+    {
+		int charGoal = Random.Range(10, 20);
+
+		lowerCount = Random.Range(.3f, (percentOfLetters - .2f));
+		upperCount = percentOfLetters - lowerCount;
+
+		lowerCharCount = (int)Mathf.Ceil(lowerCount * charGoal);
+		upperCharCount = (int)Mathf.Ceil(upperCount * charGoal);
+		digitCount = (int)Mathf.Ceil(charGoal * (percentOfOther / 2));
+		specialCharCount = (int)Mathf.Ceil(charGoal * (percentOfOther / 2));
+
+		charsToSpawn = lowerCharCount + upperCharCount + digitCount + specialCharCount;
+	}
 
 	public void SpawnObjects()
 	{
@@ -67,22 +91,27 @@ public class Spawner : MonoBehaviour
 			pos = new Vector3(screenX, .5f, screenZ);
 
 			char thisChar = 'f';
-			if ( (0 <= j) && (j < 5) )
+			if ( lowerCharCount > 0 )
             {
 				thisChar = lowerChars[Random.Range(0, 25)];
+				lowerCharCount--;
             }
-			else if ((5 <= j) && (j < 10))
+			else if ( upperCharCount > 0 )
 			{
 				thisChar = upperChars[Random.Range(0, 25)];
+				upperCharCount--;
 			}
-			if ((10 <= j) && (j < 12))
+			else if ( digitCount > 0)
 			{
 				thisChar = digits[Random.Range(0, 8)];
+				digitCount--;
 			}
-			if ((12 <= j) && (j < 16))
+			else if ( specialCharCount > 0)
 			{
 				thisChar = specialChars[Random.Range(0, specialChars.Length - 1)];
+				specialCharCount--;
 			}
+
 			
 			itemText.text = thisChar.ToString();
 			GameObject a = Instantiate(toSpawn, pos, toSpawn.transform.rotation);

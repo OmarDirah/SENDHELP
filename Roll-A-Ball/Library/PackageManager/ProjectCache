@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637680930544100467
-    m_Hash: 1697212406
+      ticks: 637692412279694797
+    m_Hash: 3504880049
   m_LockFileStatus:
     m_FilePath: C:/Users/Joseph/Desktop/f/_f21/CMPT475 - CS Capping/SENDHELP/Roll-A-Ball/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637680930544309907
-    m_Hash: 158452563
+      ticks: 637692412279694797
+    m_Hash: 2864144467
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -68,6 +68,8 @@ m_PackageAssets:
         - 1.9.0
         - 1.10.2
         - 1.11.2
+        - 1.12.5
+        - 1.13.5
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -82,6 +84,8 @@ m_PackageAssets:
         - 1.9.0
         - 1.10.2
         - 1.11.2
+        - 1.12.5
+        - 1.13.5
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -606,6 +610,8 @@ m_PackageAssets:
         - 3.0.0-preview.15
         - 3.0.0-preview.16
         - 3.0.0-preview.17
+        - 3.0.0-preview.18
+        - 3.0.0-preview.19
         compatible:
         - 0.9.5-preview.1
         - 0.9.6-preview.1
@@ -677,6 +683,8 @@ m_PackageAssets:
         - 3.0.0-preview.15
         - 3.0.0-preview.16
         - 3.0.0-preview.17
+        - 3.0.0-preview.18
+        - 3.0.0-preview.19
         verified: 2.0.2
       dependencies: []
       resolvedDependencies: []
@@ -3132,6 +3140,7 @@ m_PackageAssets:
         - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
+        - 1.2.4
         compatible:
         - 0.0.12-preview.2
         - 0.0.12-preview.5
@@ -3147,7 +3156,8 @@ m_PackageAssets:
         - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
-        verified: 1.2.1
+        - 1.2.4
+        verified: 1.2.4
       dependencies: []
       resolvedDependencies: []
       keywords:
