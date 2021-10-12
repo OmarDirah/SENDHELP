@@ -7,9 +7,11 @@ public class GameData : ScriptableObject
 {
 
     public int GoalsLeft;
-    
+    public bool isRunning = false;
+
     public void ResetLevel()
     {
         GoalsLeft = 3;
+        isRunning = false;
     }
 }

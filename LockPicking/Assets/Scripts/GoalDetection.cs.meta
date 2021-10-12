@@ -3,7 +3,11 @@ guid: 6288dc2f35cf2324e826680216c9b6b0
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - GoalMissedEvent: {fileID: 11400000, guid: de4dbb357cbd98d4fb70b33065b84367, type: 2}
+  - GoalHitEvent: {fileID: 11400000, guid: 86ff6b56bee84f1428a6000b6ecde850, type: 2}
+  - ResetLevelEvent: {fileID: 11400000, guid: 057cf9a1a08a388458a6666e592c9d7f, type: 2}
+  - GameData: {fileID: 11400000, guid: 5997e89b100bd7b47b8fcb689f4614f3, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -5,42 +5,32 @@ using UnityEngine;
 public class AnchoredMotor : MonoBehaviour
 {
 
-    public int Speed = 10;
+    public int Speed = 100;
 
     Transform _anchor;
     public Direction _direction = Direction.Clockwise;
-    bool _isRunning = false;
+
+    public GameData GameData;
+
+    Vector3 _initialPos;
 
     void Start()
     {
         _anchor = GameObject.FindGameObjectWithTag("Anchor").transform;
+        _initialPos = GetComponent<Transform>().localPosition;
     } 
 
     void Update()
     {
 
-        if (_isRunning)
+        if (GameData.isRunning)
         {
             transform.RotateAround(_anchor.position, Vector3.forward, Speed * Time.deltaTime * (int)(_direction));
         }
-        else
-        {
 
-            if (Input.GetMouseButtonDown(0))
-            {
-                if (_isRunning)
-                {
-                    ChangeDirection();
-                }
-                else
-                {
-                    _isRunning = true;
-                }
-            }
-        }
     }
 
-    void ChangeDirection()
+    public void ChangeDirection()
     {
         if(_direction == Direction.Clockwise)
         {
@@ -52,10 +42,16 @@ public class AnchoredMotor : MonoBehaviour
         }
     }
 
+    public void ResetPosition()
+    {
+        transform.localPosition = new Vector3(0, _initialPos.y, 0);
+        transform.localRotation = Quaternion.identity;
+    }
+
 }
 
 public enum Direction
 {
-    Clockwise = 1,
-    CounterClockwise = -1
+    Clockwise = -1,
+    CounterClockwise = 1
 }

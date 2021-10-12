@@ -5,30 +5,54 @@ using UnityEngine;
 public class GoalDetection : MonoBehaviour
 {
     GameObject _currGoal;
-    bool _isRunning = false;
 
     public GameEvent GoalMissedEvent;
     public GameEvent GoalHitEvent;
+    public GameEvent ResetLevelEvent;
+
+    public GameData GameData;
+
+    bool waiting = false;
+    private float waitTime = 2.0f;
+    private float timer = 0.0f;
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (waiting)
         {
-            if (!_isRunning)
+            timer += Time.deltaTime;
+
+            if (timer > waitTime)
             {
-                _isRunning = true;
+                timer = timer - waitTime;
+                
+                ResetLevelEvent.Raise();
+                waiting = false;
+            }
+        }
+
+        if (Input.GetMouseButtonDown(0) && !waiting)
+        {
+            if (!GameData.isRunning)
+            {
+                GameData.isRunning = true;
             }
 
-            if (_currGoal != null)
+            else if (_currGoal != null)
             {
                 Destroy(_currGoal);
+                GameData.GoalsLeft--;
                 GoalHitEvent.Raise();
+
             }
             else
             {
                 GoalMissedEvent.Raise();
+                waiting = true;
             }
         }
+
+
     }
 
     void OnTriggerEnter2D(Collider2D other)
