@@ -1,4 +1,4 @@
 # SENDHELP
 Cybersecurity Capping Game Project
 
-Lock minigame - user has to pick the lock (3 consecutive hits) to open the drawer to obtain the phone in the puzzle level
+Cryptography minigame - user gets to learn how a caesar cipher works, solves their own, learns difference between caesar and rot13 to solve their own
