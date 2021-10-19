@@ -14,24 +14,33 @@ public class TextGenerator : MonoBehaviour
         "send help"
     };
 
+    public TextMeshProUGUI keyText;
     public TextMeshProUGUI plainText;
     public TextMeshProUGUI cipherText;
-    public TextMeshProUGUI keyText;
 
     public void Start()
     {
-        string plaintext = possiblePhrases[(Random.Range(0, (possiblePhrases.Length)))];
-        Debug.Log(plaintext);
+        Generate(FindObjectOfType<GameManager>().GetLevel());
+    }
 
-        int shiftedAmount = Random.Range(3, 23);
-        Debug.Log(shiftedAmount);
+    void Generate(int stage)
+    {
+        string plaintext = possiblePhrases[(Random.Range(0, (possiblePhrases.Length)))];
+
+        int shiftedAmount;
+
+        if (stage < 4)
+        {
+            shiftedAmount = Random.Range(3, 23);
+        }
+        else
+        {
+            shiftedAmount = 13;
+        }
 
         string ciphertext = Encipher(plaintext, shiftedAmount);
-        Debug.Log(ciphertext);
 
-        FindObjectOfType<GameManager>().SetPlainText(plaintext);
-        FindObjectOfType<GameManager>().SetCipherText(ciphertext);
-        FindObjectOfType<GameManager>().SetKeyText(shiftedAmount);
+        FindObjectOfType<GameManager>().SetTexts(plaintext, ciphertext, shiftedAmount);
     }
 
     public static char cipher(char ch, int key)
