@@ -22,8 +22,6 @@ public class ResponseCheck : MonoBehaviour
 
     void checkKeyEntry()
     {
-        Debug.Log("USER TEXT: " + keyUserText.text);
-        Debug.Log("KEY TEXT: " + keyText.text);
 
         if (keyUserText.text.Equals(keyText.text))
         {
@@ -37,8 +35,7 @@ public class ResponseCheck : MonoBehaviour
 
     void checkPlaintextEntry()
     {
-        Debug.Log("USER TEXT: " + plainUserText.text);
-        Debug.Log("PLAIN TEXT: " + plainText.text);
+
         if (plainUserText.text.ToLower().Equals(plainText.text.ToLower()))
         {
             FindObjectOfType<GameManager>().LevelProgress();
@@ -51,9 +48,6 @@ public class ResponseCheck : MonoBehaviour
 
     void checkCiphertextEntry()
     {
-        Debug.Log("USER TEXT: " + cipherUserText.text);
-        Debug.Log("CIPHER TEXT: " + cipherText.text);
-
 
         if (cipherUserText.text.ToLower().Equals(cipherText.text.ToLower()))
         {
@@ -67,7 +61,7 @@ public class ResponseCheck : MonoBehaviour
 
     public void checkEntry()
     {
-        Debug.Log("IN CHECK ENTRY");
+
         levelStage = FindObjectOfType<GameManager>().GetLevel();
 
         if (levelStage == 1)

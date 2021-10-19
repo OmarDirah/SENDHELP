@@ -37,11 +37,6 @@ public class GameManager : MonoBehaviour
         cipherText.text = cText;
         keyText.text = kText.ToString();
 
-
-        Debug.Log("KEY: " + kText);
-        Debug.Log("CIPHER: " + cText);
-        Debug.Log("PLAIN: " + pText);
-
         SetStage();
     }
 
@@ -117,15 +112,27 @@ public class GameManager : MonoBehaviour
         {
             stageText.text = "Stage: " + levelStage.ToString() + "\nCaesar Ciphers";
         }
-        else if (levelStage < 6)
+        else if (levelStage <= 5)
         {
             stageText.text = "Stage: " + levelStage.ToString() + "\nROT13 Ciphers";
+        }
+        else if (levelStage > 5)
+        {
+            stageText.text = "GAME OVER";
+            keyEntryObject.SetActive(false);
+            keyText.enabled = false;
+
+            plainEntryObject.SetActive(false);
+            plainText.enabled = false;
+
+            cipherEntryObject.SetActive(false);
+            cipherText.enabled = false;
         }
     }
 
     public void LevelProgress()
     {
-        Debug.Log("IN LEVEL PROGRESS");
+        failureText.enabled = false;
         correctText.enabled = true;
         levelStage += 1;
         StartCoroutine(ExampleCoroutine());       
