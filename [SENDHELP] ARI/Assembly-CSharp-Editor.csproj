@@ -291,8 +291,14 @@
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
  <HintPath>C:/Users/erina/Documents/GitHub/SENDHELP/[SENDHELP] ARI/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>C:/Users/erina/Documents/GitHub/SENDHELP/[SENDHELP] ARI/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
  <Reference Include="log4netPlastic">
  <HintPath>C:/Users/erina/Documents/GitHub/SENDHELP/[SENDHELP] ARI/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>C:/Users/erina/Documents/GitHub/SENDHELP/[SENDHELP] ARI/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
  <HintPath>C:/Users/erina/Documents/GitHub/SENDHELP/[SENDHELP] ARI/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
@@ -710,6 +716,11 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{DC679E53-A7EC-A396-8999-A1C2BE8AC0B4}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{5B6E609B-56A0-7738-8BDA-DD0849F2DDEE}</Project>
       <Name>Assembly-CSharp</Name>

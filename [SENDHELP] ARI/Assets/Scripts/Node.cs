@@ -17,7 +17,7 @@ public abstract class Node : MonoBehaviour
     void Start()
     {
         col = GetComponent<Collider>();
-        col.enabled = false;
+        //col.enabled = false;
         
     }
 
