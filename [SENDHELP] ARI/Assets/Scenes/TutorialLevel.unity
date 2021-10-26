@@ -3465,11 +3465,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    names: []
+    names:
+    - STATION AI
+    - A.R.I.
+    - TERMINAL
+    - TERMINAL
+    - TERMINAL
+    - A.R.I.
+    - A.R.I.
+    - STATION AI
+    - A.R.I.
     sentences:
-    - 
-    - 
-    - 
+    - PLEASE INTERFACE WITH THE TERMINAL. IT WILL TAKE A BIT TO GAIN ACCESS TO THE
+      NEXT AREA, PLEASE BE PATIENT.
+    - Hmm..well let me just try out this USB Drive, okay? What can possibly go wrong?
+    - 'UPLOADING NEW FOREIGN USB DRIVE...
+
+      PROGRESS...57%'
+    - ...
+    - PROGRESS HALTED. WARNING. WARNING. DETECTED INVASIVE PROGRAM INFILRATING CORE
+      MAINFRAME--SHUTTING DOWN TERMINAL FOR SAFETY PRECAUTIONS.
+    - Uh oh. That... doesn't look good.
+    - Augh, okay station, you win, I'm interfacing with the terminal now, let's get
+      this over with the old-fashioned way.
+    - AFFIRMATIVE. CHECKING ESTIMATED TIME OF ACCESS, WITH ADDITIONAL LOCKDOWN PROTOCOLS,
+      AN ADDITIONAL WAIT OF 2 HOURS HAVE BEEN TACKED ON TO THE PROCEDURE.
+    - ....Great...just great... my joints are going to lock up.
 --- !u!1001 &900879774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5870,11 +5891,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    names: []
+    names:
+    - A.R.I
+    - USB CHIP
+    - A.R.I.
+    - STATION AI
+    - A.R.I.
     sentences:
-    - 
-    - 
-    - 
+    - Hm? What's this USB Chip?
+    - 'The flat floppy disk shaped USB chip looks relatively new. On the front of
+      it, it has a poorly scratched on text labelling the item as: "DOOR CODE" On
+      the back, It has a bright pink sticky note stuck it with large printed text
+      saying, "WARNING, DO NOT PLUG IN"'
+    - This looks ominous...but I can't help but think that maybe...it could be the
+      access terminal code stick for the next room.
+    - THE CHIP'S ORIGINA IS UNKNOWN, THIS WOULD NOT BE AN ADVISABLE MOVE. INSTEAD,
+      PLEASE INTERFACE WITH THE TERMINAL, AND LEAVE IT ALONE.
+    - Hmm...well there's no harm in trying it out though right? Maybe it'll save
+      us some time.
 --- !u!1 &1440041955
 GameObject:
   m_ObjectHideFlags: 0
@@ -6131,11 +6165,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    names: []
+    names:
+    - A.R.I.
+    - STATION AI
+    - CREATOR
+    - CREATOR
+    - CREATOR
+    - CREATOR
+    - CREATOR
+    - CREATOR
+    - CREATOR
+    - CREATOR
+    - A.R.I.
+    - A.R.I.
+    - STATION AI
     sentences:
-    - 
-    - 
-    - 
+    - Thats one big blue ball.
+    - 'RECEIVING TRANSMISSION FROM-- \\ERROR: SENDER UNKNOWN. --\\ERROR: SENDER LOCATION
+      UNKNOWN.'
+    - 'He-Hello? Is this thing on? '
+    - 'ARI listen, this is a recorded transmission so I wont be able to answer any
+      of your questions but I need your help. My ship has been damaged by-- KzZZtTt... '
+    - KKKkkRRRssT --and I am actively losing fuel and oxygen, I have managed to reactivate
+      my ... KKKKzzzrrrZzzTttt...
+    - ' KKrrvvt... --and as of now my thrusters and warp functions are operational.
+      The issue is my --KKkzzztt....'
+    - '--is completely borked, I need you to send a direct ping to my ships. '
+    - "I sent the address with this message and it should be coming on your screen
+      now. \r\n\n\\\\ COORDINATES RECIEVED: 1038403840298430398430384503840302"
+    - I need you to get the stations broadcasting range to be able to reach-- KKKzzzvvttss...
+      Kkzzt..
+    - "I am not sure how much time I have left so please hurry! \n\n\\\\ END OF TRANSMISSION."
+    - Oof...Someone's not having a good time...
+    - Time to go to work I guess!
+    - '\\ NEW DIRECTIVE: PLEASE INTERFACE WITH THE TERMINAL TO RECEIVE A DEMONSTRATION
+      IN THIS STATIONS UTILITY SOFTWARE.'
 --- !u!1 &1481698284
 GameObject:
   m_ObjectHideFlags: 0
@@ -6225,6 +6289,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1142036824}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
         m_MethodName: DisplayNextSentence
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1142036824}
+        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+        m_MethodName: DisplayNextName
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
