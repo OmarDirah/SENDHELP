@@ -47,7 +47,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
      <Compile Include="Assets\Imported Assets\[Character] Jammo\Scripts\CharacterSkinController.cs" />
+     <Compile Include="Assets\Scripts\Dialogue\DialogueTrigger.cs" />
      <Compile Include="Assets\Imported Assets\[Obj] Earth\SpinFree.cs" />
      <Compile Include="Assets\Scripts\Prop.cs" />
      <Compile Include="Assets\Scripts\CameraRig.cs" />
@@ -61,11 +63,9 @@
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\Location.cs" />
      <Compile Include="Assets\Scripts\UIBehavior.cs" />
+     <Compile Include="Assets\Scripts\Dialogue\Dialogue.cs" />
      <Compile Include="Assets\Scripts\MouseViewController.cs" />
      <Compile Include="Assets\Scripts\Spin.cs" />
-     <Compile Include="Assets\Scripts\Dialogue\DialogueTrigger.cs" />
-     <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
-     <Compile Include="Assets\Scripts\Dialogue\Dialogue.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
