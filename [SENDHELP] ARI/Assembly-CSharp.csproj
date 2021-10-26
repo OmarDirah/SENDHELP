@@ -60,7 +60,7 @@
      <Compile Include="Assets\Developers\Erin\Scripts\GameManager.cs" />
      <Compile Include="Assets\Developers\Erin\Scripts\Node Movement\Node.cs" />
      <Compile Include="Assets\Developers\Erin\Scripts\MouseControl.cs" />
-     <Compile Include="Assets\Developers\Erin\Scripts\Node Movement\CameraController.cs" />
+     <Compile Include="Assets\Developers\Erin\Scripts\CameraController.cs" />
      <Compile Include="Assets\Developers\Erin\Scripts\Node Movement\Location.cs" />
      <Compile Include="Assets\Developers\Erin\Scripts\UIBehavior.cs" />
      <Compile Include="Assets\Developers\Erin\Scripts\Dialogue\Dialogue.cs" />
