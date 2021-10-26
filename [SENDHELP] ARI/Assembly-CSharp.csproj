@@ -47,25 +47,25 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
+     <Compile Include="Assets\Developers\Erin\Scripts\Dialogue\DialogueManager.cs" />
      <Compile Include="Assets\Imported Assets\[Character] Jammo\Scripts\CharacterSkinController.cs" />
-     <Compile Include="Assets\Scripts\Dialogue\DialogueTrigger.cs" />
+     <Compile Include="Assets\Developers\Erin\Scripts\Dialogue\DialogueTrigger.cs" />
      <Compile Include="Assets\Imported Assets\[Obj] Earth\SpinFree.cs" />
-     <Compile Include="Assets\Scripts\Prop.cs" />
-     <Compile Include="Assets\Scripts\CameraRig.cs" />
+     <Compile Include="Assets\Developers\Erin\Scripts\Node Movement\Prop.cs" />
+     <Compile Include="Assets\Developers\Erin\Scripts\Node Movement\CameraRig.cs" />
      <Compile Include="Assets\Imported Assets\[Obj] Gems\Scripts\AnimationScript.cs" />
      <Compile Include="Assets\Imported Assets\[World Building] SNAPS Sci-Fi Assets\About\Scripts\Readme.cs" />
      <Compile Include="Assets\Imported Assets\[Character] Jammo\Scripts\MovementInput.cs" />
-     <Compile Include="Assets\Scripts\WayPoint.cs" />
-     <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\Node.cs" />
-     <Compile Include="Assets\Scripts\MouseControl.cs" />
-     <Compile Include="Assets\Scripts\CameraController.cs" />
-     <Compile Include="Assets\Scripts\Location.cs" />
-     <Compile Include="Assets\Scripts\UIBehavior.cs" />
-     <Compile Include="Assets\Scripts\Dialogue\Dialogue.cs" />
-     <Compile Include="Assets\Scripts\MouseViewController.cs" />
-     <Compile Include="Assets\Scripts\Spin.cs" />
+     <Compile Include="Assets\Developers\Erin\Scripts\WayPoint.cs" />
+     <Compile Include="Assets\Developers\Erin\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Developers\Erin\Scripts\Node Movement\Node.cs" />
+     <Compile Include="Assets\Developers\Erin\Scripts\MouseControl.cs" />
+     <Compile Include="Assets\Developers\Erin\Scripts\Node Movement\CameraController.cs" />
+     <Compile Include="Assets\Developers\Erin\Scripts\Node Movement\Location.cs" />
+     <Compile Include="Assets\Developers\Erin\Scripts\UIBehavior.cs" />
+     <Compile Include="Assets\Developers\Erin\Scripts\Dialogue\Dialogue.cs" />
+     <Compile Include="Assets\Developers\Erin\Scripts\MouseViewController.cs" />
+     <Compile Include="Assets\Developers\Erin\Scripts\Spin.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
