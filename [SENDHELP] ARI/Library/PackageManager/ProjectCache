@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637684720598403698
-    m_Hash: 3175084005
+      ticks: 637703330985345732
+    m_Hash: 2951860700
   m_LockFileStatus:
     m_FilePath: C:/Users/erina/Documents/GitHub/SENDHELP/[SENDHELP] ARI/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637684720598473739
-    m_Hash: 2944211898
+      ticks: 637703330985345732
+    m_Hash: 2369320761
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
