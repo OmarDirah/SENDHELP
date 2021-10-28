@@ -25,3 +25,7 @@ The ARI Database uses a number of open source projects to work properly:
 ## Installation
 
 ## Plugins
+
+[//]: # (These are reference links used in the body)
+
+   [PHP Server Scripting]: <https://www.php.net/>
