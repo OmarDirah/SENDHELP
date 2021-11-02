@@ -16,6 +16,9 @@ ARI Cyber Security educational video game
 - Fetch UI Data
 - Queries for developer insights
 
+## Requirements
+- [.NET 5.0 Framework] 
+
 ## Tech
 The ARI Database uses a number of open source projects to work properly:
 
@@ -26,10 +29,11 @@ The ARI Database uses a number of open source projects to work properly:
 ## Installation
 - [AriCyberThink.com] - Download
 
-## Plugins
+## Usage
 
 [//]: # (These are reference links used in the body)
 
    [AWS API Gateway]: <https://us-east-2.console.aws.amazon.com/apigateway/main/apis?region=us-east-2>
    [AWS DynamoDB]: <https://us-east-2.console.aws.amazon.com/dynamodbv2/home?region=us-east-2#service>
    [AriCyberThink.com]: <http://aricyberthink.com/>
+   [.NET 5.0 Framework]: <https://dotnet.microsoft.com/download/dotnet/5.0>
