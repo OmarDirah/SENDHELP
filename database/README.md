@@ -45,8 +45,8 @@ __214__|324|874|intermediate
 __JavaScript__
 
 ```js
-const URL = //endpointURL
-const KEY = //yourKey
+const URL; //your endpoint URL
+const KEY; //your API key
 
 fetch(URL + KEY, {
   "method": "GET",
@@ -62,6 +62,9 @@ fetch(URL + KEY, {
 
 __C#__
 ```cs
+readonly URI; //your endpoint URI
+readonly KEY; //your API key
+
 var client = new HttpClient();
 var request = new HttpRequestMessage
 {
