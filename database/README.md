@@ -19,13 +19,17 @@ ARI Cyber Security educational video game
 ## Tech
 The ARI Database uses a number of open source projects to work properly:
 
-- [PHP Server Scripting] - For backend database communication 
+- [AWS API Gateway] - For backend database communication 
+- [AWS DynamoDB] - To store game, player and other data for gameplay optimization. 
 - Developer portal - Coming soon...
 
 ## Installation
+- [AriCyberThink.com] - Download
 
 ## Plugins
 
 [//]: # (These are reference links used in the body)
 
-   [PHP Server Scripting]: <https://www.php.net/>
+   [AWS API Gateway]: <https://us-east-2.console.aws.amazon.com/apigateway/main/apis?region=us-east-2>
+   [AWS DynamoDB]: <https://us-east-2.console.aws.amazon.com/dynamodbv2/home?region=us-east-2#service>
+   [AriCyberThink.com]: <http://aricyberthink.com/>
