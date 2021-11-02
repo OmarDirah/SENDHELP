@@ -31,8 +31,8 @@ The ARI Database uses a number of open source projects to work properly:
 ##### Example JSON GET Request 
 JavaScript
 ```js
-const URL = endpointURL;
-const KEY = yourKey;
+const URL = //endpointURL
+const KEY = //yourKey
 
 fetch(URL + KEY, {
   "method": "GET",
@@ -48,8 +48,8 @@ fetch(URL + KEY, {
 
 C#
 ```cs
-readonly URL = myurl;
-readonly KEY = myKey;
+readonly URL = //endpointURL
+readonly KEY = //myKey
 
 var client = new RestClient(URL + KEY);
 var request = new RestRequest(Method.GET);
