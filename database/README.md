@@ -9,7 +9,7 @@ The ARIdatabaseClass is responsible for the Data integrity and organization of t
 ARI Cyber Security educational video game
 - Storing records of game performance for optimization
 - Maintain game data and provide the developers and game designers insight of gameplay
-- 
+
 ## Features
 - Set
 - Get 
@@ -26,10 +26,35 @@ The ARI Database uses a number of open source projects to work properly:
 - [AWS DynamoDB] - To store game, player and other data for gameplay optimization. 
 - Developer portal - Coming soon...
 
-## Installation
-- [AriCyberThink.com] - Download
-
 ## Usage
+
+##### Example JSON GET Request 
+JavaScript
+```js
+const URL = endpointURL;
+const KEY = yourKey;
+
+fetch(URL + KEY, {
+  "method": "GET",
+  "headers": {}
+})
+.then(response => {
+  console.log(response);
+})
+.catch(err => {
+  console.error(err);
+});
+```
+
+C#
+```cs
+readonly URL = myurl;
+readonly KEY = myKey;
+
+var client = new RestClient(URL + KEY);
+var request = new RestRequest(Method.GET);
+IRestResponse response = client.Execute(request);
+```
 
 [//]: # (These are reference links used in the body)
 
