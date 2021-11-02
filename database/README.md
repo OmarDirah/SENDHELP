@@ -1,4 +1,4 @@
-# ARI Database Class
+# ARI Server Class
 ## _SendHelp game Studios_
 
 Logo
@@ -6,7 +6,7 @@ Build Status
 Version
 ---
 
-The ARIdatabaseClass is responsible for the Data integrity and organization of the
+This class is responsible for the Data integrity and organization of the
 ARI Cyber Security educational video game
 - Storing records of game performance for optimization
 - Maintain game data and provide the developers and game designers insight of gameplay
