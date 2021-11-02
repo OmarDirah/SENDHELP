@@ -62,12 +62,18 @@ fetch(URL + KEY, {
 
 __C#__
 ```cs
-readonly URL = //myurl
-readonly KEY = //myKey
-
-var client = new RestClient(URL + KEY);
-var request = new RestRequest(Method.GET);
-IRestResponse response = client.Execute(request);
+var client = new HttpClient();
+var request = new HttpRequestMessage
+{
+    Method = HttpMethod.Get,
+    RequestUri = new Uri("http://localhost:8080/api/courses"),
+};
+using (var response = await client.SendAsync(request))
+{
+    response.EnsureSuccessStatusCode();
+    var body = await response.Content.ReadAsStringAsync();
+    Console.WriteLine(body);
+}
 ```
 
 Output:
