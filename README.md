@@ -1,8 +1,8 @@
 # SENDHELP
 Cybersecurity Capping Game Project
 
-Asteroids minigame is to serve as a fun "punishment" for the user failing at a certain point in the network security module
+Frogger minigame is to serve as a learning module to make defense in depth more relatable.
 
-Use W, A, D or Up Arrow, Left Arrow, Right Arrow to navigate around the playing field and avoiding obstacles. Use the spacebar or left mouse button to shoot the obstacles. 
-Once the goal score is hit, the game will end. The smaller the obstacles, the more points the user will receive.
-The user is given 3 lives, such that if they collide with an obstacle 3 times before reaching the goal score, the game will reset and the user will have to start over.
+Use W, A, S, D or Up Arrow, Left Arrow, Down Arrow, Right Arrow to navigate around the playing field and avoiding obstacles and reaching the end destination
+Once the end is reached, the game will end.
+The user is given unlimited attempts but can face a time penalty outside the minigame for failing too many times in a row.
