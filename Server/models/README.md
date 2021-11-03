@@ -62,8 +62,8 @@ fetch(URL + KEY, {
 
 __C#__
 ```cs
-readonly URI; //your endpoint URI
-readonly KEY; //your API key
+const URI; //your endpoint URI
+const KEY; //your API key
 
 var client = new HttpClient();
 var request = new HttpRequestMessage
