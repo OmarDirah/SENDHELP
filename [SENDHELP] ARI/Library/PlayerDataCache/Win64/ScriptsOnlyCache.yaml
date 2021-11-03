@@ -29,12 +29,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -48,7 +42,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/LevelSelection.unity:
+    Assets/Developers/Erin/Scenes/LevelSelection.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -129,7 +123,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/StartingScene.unity:
+    Assets/Developers/Erin/Scenes/StartingScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -214,7 +208,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/TutorialLevel.unity:
+    Assets/Developers/Erin/Scenes/TutorialLevel.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -1580,8 +1574,8 @@ ScriptsOnlyBuild:
     className: LeanTransformLocalScale_z
   platform: 19
   scenePathNames:
-  - Assets/Scenes/StartingScene.unity
-  - Assets/Scenes/LevelSelection.unity
-  - Assets/Scenes/TutorialLevel.unity
+  - Assets/Developers/Erin/Scenes/StartingScene.unity
+  - Assets/Developers/Erin/Scenes/LevelSelection.unity
+  - Assets/Developers/Erin/Scenes/TutorialLevel.unity
   playerPath: C:/Users/erina/Documents/GitHub/SENDHELP/[SENDHELP] ARI/[SENDHELP]
     ARI.exe

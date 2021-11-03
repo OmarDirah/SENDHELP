@@ -15,11 +15,11 @@ C:/Users/erina/Documents/GitHub/SENDHELP/[SENDHELP] ARI
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60772
+62090
 Successfully changed project path to: C:/Users/erina/Documents/GitHub/SENDHELP/[SENDHELP] ARI
 C:/Users/erina/Documents/GitHub/SENDHELP/[SENDHELP] ARI
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 101.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 59.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004441 seconds.
+Registered in 0.002952 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 108.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.089 seconds
+- Completed reload, in  2.404 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4090ms)
-		BeginReloadAssembly (125ms)
+	ReloadAssembly (2404ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (905ms)
-			LoadAssemblies (120ms)
+		EndReloadAssembly (475ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (322ms)
+			SetupTypeCache (169ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (363ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (196ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (109ms)
-				BeforeProcessingInitializeOnLoad (26ms)
-				ProcessInitializeOnLoadAttributes (165ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006405 seconds.
+Registered in 0.005408 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.452 seconds
+- Completed reload, in  1.295 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2455ms)
-		BeginReloadAssembly (317ms)
+	ReloadAssembly (1297ms)
+		BeginReloadAssembly (161ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (2011ms)
-			LoadAssemblies (186ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1054ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (641ms)
+			SetupTypeCache (321ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (106ms)
-			SetupLoadedEditorAssemblies (893ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (466ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (248ms)
-				ProcessInitializeOnLoadAttributes (598ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (22ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2016 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 91.5 MB.
 System memory in use after: 91.5 MB.
 
 Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2454.
-Total: 7.814000 ms (FindLiveObjects: 0.438100 ms CreateObjectMapping: 0.071400 ms MarkObjects: 6.809500 ms  DeleteObjects: 0.491400 ms)
+Total: 4.557000 ms (FindLiveObjects: 0.221700 ms CreateObjectMapping: 0.046500 ms MarkObjects: 4.079300 ms  DeleteObjects: 0.208000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,562 +131,61 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  path: Assets/Developers/Erin/Scenes/Novice/Level01.unity
+  artifactKey: Guid(b20940c2ff1a33b4cac90a686c1ae74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Developers/Erin/Scenes/Novice/Level01.unity using Guid(b20940c2ff1a33b4cac90a686c1ae74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4195a2944428c0b972015ae4f22b08c') in 0.016567 seconds 
+  Import took 0.021976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.601848 seconds.
+  path: Assets/Developers/Erin/Scenes/TutorialLevel.unity
+  artifactKey: Guid(a180101fee0e0f04184e82a93edc249c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Developers/Erin/Scenes/TutorialLevel.unity using Guid(a180101fee0e0f04184e82a93edc249c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3bdd61ecf907135577cd0b1c77b3f2') in 0.009260 seconds 
+  Import took 0.013482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.212917 seconds.
+  path: Assets/Developers/Erin/Scenes/Novice/Level01.unity
+  artifactKey: Guid(b20940c2ff1a33b4cac90a686c1ae74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Developers/Erin/Scenes/Novice/Level01.unity using Guid(b20940c2ff1a33b4cac90a686c1ae74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff70caaabb1f76f1853a546f4d15b444') in 0.002945 seconds 
+  Import took 0.007291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.837531 seconds.
+  path: Assets/Developers/Erin/Scenes/LevelSelection.unity
+  artifactKey: Guid(e3cb0e67d0cf6dd49bc1c2463937b7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Developers/Erin/Scenes/LevelSelection.unity using Guid(e3cb0e67d0cf6dd49bc1c2463937b7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337ae1e2e79e14ca1963c8c19c42fa11') in 0.010047 seconds 
+  Import took 0.013691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.795719 seconds.
   path: Assets/Developers/Erin/Scenes/Assessments/Level 1/Pre-Quiz.unity
   artifactKey: Guid(deda7e2691c5b95498ebe25a185cdbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Developers/Erin/Scenes/Assessments/Level 1/Pre-Quiz.unity using Guid(deda7e2691c5b95498ebe25a185cdbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b20eb864a2a2b68e58eb4e0321b227a') in 0.023608 seconds 
-  Import took 0.028592 seconds .
+Start importing Assets/Developers/Erin/Scenes/Assessments/Level 1/Pre-Quiz.unity using Guid(deda7e2691c5b95498ebe25a185cdbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24bea6ad8c181b4395de33508093613') in 0.009274 seconds 
+  Import took 0.013294 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 900.450763 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Corridors
-  artifactKey: Guid(b96310b789269854c9e8eaca0597493b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Corridors using Guid(b96310b789269854c9e8eaca0597493b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920c269c4ba591c256f761035a0ec121') in 0.010547 seconds 
-  Import took 0.015871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.052098 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Corridors/Corridor_1.prefab
-  artifactKey: Guid(f18932879bb23b84ca5370b65419ee41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Corridors/Corridor_1.prefab using Guid(f18932879bb23b84ca5370b65419ee41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6dbf5c4bf9ef8c9840b9270d8ba956') in 0.264528 seconds 
-  Import took 0.270223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Corridors/Corridor_I.prefab
-  artifactKey: Guid(64b3f36e835346747865afbf6cf62acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Corridors/Corridor_I.prefab using Guid(64b3f36e835346747865afbf6cf62acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210804d63f7f4c468cdcd3e2623df595') in 0.097283 seconds 
-  Import took 0.102250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Corridors/Corridor_X.prefab
-  artifactKey: Guid(d17bc9c1cdef1c5448255edad31c1c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Corridors/Corridor_X.prefab using Guid(d17bc9c1cdef1c5448255edad31c1c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abcf398d7dded3c1742777b432a7ade') in 0.088900 seconds 
-  Import took 0.095641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Corridors/Corridor_3.prefab
-  artifactKey: Guid(abfbd13ce6faa9e48ae2b9da1b4dd476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Corridors/Corridor_3.prefab using Guid(abfbd13ce6faa9e48ae2b9da1b4dd476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a672ccd725c0a3bcad9dbbe0a83718') in 0.081657 seconds 
-  Import took 0.086756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Corridors/Corridor_T.prefab
-  artifactKey: Guid(d2eb17f175564e84c8ad78ac03232e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Corridors/Corridor_T.prefab using Guid(d2eb17f175564e84c8ad78ac03232e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a9699fd81759a54a46f5f9bdeb4616') in 0.051732 seconds 
-  Import took 0.057383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Corridors/Corridor_L.prefab
-  artifactKey: Guid(3fb07e96bb0cae643a28994c86ddc64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Corridors/Corridor_L.prefab using Guid(3fb07e96bb0cae643a28994c86ddc64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8245da1f602aabb7277c4aab759144') in 0.113986 seconds 
-  Import took 0.123246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Corridors/Corridor_2.prefab
-  artifactKey: Guid(a6b9d7f63692cfd44b503ed7e09f6e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Corridors/Corridor_2.prefab using Guid(a6b9d7f63692cfd44b503ed7e09f6e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174ef946bf00e0ba54eae1e1c07c54cf') in 0.051594 seconds 
-  Import took 0.056884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 141.450177 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors
-  artifactKey: Guid(f5318563da884874182b4ef60d507b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors using Guid(f5318563da884874182b4ef60d507b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e1380f775ee0ac08a764b6feebb368') in 0.011522 seconds 
-  Import took 0.017540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors
-  artifactKey: Guid(f5318563da884874182b4ef60d507b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors using Guid(f5318563da884874182b4ef60d507b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e1380f775ee0ac08a764b6feebb368') in 0.004233 seconds 
-  Import took 0.011268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029468 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_1.prefab
-  artifactKey: Guid(5bceb99c9fa1f2a4bb9692e518bec46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_1.prefab using Guid(5bceb99c9fa1f2a4bb9692e518bec46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828592df6f61dd29bfdcc6889ee44b8e') in 0.065028 seconds 
-  Import took 0.069933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_5.prefab
-  artifactKey: Guid(548a40efc092c6f408cc4d1691b171cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_5.prefab using Guid(548a40efc092c6f408cc4d1691b171cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e484a12014569692aba1db681602fb15') in 0.036198 seconds 
-  Import took 0.044593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000571 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_3_no_clamps.prefab
-  artifactKey: Guid(d4c686e5f86722a409d1d35154c22d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_3_no_clamps.prefab using Guid(d4c686e5f86722a409d1d35154c22d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9bdc55eddd3ed2036c21d4fe4222fd') in 0.067360 seconds 
-  Import took 0.072884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_3.prefab
-  artifactKey: Guid(a185d2c8149cc7d45a8bc91951812dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_3.prefab using Guid(a185d2c8149cc7d45a8bc91951812dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f173f23735b144f27d1110ebda6ac5ca') in 0.069832 seconds 
-  Import took 0.076351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_2_L.prefab
-  artifactKey: Guid(5b3cc55650f95e34797ed0af9c57110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_2_L.prefab using Guid(5b3cc55650f95e34797ed0af9c57110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa0c2f39cd9e460bb1ebe904ae948b6') in 0.047810 seconds 
-  Import took 0.053515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_6.prefab
-  artifactKey: Guid(3845c7234a0ed4843ba4e38e2404f54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_6.prefab using Guid(3845c7234a0ed4843ba4e38e2404f54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c7209938c3dc9e168321a3023799fd') in 0.066778 seconds 
-  Import took 0.070945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_2_no_lattice.prefab
-  artifactKey: Guid(4e32615977c0a9f4688fa0d66b0a93e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_2_no_lattice.prefab using Guid(4e32615977c0a9f4688fa0d66b0a93e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971e9002947de0ebfb8a74c43010df8a') in 0.044063 seconds 
-  Import took 0.051015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000480 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_2_blank.prefab
-  artifactKey: Guid(69b3d20c177508d43a1c6f09b448d3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_2_blank.prefab using Guid(69b3d20c177508d43a1c6f09b448d3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d315f6c22307ec83e9a6bfe5543b4c') in 0.065615 seconds 
-  Import took 0.081100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_2.prefab
-  artifactKey: Guid(6812e31ceb91fc04da03973c6b1054cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_2.prefab using Guid(6812e31ceb91fc04da03973c6b1054cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa5e820cfa5642551376785e03b6270') in 0.063378 seconds 
-  Import took 0.068774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_4.prefab
-  artifactKey: Guid(6c7bfc57a0f70db46b9b83dddca510e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Floors/floor_4.prefab using Guid(6c7bfc57a0f70db46b9b83dddca510e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80276fbf756067cf5d76531f2672f5fc') in 0.038007 seconds 
-  Import took 0.044423 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 515.018665 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements
-  artifactKey: Guid(eef4d684156c15f488dce33a106bf85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements using Guid(eef4d684156c15f488dce33a106bf85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808aa6034c85310ce8c238f708d94bc4') in 0.019324 seconds 
-  Import took 0.024815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.041505 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/bed.prefab
-  artifactKey: Guid(43d083e8215b4544594282d6c144d7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/bed.prefab using Guid(43d083e8215b4544594282d6c144d7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1d9bbe3518a8852d40135c436c044d') in 0.068433 seconds 
-  Import took 0.073069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/bunk_bed.prefab
-  artifactKey: Guid(9efb87eb649319c4c8c3a954a74df462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/bunk_bed.prefab using Guid(9efb87eb649319c4c8c3a954a74df462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c37d161535852fb0960c7b1ffcbb8b') in 0.061108 seconds 
-  Import took 0.068182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/console.prefab
-  artifactKey: Guid(d78f2ba16003e6e4681b4702d6dcb72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/console.prefab using Guid(d78f2ba16003e6e4681b4702d6dcb72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcb78b7f0aaa0f210ce83b4537e52f1') in 0.047974 seconds 
-  Import took 0.054031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/decorative_sofa.prefab
-  artifactKey: Guid(e4362215d2f4b974a9729be40db2af84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/decorative_sofa.prefab using Guid(e4362215d2f4b974a9729be40db2af84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c450c79cea5bbfdc906dd1e1f1dea8') in 0.070955 seconds 
-  Import took 0.076697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/console_screen.prefab
-  artifactKey: Guid(814f2f52d8dd87948a0fba9364aa412b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/console_screen.prefab using Guid(814f2f52d8dd87948a0fba9364aa412b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da927243902f2c85ef743ceb5052cbb') in 0.054529 seconds 
-  Import took 0.059134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/computer_station.prefab
-  artifactKey: Guid(82c3b8fcabff82d4787f83e992e386df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/computer_station.prefab using Guid(82c3b8fcabff82d4787f83e992e386df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3df962102a20fc2bff78901669ab78') in 0.080009 seconds 
-  Import took 0.084810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/big_screen.prefab
-  artifactKey: Guid(2e1b886e9f18d9e43bf1d35ceab0b368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/big_screen.prefab using Guid(2e1b886e9f18d9e43bf1d35ceab0b368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d6c498f98a8eae0d40f7fca3c1bd93') in 0.029167 seconds 
-  Import took 0.036700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/hydroponic.prefab
-  artifactKey: Guid(1759eacdee08e12408d757d50755a6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/hydroponic.prefab using Guid(1759eacdee08e12408d757d50755a6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72381c020d443d1294ce61ae0530df6') in 0.039184 seconds 
-  Import took 0.043451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/pilot_seat.prefab
-  artifactKey: Guid(790e191d50e6fe249900e78369ae7986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/pilot_seat.prefab using Guid(790e191d50e6fe249900e78369ae7986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d681300e2b19d34609be6118fa97c1') in 0.055649 seconds 
-  Import took 0.060104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/sign.prefab
-  artifactKey: Guid(48f0889733d556d4a927a13a99a7f434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/sign.prefab using Guid(48f0889733d556d4a927a13a99a7f434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debb7c852762236b851a248a49ec836e') in 0.032738 seconds 
-  Import took 0.037153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/decorative_pilow.prefab
-  artifactKey: Guid(d0b3c1d0dda7a1d49a1d9fa18c0dc5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/decorative_pilow.prefab using Guid(d0b3c1d0dda7a1d49a1d9fa18c0dc5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6032c1286bad1b9ae5d18def15b0ace9') in 0.066695 seconds 
-  Import took 0.070982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/shelf_small.prefab
-  artifactKey: Guid(27b528ce18adf6f48bd23431f0fd8f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/shelf_small.prefab using Guid(27b528ce18adf6f48bd23431f0fd8f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c72f87b5a47b0d8af6fbc9eec387f57') in 0.058317 seconds 
-  Import took 0.063476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/double_bed.prefab
-  artifactKey: Guid(4d7b74a926e2914419d3d0bda63ce844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/double_bed.prefab using Guid(4d7b74a926e2914419d3d0bda63ce844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6324da8e69f1e94ba6feb25152ba02') in 0.057204 seconds 
-  Import took 0.061812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/cabinet_L.prefab
-  artifactKey: Guid(04ced07fc5a1dbb45906c40768747c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/cabinet_L.prefab using Guid(04ced07fc5a1dbb45906c40768747c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecace663df3cc411f7a27a1ef0d4c2bf') in 0.066436 seconds 
-  Import took 0.070649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/decorative_chair.prefab
-  artifactKey: Guid(ce9f6338cd38cc242ae7ba54eb5ca686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/decorative_chair.prefab using Guid(ce9f6338cd38cc242ae7ba54eb5ca686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014b47c72bbc533ecbae037202312e73') in 0.037273 seconds 
-  Import took 0.043539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000503 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/cabinet_L_cutted.prefab
-  artifactKey: Guid(8c10b28a5dc86904db537e28568805a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/cabinet_L_cutted.prefab using Guid(8c10b28a5dc86904db537e28568805a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95185aa78905774a219a56dce20ef3c3') in 0.084574 seconds 
-  Import took 0.089483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/bulletin_board_big.prefab
-  artifactKey: Guid(9050f6c8a29d61f49ac1b3052875c968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/bulletin_board_big.prefab using Guid(9050f6c8a29d61f49ac1b3052875c968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8048d38ebcdea2ba0777682f3133f035') in 0.057575 seconds 
-  Import took 0.062298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/floor_corner_ornament_pipes_corner.prefab
-  artifactKey: Guid(fe8bb31403053dd44ae7ac2396ff8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/floor_corner_ornament_pipes_corner.prefab using Guid(fe8bb31403053dd44ae7ac2396ff8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72de3fe7f01e58ac58b35bf22eb6f4fe') in 0.060068 seconds 
-  Import took 0.065488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/floor_corner_ornament_pipes.prefab
-  artifactKey: Guid(ae0c21b643679c045b98cb678e8abef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/floor_corner_ornament_pipes.prefab using Guid(ae0c21b643679c045b98cb678e8abef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa1ef59a5f487e18c98302f9ce9ca2a') in 0.065466 seconds 
-  Import took 0.070170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/cabinet.prefab
-  artifactKey: Guid(b3f6e169466f65a4aa48e83805d9e440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/cabinet.prefab using Guid(b3f6e169466f65a4aa48e83805d9e440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23778cf1d911807415cc95f5b7cd3fd1') in 0.066057 seconds 
-  Import took 0.072270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/sing_small.prefab
-  artifactKey: Guid(fc67be85f7a8a16448d922881910dcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/sing_small.prefab using Guid(fc67be85f7a8a16448d922881910dcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b331d2488c2f519d09d3809e5e5f2a9') in 0.093175 seconds 
-  Import took 0.098499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/decorative_plant_desk.prefab
-  artifactKey: Guid(7dd02c12b2c21ff49aa148934b3c1395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/decorative_plant_desk.prefab using Guid(7dd02c12b2c21ff49aa148934b3c1395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30a30aedcb0c867ad95707519f60d4e') in 0.060581 seconds 
-  Import took 0.065363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000471 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/bulletin_board_small.prefab
-  artifactKey: Guid(d65adb88fb474aa488e3dca96d9ee071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/bulletin_board_small.prefab using Guid(d65adb88fb474aa488e3dca96d9ee071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c439de5ebbe0938c10723594199689c7') in 0.054004 seconds 
-  Import took 0.059557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/decorative_plant_small.prefab
-  artifactKey: Guid(a4b101bd1cf6bc9478190c1aa0f3d52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/decorative_plant_small.prefab using Guid(a4b101bd1cf6bc9478190c1aa0f3d52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc22b0b40a5780188180e94cb6cb0d3f') in 0.047722 seconds 
-  Import took 0.053625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000547 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/floor_corner_ornament.prefab
-  artifactKey: Guid(0759e5b8616fa854dbb807a3ac19ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/floor_corner_ornament.prefab using Guid(0759e5b8616fa854dbb807a3ac19ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85c7723129a983b58ffdfeac8ccafd3') in 0.055729 seconds 
-  Import took 0.060765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/shelf.prefab
-  artifactKey: Guid(db49253e161c21440b7ccf6d59865098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/shelf.prefab using Guid(db49253e161c21440b7ccf6d59865098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a61b82ef00a13a6b329ecaba94a1ae6') in 0.031575 seconds 
-  Import took 0.041675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/console_celing.prefab
-  artifactKey: Guid(104703105626daa4f8b3f24af487d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/console_celing.prefab using Guid(104703105626daa4f8b3f24af487d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9722ac0f91936b0e0873a4265f9148') in 0.047573 seconds 
-  Import took 0.053746 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/decorative_plant.prefab
-  artifactKey: Guid(83a919b0e630c394780833b59a51ab4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/decorative_plant.prefab using Guid(83a919b0e630c394780833b59a51ab4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114ae82e485b472172c3f1f212be39a8') in 0.051974 seconds 
-  Import took 0.057375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 368.398550 seconds.
-  path: Assets/Developers/Erin/Scripts/UIBehavior.cs
-  artifactKey: Guid(f5bc80d3c27daf94ea613c2be17781ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Developers/Erin/Scripts/UIBehavior.cs using Guid(f5bc80d3c27daf94ea613c2be17781ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e420d029c1349a77991bf68ad8dbb71') in 0.020921 seconds 
-  Import took 0.029027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.147352 seconds.
-  path: Assets/Developers/Erin/Scripts/Spin.cs
-  artifactKey: Guid(b4272419f50f42149a769107cb5ecb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Developers/Erin/Scripts/Spin.cs using Guid(b4272419f50f42149a769107cb5ecb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb146ebc7bdfd94dc4025946fe8aabae') in 0.012017 seconds 
-  Import took 0.015646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.388777 seconds.
-  path: Assets/Developers/Erin/Scripts/MouseViewController.cs
-  artifactKey: Guid(cc3fe501f57ba53499259f19e624b4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Developers/Erin/Scripts/MouseViewController.cs using Guid(cc3fe501f57ba53499259f19e624b4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5579c4215127fd8d40757c7b81ad08') in 0.017529 seconds 
-  Import took 0.025895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.646087 seconds.
-  path: Assets/Developers/Erin/Scripts/MouseControl.cs
-  artifactKey: Guid(eacd48c180c46324088a5e62d591ed37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Developers/Erin/Scripts/MouseControl.cs using Guid(eacd48c180c46324088a5e62d591ed37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f3f70042f6591a3008a4ce705eff92') in 0.017991 seconds 
-  Import took 0.023140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001987 seconds.
-  path: Assets/Developers/Erin/Scripts/MouseControl.cs
-  artifactKey: Guid(eacd48c180c46324088a5e62d591ed37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Developers/Erin/Scripts/MouseControl.cs using Guid(eacd48c180c46324088a5e62d591ed37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f3f70042f6591a3008a4ce705eff92') in 0.004123 seconds 
-  Import took 0.008040 seconds .
+  Time since last request: 12.918911 seconds.
+  path: Assets/Developers/Erin/Scenes/Novice/Level01.unity
+  artifactKey: Guid(b20940c2ff1a33b4cac90a686c1ae74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Developers/Erin/Scenes/Novice/Level01.unity using Guid(b20940c2ff1a33b4cac90a686c1ae74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5afcdeaf96a703f39d2bb511370cb2') in 0.004170 seconds 
+  Import took 0.008519 seconds .
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006775 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 4.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.6 MB.
+System memory in use after: 48.7 MB.
 
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.986 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1987ms)
-		BeginReloadAssembly (238ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (1610ms)
-			LoadAssemblies (208ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (537ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (612ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (169ms)
-				ProcessInitializeOnLoadAttributes (410ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1967 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2463.
-Total: 4.866600 ms (FindLiveObjects: 0.513100 ms CreateObjectMapping: 0.116700 ms MarkObjects: 4.141400 ms  DeleteObjects: 0.093200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011534 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.734 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1735ms)
-		BeginReloadAssembly (209ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (1413ms)
-			LoadAssemblies (169ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (491ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (537ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (152ms)
-				ProcessInitializeOnLoadAttributes (347ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (2ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1967 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2465.
-Total: 5.736000 ms (FindLiveObjects: 0.315200 ms CreateObjectMapping: 0.062900 ms MarkObjects: 5.242000 ms  DeleteObjects: 0.113400 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2454.
+Total: 3.808600 ms (FindLiveObjects: 0.227300 ms CreateObjectMapping: 0.049100 ms MarkObjects: 3.449600 ms  DeleteObjects: 0.081600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -700,632 +199,154 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 762.762765 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/Arts
-  artifactKey: Guid(e1789e0a7f3409a459801d45d09aecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/Arts using Guid(e1789e0a7f3409a459801d45d09aecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e5fc69b70b639591417c008802505c') in 0.019329 seconds 
-  Import took 0.026596 seconds .
+  Time since last request: 1134.883579 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows
+  artifactKey: Guid(ff3af879ef4e33b4e85f878394632c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows using Guid(ff3af879ef4e33b4e85f878394632c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c07a79b30956b088e9622fce9552319') in 0.008775 seconds 
+  Import took 0.012801 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.056029 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/Arts/art_1.prefab
-  artifactKey: Guid(bddb1706eb9e38c4c8aad9e975af8fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/Arts/art_1.prefab using Guid(bddb1706eb9e38c4c8aad9e975af8fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd43e82c4e2adc21fcb53e2642447c89') in 0.107459 seconds 
-  Import took 0.111634 seconds .
+  Time since last request: 0.022350 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big.prefab
+  artifactKey: Guid(20373c6cd77ef3840af30d9c058fbee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big.prefab using Guid(20373c6cd77ef3840af30d9c058fbee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29cd40aced17c33fc330b76254ecade3') in 0.137494 seconds 
+  Import took 0.141887 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/Arts/art_6.prefab
-  artifactKey: Guid(52c2612af80526741a33c2092448618c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/Arts/art_6.prefab using Guid(52c2612af80526741a33c2092448618c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cf41b279b4a9067aa6fc4665cd6fa9') in 0.066186 seconds 
-  Import took 0.071296 seconds .
+  Time since last request: 0.000248 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_blocker_2.prefab
+  artifactKey: Guid(6dc2880f157b0954f94e34369a97cc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_blocker_2.prefab using Guid(6dc2880f157b0954f94e34369a97cc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6573aafec14cc4cd62d6ba58a0266e') in 0.040962 seconds 
+  Import took 0.044813 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/Arts/art_3.prefab
-  artifactKey: Guid(570e2548a8f74734e8a712c7c4f6ab0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/Arts/art_3.prefab using Guid(570e2548a8f74734e8a712c7c4f6ab0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f449b923cd353deb7f68979b9a747cdf') in 0.135497 seconds 
-  Import took 0.142762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/Arts/art_2.prefab
-  artifactKey: Guid(df1cac3988f7cf841b2b0afc88ea5e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/Arts/art_2.prefab using Guid(df1cac3988f7cf841b2b0afc88ea5e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3450060a2e3f236098c33968ab468f61') in 0.054550 seconds 
-  Import took 0.066766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000514 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/Arts/art_5.prefab
-  artifactKey: Guid(b1b2094e689c43d4ea4fd01f7c8b5849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/Arts/art_5.prefab using Guid(b1b2094e689c43d4ea4fd01f7c8b5849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab185424345bd56347591e8ec122159') in 0.065429 seconds 
-  Import took 0.078251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/Arts/art_4.prefab
-  artifactKey: Guid(d958a3a196d271942ba6a229a5d5ccd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/Arts/art_4.prefab using Guid(d958a3a196d271942ba6a229a5d5ccd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac4699f7efd7c523978d500fa330efa') in 0.073008 seconds 
-  Import took 0.078551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001228 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/Arts/art_4.prefab
-  artifactKey: Guid(d958a3a196d271942ba6a229a5d5ccd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Decorative elements/Arts/art_4.prefab using Guid(d958a3a196d271942ba6a229a5d5ccd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac4699f7efd7c523978d500fa330efa') in 0.034075 seconds 
-  Import took 0.043324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 250.545683 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/Battery.prefab
-  artifactKey: Guid(857b9bcf7311f5a49b829c4fd3cc791f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/Battery.prefab using Guid(857b9bcf7311f5a49b829c4fd3cc791f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e172093b12eba4c22e0a6769c482734') in 0.038179 seconds 
-  Import took 0.042954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/Battery_big.prefab
-  artifactKey: Guid(77c6276b63956c9439d917f842b9eeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/Battery_big.prefab using Guid(77c6276b63956c9439d917f842b9eeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ceea39d3c7ba8b0d1143dff87e9d09') in 0.038505 seconds 
-  Import took 0.048534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000633 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/storage_container_big.prefab
-  artifactKey: Guid(c944460b7f1a8ef47b05ebec140bdd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/storage_container_big.prefab using Guid(c944460b7f1a8ef47b05ebec140bdd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c42bd0f2729a6dbbba7bcef6451eca') in 0.071538 seconds 
-  Import took 0.078392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/vending_machine.prefab
-  artifactKey: Guid(914595d46f531e44f8b35cd1232a0750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/vending_machine.prefab using Guid(914595d46f531e44f8b35cd1232a0750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32381a67dcec5cdd48d13dcec0c12e9') in 0.052182 seconds 
-  Import took 0.058576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/container_small.prefab
-  artifactKey: Guid(6456a4784f31cab439d29b7e3bb286a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/container_small.prefab using Guid(6456a4784f31cab439d29b7e3bb286a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b6021e396f912c098a4c12adc69728') in 0.037662 seconds 
-  Import took 0.042394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/Capacitor.prefab
-  artifactKey: Guid(888614259d2d71142a4ba0b538e54caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/Capacitor.prefab using Guid(888614259d2d71142a4ba0b538e54caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88688d3c5a63bd9218a7015f49cbfe21') in 0.106023 seconds 
-  Import took 0.114206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000606 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/projector_2.prefab
-  artifactKey: Guid(b09ac1c0cceeaae479323b022bfe74b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/projector_2.prefab using Guid(b09ac1c0cceeaae479323b022bfe74b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5567a5c6f96a83197b14a360f672d7') in 0.073391 seconds 
-  Import took 0.080181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/container_big.prefab
-  artifactKey: Guid(9d79238e340446545b920b58f2cd9574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/container_big.prefab using Guid(9d79238e340446545b920b58f2cd9574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65a3b980ecdbc2ae638209dbf377026') in 0.037798 seconds 
-  Import took 0.044226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/generator.prefab
-  artifactKey: Guid(562f0bb8ba91fe844baf976e5806516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/generator.prefab using Guid(562f0bb8ba91fe844baf976e5806516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155c6ce50f32a0e5abe0dc4a975a1790') in 0.040358 seconds 
-  Import took 0.047114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/projector stars.prefab
-  artifactKey: Guid(496fa247adc61d44ebaeaf9d72671287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/projector stars.prefab using Guid(496fa247adc61d44ebaeaf9d72671287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ad87151dad3e35faf429a54208e390') in 0.074132 seconds 
-  Import took 0.078724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/shield_generator.prefab
-  artifactKey: Guid(3705bd4c1b398ea4ba0413ef903772cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/shield_generator.prefab using Guid(3705bd4c1b398ea4ba0413ef903772cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38647cb5eb3e74f88d5cc72b4cc4348e') in 0.064226 seconds 
-  Import took 0.068339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/torpedo_docking_station_1_side.prefab
-  artifactKey: Guid(9d50504942943bc4db8140046bd7ee95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/torpedo_docking_station_1_side.prefab using Guid(9d50504942943bc4db8140046bd7ee95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4094f99701d17401495d6fb325b62dec') in 0.061384 seconds 
-  Import took 0.065389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/rotor.prefab
-  artifactKey: Guid(cd918f355f278d740a893b9a8b49a85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/rotor.prefab using Guid(cd918f355f278d740a893b9a8b49a85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0059762df4c7761679d86031ddfbe8a3') in 0.061701 seconds 
-  Import took 0.065700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/storage_container_small.prefab
-  artifactKey: Guid(777d150aa6d8e1d48bcaea831bed7072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/storage_container_small.prefab using Guid(777d150aa6d8e1d48bcaea831bed7072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81723258d202674c7357d9d98da496d3') in 0.038861 seconds 
-  Import took 0.044152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/Battery_medium.prefab
-  artifactKey: Guid(98f508b556c380a4e89204f95af2d3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/Battery_medium.prefab using Guid(98f508b556c380a4e89204f95af2d3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4aafb52e3b62f585f9df6861f5a8ae') in 0.053843 seconds 
-  Import took 0.060303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/torpedo.prefab
-  artifactKey: Guid(26f7afb3718727245a184c5904ea5cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/torpedo.prefab using Guid(26f7afb3718727245a184c5904ea5cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1904683a423efba55df2fcedeacc42e3') in 0.057636 seconds 
-  Import took 0.062304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/projector.prefab
-  artifactKey: Guid(3517d6179b17d7d41b2ab3881cb2cd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/projector.prefab using Guid(3517d6179b17d7d41b2ab3881cb2cd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc7b1f551a14ea525a8a9c28b1f3b97') in 0.093072 seconds 
-  Import took 0.098146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/torpedo_docking_station_2_side.prefab
-  artifactKey: Guid(e15141fc92cd7b947a0d7d838f1ffb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/torpedo_docking_station_2_side.prefab using Guid(e15141fc92cd7b947a0d7d838f1ffb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62f9b5a4f681bcf6bc7d9b616a2816e') in 0.085218 seconds 
-  Import took 0.089545 seconds .
+  Time since last request: 0.000201 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_plug.prefab
+  artifactKey: Guid(d087389d05d4d7e44922758971ced6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_plug.prefab using Guid(d087389d05d4d7e44922758971ced6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7e4dc6581c79e680dd82a2be95051a') in 0.023288 seconds 
+  Import took 0.027160 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000211 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/Shield Core.prefab
-  artifactKey: Guid(5f8552cfeac0c29428f4d3d1362bacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Machines/Shield Core.prefab using Guid(5f8552cfeac0c29428f4d3d1362bacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942ffa4670cd49ba39756b65b54bba40') in 0.068339 seconds 
-  Import took 0.073011 seconds .
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_supplement.prefab
+  artifactKey: Guid(0f6d27018f3822b4f871d6e402510f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_supplement.prefab using Guid(0f6d27018f3822b4f871d6e402510f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7d6ce11a0d205a907321c4e1fb5abe') in 0.020281 seconds 
+  Import took 0.024038 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 67.224329 seconds.
-  path: Assets/Imported Assets/[World Building] Sci-Fi/Materials/hologram_particle.mat
-  artifactKey: Guid(d37e8378fe566f84a8b75b0083ec4838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[World Building] Sci-Fi/Materials/hologram_particle.mat using Guid(d37e8378fe566f84a8b75b0083ec4838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a8646e2b40945e53c8a0f028b68f88') in 0.063994 seconds 
-  Import took 0.070299 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006174 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.020 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2021ms)
-		BeginReloadAssembly (217ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (63ms)
-		EndReloadAssembly (1682ms)
-			LoadAssemblies (173ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (591ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (646ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (184ms)
-				ProcessInitializeOnLoadAttributes (422ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1967 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.8 MB.
-System memory in use after: 90.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2501.
-Total: 6.869100 ms (FindLiveObjects: 0.341700 ms CreateObjectMapping: 0.066600 ms MarkObjects: 6.257200 ms  DeleteObjects: 0.201200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012732 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.030 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2030ms)
-		BeginReloadAssembly (244ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (71ms)
-		EndReloadAssembly (1650ms)
-			LoadAssemblies (195ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (560ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (636ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (185ms)
-				ProcessInitializeOnLoadAttributes (416ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1967 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.8 MB.
-System memory in use after: 90.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2503.
-Total: 10.717000 ms (FindLiveObjects: 2.285600 ms CreateObjectMapping: 0.962300 ms MarkObjects: 7.321300 ms  DeleteObjects: 0.140300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011203 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.025 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2026ms)
-		BeginReloadAssembly (228ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (1675ms)
-			LoadAssemblies (165ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (567ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (702ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (162ms)
-				ProcessInitializeOnLoadAttributes (500ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1967 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.7 MB.
-System memory in use after: 90.8 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2505.
-Total: 6.166200 ms (FindLiveObjects: 0.527400 ms CreateObjectMapping: 0.075100 ms MarkObjects: 5.434700 ms  DeleteObjects: 0.126600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008569 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.062 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2064ms)
-		BeginReloadAssembly (201ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1713ms)
-			LoadAssemblies (179ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (584ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (647ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (184ms)
-				ProcessInitializeOnLoadAttributes (417ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1967 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.8 MB.
-System memory in use after: 90.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2507.
-Total: 9.620300 ms (FindLiveObjects: 0.990000 ms CreateObjectMapping: 0.721400 ms MarkObjects: 7.798900 ms  DeleteObjects: 0.105100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1399.691463 seconds.
-  path: Assets/Imported Assets/[UI] Lean GUI/Common/Examples/Fonts/VarelaRound-Regular.ttf
-  artifactKey: Guid(d54323c94c164de478170d5e7d0273be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[UI] Lean GUI/Common/Examples/Fonts/VarelaRound-Regular.ttf using Guid(d54323c94c164de478170d5e7d0273be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9773614f1bd0609cbb67d4b3113a67ab') in 0.171518 seconds 
-  Import took 0.183849 seconds .
+  Time since last request: 0.000194 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_corner_far_plug.prefab
+  artifactKey: Guid(78417f9c0e3bda049a9a38dad7104d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_corner_far_plug.prefab using Guid(78417f9c0e3bda049a9a38dad7104d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbdfc1dffd105c60af41fb25901fec5') in 0.018624 seconds 
+  Import took 0.021805 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006271 seconds.
-  path: Assets/Imported Assets/[UI] Lean GUI/Common/Examples/Fonts/VarelaRound-Regular.ttf
-  artifactKey: Guid(d54323c94c164de478170d5e7d0273be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/[UI] Lean GUI/Common/Examples/Fonts/VarelaRound-Regular.ttf using Guid(d54323c94c164de478170d5e7d0273be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9773614f1bd0609cbb67d4b3113a67ab') in 0.027989 seconds 
-  Import took 0.033699 seconds .
+  Time since last request: 0.000222 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_blocker.prefab
+  artifactKey: Guid(73eea014833549e42853d51ff2b37c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_blocker.prefab using Guid(73eea014833549e42853d51ff2b37c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9758d3a536cd9375185dab03270029bb') in 0.026320 seconds 
+  Import took 0.029845 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007332 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 5.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_small.prefab
+  artifactKey: Guid(243f4abba039a1846ad345848e88725c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_small.prefab using Guid(243f4abba039a1846ad345848e88725c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca9f404549a0eed40a60c9d1c063d91') in 0.025858 seconds 
+  Import took 0.029478 seconds .
 
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.951 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1951ms)
-		BeginReloadAssembly (256ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (86ms)
-		EndReloadAssembly (1547ms)
-			LoadAssemblies (212ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (506ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (601ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (6ms)
-				BeforeProcessingInitializeOnLoad (169ms)
-				ProcessInitializeOnLoadAttributes (394ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1967 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.0 MB.
-System memory in use after: 91.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2514.
-Total: 8.506900 ms (FindLiveObjects: 0.399500 ms CreateObjectMapping: 0.316600 ms MarkObjects: 6.560600 ms  DeleteObjects: 1.227400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006751 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_corner.prefab
+  artifactKey: Guid(b3ba71d7c63addc49b57e4c8e35af826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_corner.prefab using Guid(b3ba71d7c63addc49b57e4c8e35af826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4d32d35ad83c8164c335055e0492c5') in 0.022214 seconds 
+  Import took 0.026162 seconds .
 
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_no_LOD.prefab
+  artifactKey: Guid(9e613db9d284cc14a9b0209f88d3b941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_no_LOD.prefab using Guid(9e613db9d284cc14a9b0209f88d3b941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47486c1cca4738ecd3249420708e0bc2') in 0.022577 seconds 
+  Import took 0.026804 seconds .
 
-Mono: successfully reloaded assembly
-- Completed reload, in  1.872 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1873ms)
-		BeginReloadAssembly (200ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (1555ms)
-			LoadAssemblies (159ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (578ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (584ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (156ms)
-				ProcessInitializeOnLoadAttributes (387ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1967 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.0 MB.
-System memory in use after: 91.1 MB.
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_corner_plug.prefab
+  artifactKey: Guid(abf1f5179163bad469b298f28ca52e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_corner_plug.prefab using Guid(abf1f5179163bad469b298f28ca52e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3eb1fcfbfff42f420e2e0c6557893b') in 0.018558 seconds 
+  Import took 0.022535 seconds .
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2516.
-Total: 4.823400 ms (FindLiveObjects: 0.406000 ms CreateObjectMapping: 0.065300 ms MarkObjects: 4.258900 ms  DeleteObjects: 0.090800 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_corner_far.prefab
+  artifactKey: Guid(f1e5cb2f014b6834b849c918ab359508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_corner_far.prefab using Guid(f1e5cb2f014b6834b849c918ab359508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630aaf02123d5c70647a5a19de7b2f47') in 0.020796 seconds 
+  Import took 0.025223 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_blocker_3.prefab
+  artifactKey: Guid(7e2e8028213a4834fa8f2991bdefe708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/window_big_blocker_3.prefab using Guid(7e2e8028213a4834fa8f2991bdefe708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f60d87bd3e37a766ed85719fb5bb6d') in 0.017634 seconds 
+  Import took 0.021658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 280.714070 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/Complete Windows
+  artifactKey: Guid(e1a3d5a3d7a91ab47ae051b84f3ddf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/Complete Windows using Guid(e1a3d5a3d7a91ab47ae051b84f3ddf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6c036096288ab8632af96b7e42d854') in 0.007301 seconds 
+  Import took 0.011677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048031 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/Complete Windows/window_big.prefab
+  artifactKey: Guid(964e3fd2e5ff9014ea2a3ce4b682e2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/Complete Windows/window_big.prefab using Guid(964e3fd2e5ff9014ea2a3ce4b682e2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8675ae1522bdea339bfd9c5ee8b00d05') in 0.025820 seconds 
+  Import took 0.029871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/Complete Windows/window_big_blocker.prefab
+  artifactKey: Guid(32234a5734d32f644adeeabac5c5b8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/Complete Windows/window_big_blocker.prefab using Guid(32234a5734d32f644adeeabac5c5b8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8acfd4975d5bb3e4d22bc0770924d1') in 0.019739 seconds 
+  Import took 0.023513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/Complete Windows/window_big_corner_blocker.prefab
+  artifactKey: Guid(c84375fce06f8f146a371128360dd36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/Complete Windows/window_big_corner_blocker.prefab using Guid(c84375fce06f8f146a371128360dd36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58651b4ba74dedb9a38b0e6b50ce886a') in 0.023669 seconds 
+  Import took 0.027465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/Complete Windows/window_big_corner_far.prefab
+  artifactKey: Guid(b49fb96050ea0ad4790b0f550fb5f1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/Complete Windows/window_big_corner_far.prefab using Guid(b49fb96050ea0ad4790b0f550fb5f1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e38cebdf394a04e71e8f07faa012da') in 0.017467 seconds 
+  Import took 0.021708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/Complete Windows/window_big_corner.prefab
+  artifactKey: Guid(b640a38ee3c65bc45963bd2f2f5b867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/[World Building] Sci-Fi/Prefabs/Windows/Complete Windows/window_big_corner.prefab using Guid(b640a38ee3c65bc45963bd2f2f5b867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a636477dc9cdcc214e86bde69d30b86') in 0.020737 seconds 
+  Import took 0.024526 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
