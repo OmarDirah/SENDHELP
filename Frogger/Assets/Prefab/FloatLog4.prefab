@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7952103425642502298}
   - component: {fileID: 6084211572753925876}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: log (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8404991524423812958}
   - component: {fileID: 4581532326985657790}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: log (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7502419441477657596}
   - component: {fileID: 714328727190610703}
-  m_Layer: 0
+  - component: {fileID: 593802328958862475}
+  m_Layer: 6
   m_Name: FloatLog4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216,6 +217,32 @@ MonoBehaviour:
   direction: {x: 1, y: 0}
   speed: 2
   size: 4
+--- !u!61 &593802328958862475
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3284569766613843736}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &3379787054853354853
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,7 +253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5408349522193029263}
   - component: {fileID: 5681737030213735770}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: log (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -308,7 +335,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2541699942736868502}
   - component: {fileID: 667323621867051380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: log (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -390,7 +417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5048741653398167977}
   - component: {fileID: 7362370210967442085}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: log (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -472,7 +499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8177797616432626858}
   - component: {fileID: 4138483555880506620}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: log (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

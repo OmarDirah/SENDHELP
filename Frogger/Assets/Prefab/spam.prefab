@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 485592872575025195}
   - component: {fileID: -896346920254506524}
   - component: {fileID: 7618920616663084157}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: spam
   m_TagString: Untagged
   m_Icon: {fileID: 0}

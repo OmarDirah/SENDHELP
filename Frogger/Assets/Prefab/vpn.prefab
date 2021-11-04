@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5407618731903216483}
   - component: {fileID: -392426279638359484}
   - component: {fileID: 2308248442623776334}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: vpn
   m_TagString: Untagged
   m_Icon: {fileID: 0}

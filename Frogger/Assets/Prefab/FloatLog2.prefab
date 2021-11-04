@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6343391419312624260}
   - component: {fileID: 5048133035515513623}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: log (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3865680607009875024}
   - component: {fileID: 8795217411623432845}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: log (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   - component: {fileID: 1889078718247355583}
   - component: {fileID: -7573795709031679432}
   - component: {fileID: 6406153626013207964}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FloatLog2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -213,7 +213,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 1.7008402, y: 0.6039215}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -224,7 +224,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.133893, y: 0.63025224}
   m_EdgeRadius: 0
 --- !u!114 &6406153626013207964
 MonoBehaviour:
@@ -251,7 +251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5015797411024638780}
   - component: {fileID: 8460926509816531450}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: log (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -333,7 +333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7770252882978348461}
   - component: {fileID: 5445448515404831047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: log (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

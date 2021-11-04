@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1120812182361700115}
   - component: {fileID: -3312551079512819235}
   - component: {fileID: -3520091826875322173}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fingerprint-scan
   m_TagString: Untagged
   m_Icon: {fileID: 0}

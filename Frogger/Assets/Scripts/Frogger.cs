@@ -5,9 +5,14 @@ using UnityEngine;
 public class Frogger : MonoBehaviour
 {
 
+    private SpriteRenderer spriteRenderer;
+
+    public Sprite idleSprite;
+    public Sprite deathSprite;
+
     void Start()
     {
-        
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -37,12 +42,56 @@ public class Frogger : MonoBehaviour
     void Move(Vector3 direction)
     {
         Vector3 destination = transform.position + direction;
-        StartCoroutine(Leap(destination));
+
+        Collider2D wall = Physics2D.OverlapBox(destination, Vector2.zero, 0f, LayerMask.GetMask("Wall"));
+        Collider2D platform = Physics2D.OverlapBox(destination, Vector2.zero, 0f, LayerMask.GetMask("Float"));
+        Collider2D obstacle = Physics2D.OverlapBox(destination, Vector2.zero, 0f, LayerMask.GetMask("Obstacle"));
+
+        if ( wall != null)
+        {
+            return;
+        }
+
+        if ( platform != null)
+        {
+            transform.SetParent(platform.transform);
+        }
+        else
+        {
+            transform.SetParent(null);
+        }
+
+        if ( ( obstacle != null) && (platform == null) )
+        {
+            transform.position = destination;
+            Death();
+        }
+        else
+        {
+            StartCoroutine(Leap(destination));
+        }
     }
 
     void Rotate(Quaternion rotation)
     {
         transform.rotation = rotation;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if ( (enabled) && 
+             (other.gameObject.layer == LayerMask.NameToLayer("Obstacle") ) && 
+             ( transform.parent == null ) )
+        {
+            Death();
+        }
+    }
+
+    void Death()
+    {
+        transform.rotation = Quaternion.identity;
+        spriteRenderer.sprite = deathSprite;
+        enabled = false;
     }
 
     private IEnumerator Leap(Vector3 destination)
