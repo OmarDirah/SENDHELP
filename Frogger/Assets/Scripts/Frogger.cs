@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Frogger : MonoBehaviour
 {
@@ -10,9 +11,17 @@ public class Frogger : MonoBehaviour
     public Sprite idleSprite;
     public Sprite deathSprite;
 
+    public TextMeshProUGUI headerInformationText;
+
+    private Vector3 spawnPosition;
+
+    private string defaultMessage = "BREACH THE DEFENSE LAYERS TO INJECT THE WORM";
+
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        spawnPosition = transform.position;
+        headerInformationText.text = defaultMessage;
     }
 
     void Update()
@@ -85,13 +94,31 @@ public class Frogger : MonoBehaviour
         {
             Death();
         }
+
+        if ((enabled) && (other.gameObject.tag == "Finish"))
+        {
+            headerInformationText.text = "YOU HAVE BREACHED THE SECURITY!";
+            enabled = false;
+        }
     }
 
     void Death()
     {
+        StopAllCoroutines();
         transform.rotation = Quaternion.identity;
         spriteRenderer.sprite = deathSprite;
         enabled = false;
+
+        StartCoroutine(TriggerRespawn());
+    }
+
+    void Respawn()
+    {
+        transform.rotation = Quaternion.identity;
+        transform.position = spawnPosition;
+        spriteRenderer.sprite = idleSprite;
+        headerInformationText.text = defaultMessage;
+        enabled = true;
     }
 
     private IEnumerator Leap(Vector3 destination)
@@ -109,5 +136,16 @@ public class Frogger : MonoBehaviour
             yield return null;
         }
 
+    }
+
+    private IEnumerator TriggerRespawn()
+    {
+        headerInformationText.text = "PRESS SPACE TO RESPAWN";
+        while (!Input.GetKeyDown(KeyCode.Space))
+        {
+            yield return null;
+        }
+        
+        Invoke(nameof(Respawn), 0f);
     }
 }
