@@ -15,7 +15,7 @@ public class Frogger : MonoBehaviour
 
     private Vector3 spawnPosition;
 
-    private string defaultMessage = "BREACH THE DEFENSE LAYERS TO INJECT THE WORM";
+    private string defaultMessage = "BREACH THE DEFENSE LAYERS";
 
     void Start()
     {
@@ -97,7 +97,7 @@ public class Frogger : MonoBehaviour
 
         if ((enabled) && (other.gameObject.tag == "Finish"))
         {
-            headerInformationText.text = "YOU HAVE BREACHED THE SECURITY!";
+            headerInformationText.text = "SECURITY BREACHED!";
             enabled = false;
         }
     }
