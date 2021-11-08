@@ -66,6 +66,7 @@
      <Compile Include="Assets\Developers\Erin\Scripts\Dialogue\Dialogue.cs" />
      <Compile Include="Assets\Developers\Erin\Scripts\MouseViewController.cs" />
      <Compile Include="Assets\Developers\Erin\Scripts\Spin.cs" />
+     <Compile Include="Assets\Developers\Erin\Scripts\Dialogue\DialoguePrompt.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
