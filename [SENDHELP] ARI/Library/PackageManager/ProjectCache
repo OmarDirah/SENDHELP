@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637703330985345732
+      ticks: 637720104797594773
     m_Hash: 2951860700
   m_LockFileStatus:
     m_FilePath: C:/Users/erina/Documents/GitHub/SENDHELP/[SENDHELP] ARI/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637703330985345732
+      ticks: 637720104797594773
     m_Hash: 2369320761
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -70,6 +70,8 @@ m_PackageAssets:
         - 1.11.2
         - 1.12.5
         - 1.13.5
+        - 1.14.1
+        - 1.15.1
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -86,6 +88,8 @@ m_PackageAssets:
         - 1.11.2
         - 1.12.5
         - 1.13.5
+        - 1.14.1
+        - 1.15.1
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -679,9 +683,11 @@ m_PackageAssets:
         - 1.1.26
         - 1.1.27
         - 1.1.29
+        - 1.1.30
         compatible:
         - 1.1.29
-        verified: 1.1.29
+        - 1.1.30
+        verified: 1.1.30
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -838,9 +844,12 @@ m_PackageAssets:
         - 3.0.5
         - 3.0.6
         - 3.2.0-pre.1
+        - 3.2.0-pre.2
+        - 4.0.0-pre.1
         compatible:
         - 3.0.6
         - 3.2.0-pre.1
+        - 3.2.0-pre.2
         verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
@@ -958,12 +967,15 @@ m_PackageAssets:
         - 1.5.4
         - 1.5.5
         - 1.5.6
+        - 1.5.7
         - 1.6.0-pre.1
         - 1.6.0-pre.3
         - 1.6.0-pre.4
         - 1.6.0-pre.5
         - 1.6.1
         - 1.6.2
+        - 1.6.3
+        - 1.7.0-pre.1
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -979,12 +991,15 @@ m_PackageAssets:
         - 1.5.4
         - 1.5.5
         - 1.5.6
+        - 1.5.7
         - 1.6.0-pre.1
         - 1.6.0-pre.3
         - 1.6.0-pre.4
         - 1.6.0-pre.5
         - 1.6.1
         - 1.6.2
+        - 1.6.3
+        - 1.7.0-pre.1
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -2923,6 +2938,7 @@ m_PackageAssets:
         - 1.0.1
         - 1.0.2
         - 1.0.3
+        - 2.0.0
         compatible:
         - 0.1.0-preview.4
         - 0.1.0-preview.8
@@ -2930,6 +2946,7 @@ m_PackageAssets:
         - 1.0.1
         - 1.0.2
         - 1.0.3
+        - 2.0.0
         verified: 1.0.3
       dependencies: []
       resolvedDependencies: []
