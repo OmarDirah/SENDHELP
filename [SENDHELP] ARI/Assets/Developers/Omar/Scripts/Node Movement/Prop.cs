@@ -50,6 +50,7 @@ public class Prop : Node
 
     public void Update()
     {
+        // Key contol for interaction
         if (Input.GetKeyDown(KeyCode.E) && inter.enabled) 
         {
             inter.Interact();
