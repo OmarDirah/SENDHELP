@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
     public float jumpForce = 14.0f;
 
     public TextMeshProUGUI headerInformationText;
+    public TextMeshProUGUI scoreText;
+    private int bonusScore = 0;
 
 
     void Start()
@@ -30,6 +32,7 @@ public class Player : MonoBehaviour
         spriteRenderer.sprite = rightWalkingSprite;
 
         headerInformationText.text = " ";
+        scoreText.text = "BONUS: " + bonusScore;
     }
     
     void Update()
@@ -66,6 +69,18 @@ public class Player : MonoBehaviour
         if (other.gameObject.CompareTag("Obstacle"))
         {
             StartCoroutine(TriggerRespawn());
+        }
+
+        if (other.gameObject.CompareTag("Exit"))
+        {
+            headerInformationText.text = "Game Over";
+        }
+
+        if (other.gameObject.CompareTag("PickUp"))
+        {
+            bonusScore = bonusScore + 1;
+            scoreText.text = "BONUS: " + bonusScore;
+            Destroy(other.gameObject);
         }
     }
 
