@@ -56,12 +56,13 @@
      <Compile Include="Assets\Imported Assets\[Obj] Gems\Scripts\AnimationScript.cs" />
      <Compile Include="Assets\Imported Assets\[World Building] SNAPS Sci-Fi Assets\About\Scripts\Readme.cs" />
      <Compile Include="Assets\Imported Assets\[Character] Jammo\Scripts\MovementInput.cs" />
-     <Compile Include="Assets\Developers\Erin\Scripts\WayPoint.cs" />
-     <Compile Include="Assets\Developers\Erin\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\WayPoint.cs" />
+     <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\GameManager.cs" />
      <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\Node.cs" />
-     <Compile Include="Assets\Developers\Erin\Scripts\MouseControl.cs" />
+     <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\MouseControl.cs" />
      <Compile Include="Assets\Developers\Erin\Scripts\CameraController.cs" />
      <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\Location.cs" />
+     <Compile Include="Assets\Developers\Omar\Scripts\interactables\Interactable.cs" />
      <Compile Include="Assets\Developers\Erin\Scripts\UIBehavior.cs" />
      <Compile Include="Assets\Developers\Erin\Scripts\Dialogue\Dialogue.cs" />
      <Compile Include="Assets\Developers\Erin\Scripts\MouseViewController.cs" />
@@ -84,6 +85,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Developers\Omar\Scripts\interactables\ReadMe.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Imported Assets\[Particles] Fire\Shaders\FireSphere.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
