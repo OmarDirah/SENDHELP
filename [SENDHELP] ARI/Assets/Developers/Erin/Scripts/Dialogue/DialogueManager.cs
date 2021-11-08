@@ -11,7 +11,7 @@ public class DialogueManager : MonoBehaviour
     // VARIABLES
     public Text nameText;
     public Text dialogueText;
-    public Animator animator;
+    public Animator conversation;
     public Queue<string> names;
     public Queue<string> sentences;
 
@@ -22,9 +22,10 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<string>();
     }
 
+    // START DIALOGUE
     public void StartDialogue(Dialogue dialogue)
     {
-        animator.SetBool("IsOpen", true);
+        conversation.SetBool("IsOpen", true);
         Debug.Log("Starting conversation with " + dialogue.names[0]);
 
         names.Clear();
@@ -44,6 +45,7 @@ public class DialogueManager : MonoBehaviour
         DisplayNextSentence();
     }
 
+    // DISPLAY NEXT NAME
     public void DisplayNextName()
     {
         if (names.Count == 0)
@@ -57,6 +59,7 @@ public class DialogueManager : MonoBehaviour
         Debug.Log(name);
     }
 
+    // DISPLAY NEXT SENTENCE
     public void DisplayNextSentence()
     {
         if (sentences.Count == 0)
@@ -71,6 +74,7 @@ public class DialogueManager : MonoBehaviour
         Debug.Log(sentence);
     }
 
+    // TYPEWRITER AESTHETIC
     IEnumerator TypeSentence(string sentence)
     {
         dialogueText.text = "";
@@ -81,10 +85,10 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-
+    // END DIALOGUE
     void EndDialogue()
     {
-        animator.SetBool("IsOpen", false);
+        conversation.SetBool("IsOpen", false);
         Debug.Log("End of conversation.");
     }
 }
