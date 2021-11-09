@@ -13,6 +13,7 @@ public class LockGameEvent : ScriptableObject
         for (int i = 0; i < _eventListeners.Count; i++)
         {
             _eventListeners[i].OnEventRaised();
+            Debug.Log(_eventListeners[i] + " raised");
         }
     }
 
