@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 128
+  controlID: 131
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 605
     height: 1307
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 129
+  controlID: 49
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 130
+  controlID: 50
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Developers/Erin/Scenes/Novice
+    - Assets/Imported Assets/[Obj] Earth/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Developers/Erin/Scenes/Novice
+  - Assets/Imported Assets/[Obj] Earth/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\erina\Documents\GitHub\SENDHELP\[SENDHELP] ARI
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: da4f0000
-    m_LastClickedID: 20442
-    m_ExpandedIDs: 00000000a24e0000b84e0000ba4e0000be4e0000944f0000ce4f0000d04f0000e659000000ca9a3b
+    scrollPos: {x: 0, y: 132}
+    m_SelectedIDs: 12540000
+    m_LastClickedID: 21522
+    m_ExpandedIDs: 0000000056510000585100005a5100005c5100007a5100008251000094510000a2510000a4510000b451000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a24e0000
+    m_ExpandedIDs: 0000000056510000585100005a5100005c510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -483,7 +483,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7a6bfeff9a6bfeff2a6dfeffe083feff0c87feffd48cfeffd88cfeff068dfeff489efeff229ffeff52a1feff72a1feff08a3feffc2b9fefff2bcfeffbec2feffc6c2fefff6c2feffc42affffc82affffe447ffffe847ffff28dcffff52fbffff184400002e44000000450000844700007e4800008848000000490000b24900005a300300f6300300fe3203000c3403009e36030098380300d6390300
+      m_ExpandedIDs: 52fbffff1e4b00005c4c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.764385, y: 2.2474372, z: 2.789813}
+    m_Target: {x: -1.1838493, y: 3.3981419, z: 26.92632}
     speed: 2
-    m_Value: {x: -6.764385, y: 2.2474372, z: 2.789813}
+    m_Value: {x: -1.1838493, y: 3.3981419, z: 26.92632}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -592,13 +592,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.084278926, y: -0.689089, z: 0.081227385, w: 0.7152855}
+    m_Target: {x: 0.1792588, y: -0.5371313, z: 0.11806291, w: 0.8158404}
     speed: 2
-    m_Value: {x: 0.08427143, y: -0.6890277, z: 0.081220165, w: 0.7152219}
+    m_Value: {x: 0.17924283, y: -0.5370835, z: 0.1180524, w: 0.81576777}
   m_Size:
-    m_Target: 1.6308489
+    m_Target: 27.529047
     speed: 2
-    m_Value: 1.6308489
+    m_Value: 27.529047
   m_Ortho:
     m_Target: 0
     speed: 2
