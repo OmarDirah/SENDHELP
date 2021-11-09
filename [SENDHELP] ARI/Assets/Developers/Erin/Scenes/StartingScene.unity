@@ -4910,14 +4910,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1190965761}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 224bae48f91420448beee588112b9fcd, type: 3}
+  m_Script: {fileID: 11500000, guid: bf26d1516474f274391055c9edca3606, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  views:
-  - {fileID: 626919989}
-  - {fileID: 1902062522}
-  - {fileID: 41643128}
-  transitionSpeed: 2
+  views: []
+  transitionSpeed: 0
   selections: []
 --- !u!1 &1283930270
 GameObject:
