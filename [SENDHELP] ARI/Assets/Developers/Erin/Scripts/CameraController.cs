@@ -42,6 +42,10 @@ public class CameraController : MonoBehaviour
         {
             currentView = views[3];
         }
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            currentView = views[4];
+        }
     }
 
     // Update is called once per frame
