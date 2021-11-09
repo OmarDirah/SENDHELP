@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637719032309574503
-    m_Hash: 3291252197
+      ticks: 637719898820161026
+    m_Hash: 869299546
   m_LockFileStatus:
     m_FilePath: C:/Users/Joseph/Desktop/f/_f21/CMPT475 - CS Capping/SENDHELP/Platformer/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637719032372547479
-    m_Hash: 808824960
+      ticks: 637719898820170998
+    m_Hash: 382184603
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -1542,6 +1542,7 @@ m_PackageAssets:
         - 2.1.5
         - 2.1.6
         - 2.2.0-preview.1
+        - 2.2.0-preview.2
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -3663,6 +3664,7 @@ m_PackageAssets:
         - 1.1.0
         - 1.2.1
         - 1.2.4
+        - 1.2.5
         compatible:
         - 0.0.12-preview.2
         - 0.0.12-preview.5
@@ -3679,7 +3681,8 @@ m_PackageAssets:
         - 1.1.0
         - 1.2.1
         - 1.2.4
-        verified: 1.2.4
+        - 1.2.5
+        verified: 1.2.5
       dependencies: []
       resolvedDependencies: []
       keywords:
