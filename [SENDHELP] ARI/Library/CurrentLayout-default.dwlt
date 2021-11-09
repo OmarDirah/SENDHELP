@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1307
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 15
+  controlID: 79
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 605
     height: 1307
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 2560
     height: 1357
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Developers/Erin/Scripts
+    - Assets/Audio/[Audio] Sci-Fi Ambiance
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Developers/Erin/Scripts
+  - Assets/Audio/[Audio] Sci-Fi Ambiance
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\erina\Documents\GitHub\SENDHELP\[SENDHELP] ARI
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 140}
-    m_SelectedIDs: 644a0000
-    m_LastClickedID: 19044
-    m_ExpandedIDs: 000000000a4a0000544a0000584a0000664a0000445000006050000000ca9a3b
+    scrollPos: {x: 0, y: 84}
+    m_SelectedIDs: cc4c0000
+    m_LastClickedID: 19660
+    m_ExpandedIDs: 000000000c4c0000284c00002a4c00002e4c00003c4c0000e25200004456000052560000b857000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000a4a0000
+    m_ExpandedIDs: 000000000c4c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -481,9 +481,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e246ffff
-      m_LastClickedID: -47390
-      m_ExpandedIDs: aef4ffff48fbffff664d0000
+      m_SelectedIDs: cc4c0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 9c49ffff8c72ffff42f6fffff6f9ffff52fbfffff8420000344500008c470000d2470000c4480000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.1375318, y: 0.37317383, z: 9.552395}
+    m_Target: {x: -6.380476, y: 2.3553724, z: 2.5089073}
     speed: 2
-    m_Value: {x: 1.1375318, y: 0.37317383, z: 9.552395}
+    m_Value: {x: -6.380476, y: 2.3553724, z: 2.5089073}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -592,13 +592,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.10410498, y: -0.34735808, z: 0.038763758, w: -0.9312002}
+    m_Target: {x: -0.15122062, y: 0.7411323, z: -0.17811342, w: -0.629525}
     speed: 2
-    m_Value: {x: -0.104156144, y: -0.3459381, z: 0.038605012, w: -0.9316588}
+    m_Value: {x: -0.14959872, y: 0.7467042, z: -0.17945185, w: -0.6227762}
   m_Size:
-    m_Target: 5.273979
+    m_Target: 1.293827
     speed: 2
-    m_Value: 5.273979
+    m_Value: 1.293827
   m_Ortho:
     m_Target: 0
     speed: 2
