@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CameraController : MonoBehaviour
+public class CameraControllerStartingScreen : MonoBehaviour
 {
     // VARIABLES
     public Transform[] views;           // Array to store different points of view for camera (transforms)
@@ -16,17 +16,17 @@ public class CameraController : MonoBehaviour
     // VARIABLES - For mapping to buttons to change views
     public Button[] selections;
 
-
     // Start is called before the first frame update
     void Start()
     {
-        // N/A
+        // Will need to find another way to assign listeners to the buttons in a more organized way
+        //selections[0].onClick.AddListener(NoviceSelected);
     }
 
     void Update()
     {
         // TESTING
-        if(Input.GetKeyDown(KeyCode.Alpha1))
+        /*if(Input.GetKeyDown(KeyCode.Alpha1))
         {
             currentView = views[0];
         }
@@ -45,12 +45,12 @@ public class CameraController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha5))
         {
             currentView = views[4];
-        }
+        } */
     }
 
     // Update is called once per frame
     void LateUpdate()
-    { 
+    {
         // Lerp Postion (smooth transform)
         transform.position = Vector3.Lerp(transform.position, currentView.position, Time.deltaTime * transitionSpeed);
 
@@ -66,4 +66,24 @@ public class CameraController : MonoBehaviour
         // Move to rotation of view
         transform.eulerAngles = currentAngle;
     }
+
+    void NoviceSelected()
+    {
+        currentView = views[1];
+        Debug.Log("view is now set to novice camera position.");
+    }
+
+    void ProficientSelected()
+    {
+        currentView = views[1];
+        StartCoroutine(TransitionDelayTimeProficient());
+        Debug.Log("view is now set to proficent camera position.");
+    }
+
+    IEnumerator TransitionDelayTimeProficient()
+    {
+        yield return new WaitForSeconds(1.3f);
+        currentView = views[2];
+    }
+
 }
