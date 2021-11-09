@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // fail safe to keep script off anything but props
-[RequireComponent (typeof(Prop))]
+//[RequireComponent (typeof(Prop))]
 public class Interactable : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -13,12 +13,9 @@ public class Interactable : MonoBehaviour
         this.enabled = false;
     }
 
-    public void Interact() 
+    public virtual void Interact() 
     {
-
-
         Debug.Log("Interacting with " + name);
-
     }
 
    
