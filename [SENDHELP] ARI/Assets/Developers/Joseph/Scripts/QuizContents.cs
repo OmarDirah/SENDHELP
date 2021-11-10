@@ -13,7 +13,6 @@ public class QuizContents : MonoBehaviour
     Button nextButton;
 
     bool firstTry = true;
-
     public GameObject caesarCipherImage;
 
     List<bool> level1UserCorrectness = new List<bool>()
