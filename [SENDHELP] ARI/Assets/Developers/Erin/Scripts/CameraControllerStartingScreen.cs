@@ -20,7 +20,10 @@ public class CameraControllerStartingScreen : MonoBehaviour
     void Start()
     {
         // Will need to find another way to assign listeners to the buttons in a more organized way
-        //selections[0].onClick.AddListener(NoviceSelected);
+        selections[0].onClick.AddListener(OptionsSelected);
+        selections[1].onClick.AddListener(CreditsSelected);
+        selections[2].onClick.AddListener(BackSelected);
+        selections[3].onClick.AddListener(BackSelected);
     }
 
     void Update()
@@ -67,23 +70,22 @@ public class CameraControllerStartingScreen : MonoBehaviour
         transform.eulerAngles = currentAngle;
     }
 
-    void NoviceSelected()
+    void OptionsSelected()
     {
         currentView = views[1];
-        Debug.Log("view is now set to novice camera position.");
+        Debug.Log("view is now set to options camera position.");
     }
 
-    void ProficientSelected()
+    void CreditsSelected()
     {
-        currentView = views[1];
-        StartCoroutine(TransitionDelayTimeProficient());
-        Debug.Log("view is now set to proficent camera position.");
-    }
-
-    IEnumerator TransitionDelayTimeProficient()
-    {
-        yield return new WaitForSeconds(1.3f);
         currentView = views[2];
+        Debug.Log("view is now set to credits camera position.");
+    }
+
+    void BackSelected()
+    {
+        currentView = views[0];
+        Debug.Log("view is now set to starting screen camera position.");
     }
 
 }

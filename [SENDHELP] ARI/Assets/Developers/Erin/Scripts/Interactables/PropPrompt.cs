@@ -21,6 +21,34 @@ public class PropPrompt : MonoBehaviour
         {
             UIAppear();
         }
+        if (other.CompareTag("GreenhouseTerminalDialogue"))
+        {
+            UIAppear();
+        }
+        if (other.CompareTag("ServerRoomTerminalDialogue"))
+        {
+            UIAppear();
+        }
+        if (other.CompareTag("LivingQuartersTerminalDialogue"))
+        {
+            UIAppear();
+        }
+        if (other.CompareTag("ServerRoomAccessDialogue"))
+        {
+            UIAppear();
+        }
+        if (other.CompareTag("XHallAccessDialogue"))
+        {
+            UIAppear();
+        }
+        if (other.CompareTag("NavigationAccessDialogue"))
+        {
+            UIAppear();
+        }
+        if (other.CompareTag("LevelExitDialogue"))
+        {
+            UIAppear();
+        }
     }
 
     // ONTRIGGER - EXIT
@@ -31,6 +59,34 @@ public class PropPrompt : MonoBehaviour
             UIDisappear();
         }
         if (other.CompareTag("TerminalDialogue"))
+        {
+            UIDisappear();
+        }
+        if (other.CompareTag("GreenhouseTerminalDialogue"))
+        {
+            UIDisappear();
+        }
+        if (other.CompareTag("ServerRoomTerminalDialogue"))
+        {
+            UIDisappear();
+        }
+        if (other.CompareTag("LivingQuartersTerminalDialogue"))
+        {
+            UIDisappear();
+        }
+        if (other.CompareTag("ServerRoomAccessDialogue"))
+        {
+            UIDisappear();
+        }
+        if (other.CompareTag("XHallAccessDialogue"))
+        {
+            UIDisappear();
+        }
+        if (other.CompareTag("NavigationAccessDialogue"))
+        {
+            UIDisappear();
+        }
+        if (other.CompareTag("LevelExitDialogue"))
         {
             UIDisappear();
         }
