@@ -10,7 +10,10 @@ public class SceneChangeInteract : Interactable
 {
     // VARIABLES
     public string SceneToLoad;
+<<<<<<< HEAD
+=======
     public int levelDone;
+>>>>>>> main
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +26,10 @@ public class SceneChangeInteract : Interactable
     public override void Interact()
     {
         // Immediate Change to Scene Specified by Name - Will change to accommodate for loading screens
+<<<<<<< HEAD
+=======
         LevelSelection.levelListDone.Add(levelDone);
+>>>>>>> main
         SceneManager.LoadScene(SceneToLoad);
     }
 }
