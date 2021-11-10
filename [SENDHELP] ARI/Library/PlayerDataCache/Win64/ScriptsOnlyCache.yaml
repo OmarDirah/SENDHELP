@@ -2,17 +2,23 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraControllerLevelSelection
+    - CameraControllerQuizzes
     - CameraControllerStartingScreen
     - CameraRig
     - CharacterSkinController
+    - DestroyInteract
     - DialogueManager
     - DialoguePrompt
     - DialogueTrigger
     - GameManager
+    - LevelSelection
     - Location
     - MouseControl
     - MovementInput
     - Prop
+    - PropPrompt
+    - QuizContents
+    - SceneChangeInteract
     - Spin
     - SpinFree
     - UIBehavior
@@ -42,6 +48,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Developers/Erin/Scenes/Assessments/Level 1/Post-Quiz.unity:
@@ -59,82 +66,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    Assets/Developers/Erin/Scenes/Assessments/Level 1/Pre-Quiz.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1520}
-    - Class: 114
-      Script: {instanceID: 1524}
-    - Class: 114
-      Script: {instanceID: 2608}
-    - Class: 114
-      Script: {instanceID: 2742}
-    - Class: 114
-      Script: {instanceID: 2960}
-    - Class: 114
-      Script: {instanceID: 4332}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 198
-      Script: {instanceID: 0}
-    - Class: 199
-      Script: {instanceID: 0}
-    - Class: 205
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
       Script: {instanceID: 0}
     Assets/Developers/Erin/Scenes/LevelSelection.unity:
     - Class: 1
@@ -176,17 +116,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1524}
     - Class: 114
-      Script: {instanceID: 2608}
+      Script: {instanceID: 2202}
     - Class: 114
-      Script: {instanceID: 2742}
+      Script: {instanceID: 2614}
     - Class: 114
-      Script: {instanceID: 2960}
+      Script: {instanceID: 2748}
     - Class: 114
-      Script: {instanceID: 3328}
+      Script: {instanceID: 2968}
     - Class: 114
-      Script: {instanceID: 4332}
+      Script: {instanceID: 3336}
     - Class: 114
-      Script: {instanceID: 4700}
+      Script: {instanceID: 3984}
+    - Class: 114
+      Script: {instanceID: 4344}
+    - Class: 114
+      Script: {instanceID: 4716}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -255,15 +199,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1834}
     - Class: 114
-      Script: {instanceID: 2348}
+      Script: {instanceID: 2354}
     - Class: 114
-      Script: {instanceID: 2742}
+      Script: {instanceID: 2748}
     - Class: 114
-      Script: {instanceID: 2882}
+      Script: {instanceID: 2890}
     - Class: 114
-      Script: {instanceID: 3288}
+      Script: {instanceID: 3296}
     - Class: 114
-      Script: {instanceID: 4038}
+      Script: {instanceID: 4050}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -330,31 +274,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1834}
     - Class: 114
-      Script: {instanceID: 2196}
+      Script: {instanceID: 1872}
     - Class: 114
-      Script: {instanceID: 2206}
+      Script: {instanceID: 2044}
     - Class: 114
-      Script: {instanceID: 2348}
+      Script: {instanceID: 2202}
     - Class: 114
-      Script: {instanceID: 2608}
+      Script: {instanceID: 2212}
     - Class: 114
-      Script: {instanceID: 2742}
+      Script: {instanceID: 2354}
     - Class: 114
-      Script: {instanceID: 2882}
+      Script: {instanceID: 2614}
     - Class: 114
-      Script: {instanceID: 2960}
+      Script: {instanceID: 2748}
     - Class: 114
-      Script: {instanceID: 3288}
+      Script: {instanceID: 2890}
     - Class: 114
-      Script: {instanceID: 3328}
+      Script: {instanceID: 2968}
     - Class: 114
-      Script: {instanceID: 3382}
+      Script: {instanceID: 3296}
     - Class: 114
-      Script: {instanceID: 4038}
+      Script: {instanceID: 3336}
     - Class: 114
-      Script: {instanceID: 4484}
+      Script: {instanceID: 3390}
     - Class: 114
-      Script: {instanceID: 4938}
+      Script: {instanceID: 4050}
+    - Class: 114
+      Script: {instanceID: 4416}
+    - Class: 114
+      Script: {instanceID: 4500}
+    - Class: 114
+      Script: {instanceID: 4954}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -421,33 +371,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1868}
     - Class: 114
-      Script: {instanceID: 2196}
+      Script: {instanceID: 2202}
     - Class: 114
-      Script: {instanceID: 2226}
+      Script: {instanceID: 2232}
     - Class: 114
-      Script: {instanceID: 2482}
+      Script: {instanceID: 2488}
     - Class: 114
-      Script: {instanceID: 2608}
+      Script: {instanceID: 2614}
     - Class: 114
-      Script: {instanceID: 2742}
+      Script: {instanceID: 2748}
     - Class: 114
-      Script: {instanceID: 2924}
+      Script: {instanceID: 2932}
     - Class: 114
-      Script: {instanceID: 2960}
+      Script: {instanceID: 2968}
     - Class: 114
-      Script: {instanceID: 3292}
+      Script: {instanceID: 3300}
     - Class: 114
-      Script: {instanceID: 3386}
+      Script: {instanceID: 3394}
     - Class: 114
-      Script: {instanceID: 3752}
+      Script: {instanceID: 3760}
     - Class: 114
-      Script: {instanceID: 4598}
+      Script: {instanceID: 3786}
     - Class: 114
-      Script: {instanceID: 4700}
+      Script: {instanceID: 4614}
     - Class: 114
-      Script: {instanceID: 4932}
+      Script: {instanceID: 4716}
     - Class: 114
-      Script: {instanceID: 178668}
+      Script: {instanceID: 4948}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -457,6 +407,87 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Developers/Joseph/Scenes/Pre Quiz 1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1520}
+    - Class: 114
+      Script: {instanceID: 1522}
+    - Class: 114
+      Script: {instanceID: 1524}
+    - Class: 114
+      Script: {instanceID: 2388}
+    - Class: 114
+      Script: {instanceID: 2614}
+    - Class: 114
+      Script: {instanceID: 2748}
+    - Class: 114
+      Script: {instanceID: 2812}
+    - Class: 114
+      Script: {instanceID: 2968}
+    - Class: 114
+      Script: {instanceID: 3336}
+    - Class: 114
+      Script: {instanceID: 4344}
+    - Class: 114
+      Script: {instanceID: 23972}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 205
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -631,6 +662,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: 273fdda75965d33b5d761f59f47fec9a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PropPrompt
+  - hash:
+      serializedVersion: 2
       Hash: 307bc0d30b66bf98fa95fcc5f221736a
     assemblyName: LeanTransition.dll
     namespaceName: Lean.Transition.Method
@@ -655,10 +692,22 @@ ScriptsOnlyBuild:
     className: LeanWindowCloser
   - hash:
       serializedVersion: 2
+      Hash: bd6679c60ecd13841191a533aa976158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneChangeInteract
+  - hash:
+      serializedVersion: 2
       Hash: 3db584d59b41616fd4a649d7ceb23197
     assemblyName: LeanGUI.dll
     namespaceName: Lean.Gui
     className: LeanResize
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneManagerLevelSelection
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -863,6 +912,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 336c79f853f27f88f4055b10fb09efc9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuizContents
   - hash:
       serializedVersion: 2
       Hash: 5ea851281f2e84db25838ad3a82b1437
@@ -1099,7 +1154,7 @@ ScriptsOnlyBuild:
     className: LeanSwitch
   - hash:
       serializedVersion: 2
-      Hash: 8ef2a44599091449bb439be31458fdc7
+      Hash: 3a3e0f3d3a4878a9c90b07b2b8e5b55a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DialoguePrompt
@@ -1219,6 +1274,12 @@ ScriptsOnlyBuild:
     className: LeanMaterialColor
   - hash:
       serializedVersion: 2
+      Hash: 9e526579f7d5e0143789ee53dfa1ee66
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraControllerStartingScreen
+  - hash:
+      serializedVersion: 2
       Hash: 92c8dcd3cb9c0387d4e7ce81ce6e1a0c
     assemblyName: LeanGUI.dll
     namespaceName: Lean.Gui
@@ -1283,6 +1344,12 @@ ScriptsOnlyBuild:
     assemblyName: LeanTransition.dll
     namespaceName: Lean.Transition.Method
     className: LeanMaterialFloat
+  - hash:
+      serializedVersion: 2
+      Hash: 9d1899570b4975a54a90e4b7b9c181ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelSelection
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1411,6 +1478,12 @@ ScriptsOnlyBuild:
     className: LeanPlane
   - hash:
       serializedVersion: 2
+      Hash: 7fff1b81da4f6a2d5ac8690c0970556c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DestroyInteract
+  - hash:
+      serializedVersion: 2
       Hash: 3272e67e2a332257cb7e1e279da586ab
     assemblyName: LeanCommon.dll
     namespaceName: Lean.Common
@@ -1421,6 +1494,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: f1277091a14d2ff83a944e0bd39394ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoveToNextLevel
   - hash:
       serializedVersion: 2
       Hash: bbac40a1480feb9b48e01287a3776b69
@@ -1750,13 +1829,13 @@ ScriptsOnlyBuild:
       Hash: 9e526579f7d5e0143789ee53dfa1ee66
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: CameraControllerStartingScreen
+    className: CameraControllerQuizzes
   platform: 19
   scenePathNames:
   - Assets/Developers/Erin/Scenes/StartingScene.unity
   - Assets/Developers/Erin/Scenes/LevelSelection.unity
   - Assets/Developers/Erin/Scenes/Novice/TutorialLevel.unity
-  - Assets/Developers/Erin/Scenes/Assessments/Level 1/Pre-Quiz.unity
+  - Assets/Developers/Joseph/Scenes/Pre Quiz 1.unity
   - Assets/Developers/Erin/Scenes/Novice/Level01.unity
   - Assets/Developers/Erin/Scenes/Assessments/Level 1/Post-Quiz.unity
-  playerPath: C:/Users/erina/Documents/Unity/SENDHELP/[SENDHELP] ARI.exe
+  playerPath: C:/Users/Joseph/Desktop/[SENDHELP] ARI.exe
