@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Developers/Erin/Scenes/LevelSelection.unity
+=======
+- path: Assets/Developers/Erin/Scenes/Novice/TutorialLevel.unity
+>>>>>>> main
   isLoaded: 1
   isActive: 1
   isSubScene: 0
