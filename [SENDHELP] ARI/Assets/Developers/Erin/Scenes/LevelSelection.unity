@@ -6188,7 +6188,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level01
+          m_StringArgument: Pre-Quiz
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &91098721
@@ -10189,6 +10189,7 @@ MonoBehaviour:
   - {fileID: 1080471277}
   - {fileID: 117427223}
   - {fileID: 203235390}
+  completeLevels: 000000000000000000000000
 --- !u!4 &330172874 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 405920, guid: 8b5797a18349fb546be8acddc71151ff, type: 3}
