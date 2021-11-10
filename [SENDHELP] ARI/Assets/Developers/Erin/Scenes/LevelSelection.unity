@@ -38,11 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-<<<<<<< HEAD
-  m_IndirectSpecularColor: {r: 0.28174758, g: 0.25501078, b: 0.26614136, a: 1}
-=======
   m_IndirectSpecularColor: {r: 0.2817481, g: 0.25501117, b: 0.26614207, a: 1}
->>>>>>> main
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6192,11 +6188,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-<<<<<<< HEAD
-          m_StringArgument: Level01
-=======
           m_StringArgument: Pre-Quiz
->>>>>>> main
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &91098721
@@ -10114,10 +10106,7 @@ GameObject:
   - component: {fileID: 324051604}
   - component: {fileID: 324051603}
   - component: {fileID: 324051602}
-<<<<<<< HEAD
-=======
   - component: {fileID: 324051605}
->>>>>>> main
   m_Layer: 0
   m_Name: '[EventSystem] Events'
   m_TagString: Untagged
@@ -10173,8 +10162,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
 --- !u!114 &324051605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10203,7 +10190,6 @@ MonoBehaviour:
   - {fileID: 117427223}
   - {fileID: 203235390}
   completeLevels: 000000000000000000000000
->>>>>>> main
 --- !u!4 &330172874 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 405920, guid: 8b5797a18349fb546be8acddc71151ff, type: 3}
