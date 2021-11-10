@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Developers/Erin/Scenes/Novice/TutorialLevel.unity
     guid: a180101fee0e0f04184e82a93edc249c
   - enabled: 1
+    path: Assets/Developers/Joseph/Scenes/Pre Quiz 1.unity
+    guid: 6be11dbe0ced1f64cb86ab38123051c7
+  - enabled: 0
     path: Assets/Developers/Erin/Scenes/Assessments/Level 1/Pre-Quiz.unity
     guid: deda7e2691c5b95498ebe25a185cdbe1
   - enabled: 1
