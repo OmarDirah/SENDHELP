@@ -10,6 +10,23 @@ TagManager:
   - ChipDialogue
   - ChipCollectible
   - TerminalDialogue
+  - StartSignDialogue
+  - StorageSignDialogue
+  - GreenhouseDialogue
+  - GreenhouseTerminalDialogue
+  - ServerRoomAccessDialogue
+  - ServerRoomTerminalDialogue
+  - ServerRoomTerminalNWDialogue
+  - LivingQuartersTerminalDialogue
+  - XHallAccessDialogue
+  - NavigationAccessDialogue
+  - LevelExitDialogue
+  - DeskDialogue
+  - ComputerDeskDialogue
+  - VendingMachineDialogue
+  - TorpedosDialogue
+  - EasterEggDialogue
+  - SaveNode
   layers:
   - Default
   - TransparentFX
