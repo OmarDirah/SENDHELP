@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Developers/Erin/Scenes/Novice/Level01.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0

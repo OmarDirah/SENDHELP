@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PlayerEyes
+  - WindowDialogue
+  - StartUpDialogue
+  - ChipDialogue
+  - ChipCollectible
+  - TerminalDialogue
+  - Asteroid
+  - Bullet
+  - Anchor
+  - Obstacle
+  - PickUp
+  - Exit
   layers:
   - Default
   - TransparentFX
@@ -11,14 +23,14 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Bullet
+  - Asteroid
+  - Boundary
+  - IgnoreCollisions
+  - Obstacle
+  - Wall
+  - Float
   - 
   - 
   - 
@@ -40,4 +52,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 2545589879
     locked: 0
