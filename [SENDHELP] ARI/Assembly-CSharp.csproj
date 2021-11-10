@@ -58,6 +58,7 @@
      <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\CameraRig.cs" />
      <Compile Include="Assets\Imported Assets\[Obj] Gems\Scripts\AnimationScript.cs" />
      <Compile Include="Assets\Imported Assets\[World Building] SNAPS Sci-Fi Assets\About\Scripts\Readme.cs" />
+     <Compile Include="Assets\Developers\Joseph\Scripts\QuizContents.cs" />
      <Compile Include="Assets\Imported Assets\[Character] Jammo\Scripts\MovementInput.cs" />
      <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\WayPoint.cs" />
      <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\GameManager.cs" />
