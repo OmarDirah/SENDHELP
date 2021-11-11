@@ -2,10 +2,12 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class RollABallPlayerController : MonoBehaviour
 {
-
+    // VARIABLES
+    public string SceneToLoad;
 	public float speed;
 	public float maxSpeed = 15.0f;
 
@@ -129,7 +131,9 @@ public class RollABallPlayerController : MonoBehaviour
 
 			if(hasLower & hasUpper & hasDigit & hasSpecial)
             {
-				winTextObject.SetActive(true);
+                // WIN CONDITION!
+                SceneManager.LoadScene(SceneToLoad);
+                winTextObject.SetActive(true);
             }
             else
             {

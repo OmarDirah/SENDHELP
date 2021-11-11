@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CryptographyGameManager : MonoBehaviour
 {
-
+    // VARIABLES
+    public string SceneToLoad;
+    
     public TextMeshProUGUI keyText;
     public TextMeshProUGUI plainText;
     public TextMeshProUGUI cipherText;
@@ -118,7 +121,7 @@ public class CryptographyGameManager : MonoBehaviour
         }
         else if (levelStage > 5)
         {
-            stageText.text = "GAME OVER";
+            stageText.text = "YOU WIN";
             keyEntryObject.SetActive(false);
             keyText.enabled = false;
 
@@ -127,6 +130,8 @@ public class CryptographyGameManager : MonoBehaviour
 
             cipherEntryObject.SetActive(false);
             cipherText.enabled = false;
+            // WIN CONDITION!
+            SceneManager.LoadScene(SceneToLoad);
         }
 
         Debug.Log("Stage: " + levelStage);

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028468, g: 0.22571579, b: 0.30692378, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641305, b: 0.57481575, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -891,10 +891,6 @@ MonoBehaviour:
   - {fileID: 8897666307831705112, guid: b91035a9a74f7f14f83980ff7a4f8101, type: 3}
   quad: {fileID: 1227514946}
   ItemPrefab: {fileID: 8897666307831705112, guid: b91035a9a74f7f14f83980ff7a4f8101, type: 3}
-  lowerCharCount: 5
-  upperCharCount: 5
-  digitCount: 5
-  specialCharCount: 5
   itemText: {fileID: 5798893787964953170, guid: b91035a9a74f7f14f83980ff7a4f8101, type: 3}
 --- !u!4 &544581260
 Transform:
@@ -1245,6 +1241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c907e422f46f88742a42f0fc29dc0621, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: Level01
   speed: 10
   maxSpeed: 15
   countText: {fileID: 174460952}

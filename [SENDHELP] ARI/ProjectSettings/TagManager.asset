@@ -27,6 +27,8 @@ TagManager:
   - TorpedosDialogue
   - EasterEggDialogue
   - SaveNode
+  - Asteroid
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -34,14 +36,14 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Bullet
+  - Asteroid
+  - Boundary
+  - IgnoreCollisions
+  - Obstacle
+  - Wall
+  - Float
   - 
   - 
   - 

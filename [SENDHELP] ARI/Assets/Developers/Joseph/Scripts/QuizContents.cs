@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class QuizContents : MonoBehaviour
 {
+    // VARIABLES
+    public string SceneToLoad;
     int currQuestion = 2;
     int currLevel = 1;
     Button thisButton;
@@ -279,7 +281,7 @@ public class QuizContents : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("Level01");
+            SceneManager.LoadScene(SceneToLoad);
         }
     }
 

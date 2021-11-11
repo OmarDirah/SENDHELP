@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PasswordTerminalGameData : MonoBehaviour
 {
+    // VARIABLES
+    public string SceneToLoad;
     int level;
     int index;
     Screen currentScreen;
@@ -290,6 +293,8 @@ enum Screen
         currentScreen = Screen.Completed;
         PasswordTerminalTerminal.ClearScreen();
         PasswordTerminalTerminal.WriteLine("You have successfully completed all the modules");
+        // WIN CONDITION!
+        SceneManager.LoadScene(SceneToLoad);
     }
 
     void IncludeBadAnswers(List<string> theList)
