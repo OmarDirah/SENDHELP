@@ -133,7 +133,21 @@ public class DialoguePrompt : MonoBehaviour
             num = 19;
             UIAppear(num);
         }
-
+        if (other.CompareTag("GreenhouseLearningSheet"))
+        {
+            num = 20;
+            UIAppear(num);
+        }
+        if (other.CompareTag("ServerRoomLearningSheet"))
+        {
+            num = 21;
+            UIAppear(num);
+        }
+        if (other.CompareTag("NavigationRoomLearningSheet"))
+        {
+            num = 22;
+            UIAppear(num);
+        }
     }
 
     // ONTRIGGER - EXIT
@@ -255,6 +269,21 @@ public class DialoguePrompt : MonoBehaviour
             num = 19;
             UIDisappear(num);
         }
+        if (other.CompareTag("GreenhouseLearningSheet"))
+        {
+            num = 20;
+            UIDisappear(num);
+        }
+        if (other.CompareTag("ServerRoomLearningSheet"))
+        {
+            num = 21;
+            UIDisappear(num);
+        }
+        if (other.CompareTag("NavigationRoomLearningSheet"))
+        {
+            num = 22;
+            UIDisappear(num);
+        }
     }
 
     // UI APPEAR
@@ -357,6 +386,21 @@ public class DialoguePrompt : MonoBehaviour
             Debug.Log("New Dialogue/Interaction Found: ");
         }
         if (convoNum == 19)
+        {
+            animators[convoNum].SetBool("IsPrompted", true);
+            Debug.Log("New Dialogue/Interaction Found: ");
+        }
+        if (convoNum == 20)
+        {
+            animators[convoNum].SetBool("IsPrompted", true);
+            Debug.Log("New Dialogue/Interaction Found: ");
+        }
+        if (convoNum == 21)
+        {
+            animators[convoNum].SetBool("IsPrompted", true);
+            Debug.Log("New Dialogue/Interaction Found: ");
+        }
+        if (convoNum == 22)
         {
             animators[convoNum].SetBool("IsPrompted", true);
             Debug.Log("New Dialogue/Interaction Found: ");
@@ -467,6 +511,22 @@ public class DialoguePrompt : MonoBehaviour
             animators[convoNum].SetBool("IsPrompted", false);
             Debug.Log("Walked Out of Range of Dialogue/Interaction");
         }
+        if (convoNum == 20)
+        {
+            animators[convoNum].SetBool("IsPrompted", false);
+            Debug.Log("Walked Out of Range of Dialogue/Interaction");
+        }
+        if (convoNum == 21)
+        {
+            animators[convoNum].SetBool("IsPrompted", false);
+            Debug.Log("Walked Out of Range of Dialogue/Interaction");
+        }
+        if (convoNum == 22)
+        {
+            animators[convoNum].SetBool("IsPrompted", false);
+            Debug.Log("Walked Out of Range of Dialogue/Interaction");
+        }
+
 
     }
 

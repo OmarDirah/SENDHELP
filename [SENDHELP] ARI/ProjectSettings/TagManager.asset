@@ -29,6 +29,9 @@ TagManager:
   - SaveNode
   - Asteroid
   - Bullet
+  - GreenhouseLearningSheet
+  - ServerRoomLearningSheet
+  - NavigationRoomLearningSheet
   layers:
   - Default
   - TransparentFX
