@@ -32,6 +32,8 @@ TagManager:
   - GreenhouseLearningSheet
   - ServerRoomLearningSheet
   - NavigationRoomLearningSheet
+  - StorageRoomLearningSheet
+  - LivingQuatersLearningSheet
   layers:
   - Default
   - TransparentFX

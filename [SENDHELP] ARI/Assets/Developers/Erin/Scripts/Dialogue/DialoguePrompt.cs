@@ -148,7 +148,18 @@ public class DialoguePrompt : MonoBehaviour
             num = 22;
             UIAppear(num);
         }
+        if (other.CompareTag("StorageRoomLearningSheet"))
+        {
+            num = 23;
+            UIAppear(num);
+        }
+        if (other.CompareTag("LivingQuatersLearningSheet"))
+        {
+            num = 24;
+            UIAppear(num);
+        }
     }
+    
 
     // ONTRIGGER - EXIT
     void OnTriggerExit(Collider other)
@@ -284,6 +295,16 @@ public class DialoguePrompt : MonoBehaviour
             num = 22;
             UIDisappear(num);
         }
+        if (other.CompareTag("StorageRoomLearningSheet"))
+        {
+            num = 23;
+            UIDisappear(num);
+        }
+        if (other.CompareTag("LivingQuatersLearningSheet"))
+        {
+            num = 24;
+            UIDisappear(num);
+        }
     }
 
     // UI APPEAR
@@ -405,6 +426,16 @@ public class DialoguePrompt : MonoBehaviour
             animators[convoNum].SetBool("IsPrompted", true);
             Debug.Log("New Dialogue/Interaction Found: ");
         }
+        if (convoNum == 23)
+        {
+            animators[convoNum].SetBool("IsPrompted", true);
+            Debug.Log("New Dialogue/Interaction Found: ");
+        }
+        if (convoNum == 24)
+        {
+            animators[convoNum].SetBool("IsPrompted", true);
+            Debug.Log("New Dialogue/Interaction Found: ");
+        }
     }
 
     // UI DISAPPEAR
@@ -522,6 +553,16 @@ public class DialoguePrompt : MonoBehaviour
             Debug.Log("Walked Out of Range of Dialogue/Interaction");
         }
         if (convoNum == 22)
+        {
+            animators[convoNum].SetBool("IsPrompted", false);
+            Debug.Log("Walked Out of Range of Dialogue/Interaction");
+        }
+        if (convoNum == 23)
+        {
+            animators[convoNum].SetBool("IsPrompted", false);
+            Debug.Log("Walked Out of Range of Dialogue/Interaction");
+        }
+        if (convoNum == 24)
         {
             animators[convoNum].SetBool("IsPrompted", false);
             Debug.Log("Walked Out of Range of Dialogue/Interaction");
