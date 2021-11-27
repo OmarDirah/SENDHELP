@@ -97,6 +97,7 @@ public class Frogger : MonoBehaviour
 
         if ((enabled) && (other.gameObject.tag == "Finish"))
         {
+	    Debug.Log("TIME ELAPSED: " + Time.time);
             headerInformationText.text = "SECURITY BREACHED!";
             enabled = false;
         }

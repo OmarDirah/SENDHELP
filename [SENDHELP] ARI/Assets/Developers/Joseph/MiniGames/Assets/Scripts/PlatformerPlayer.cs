@@ -75,6 +75,7 @@ public class PlatformerPlayer : MonoBehaviour
         if (other.gameObject.CompareTag("Exit"))
         {
             headerInformationText.text = "Game Over";
+	    Debug.Log("Time Elapsed: " + Time.time);
         }
 
         if (other.gameObject.CompareTag("PickUp"))

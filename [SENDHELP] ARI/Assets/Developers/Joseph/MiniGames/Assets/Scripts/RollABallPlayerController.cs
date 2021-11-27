@@ -132,6 +132,7 @@ public class RollABallPlayerController : MonoBehaviour
 			if(hasLower & hasUpper & hasDigit & hasSpecial)
             {
                 // WIN CONDITION!
+		Debug.Log("Time Elapsed: " + Time.time);
                 SceneManager.LoadScene(SceneToLoad);
                 winTextObject.SetActive(true);
             }

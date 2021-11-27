@@ -30,6 +30,7 @@ public class LockGameManager : MonoBehaviour
         if (GameData.GoalsLeft <= 0)
         {
             OnWinEvent.Raise();
+	    Debug.Log("TIME ELAPSED: " + Time.time);
             StopLevel();
         }
     }
@@ -42,5 +43,6 @@ public class LockGameManager : MonoBehaviour
     public void StopLevel()
     {
         GameData.isRunning = false;
+//exit scene here
     }
 }

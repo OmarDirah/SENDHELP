@@ -121,8 +121,11 @@ public class CryptographyGameManager : MonoBehaviour
         }
         else if (levelStage > 5)
         {
+	    Debug.Log("TIME ELAPSED: " + Time.time);
+            
             stageText.text = "YOU WIN";
-            keyEntryObject.SetActive(false);
+	            
+	    keyEntryObject.SetActive(false);
             keyText.enabled = false;
 
             plainEntryObject.SetActive(false);
@@ -131,14 +134,15 @@ public class CryptographyGameManager : MonoBehaviour
             cipherEntryObject.SetActive(false);
             cipherText.enabled = false;
             // WIN CONDITION!
+	    
             SceneManager.LoadScene(SceneToLoad);
+	    return;
         }
 
         Debug.Log("Stage: " + levelStage);
         Debug.Log("Key: " + keyText.text.ToLower());
         Debug.Log("Plaintext: " + plainText.text.ToLower());
         Debug.Log("Ciphertext: " + cipherText.text.ToLower());
-
 
     }
 

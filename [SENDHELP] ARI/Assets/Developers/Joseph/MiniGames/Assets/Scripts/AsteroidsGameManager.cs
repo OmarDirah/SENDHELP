@@ -84,6 +84,7 @@ public class AsteroidsGameManager : MonoBehaviour
     void GameWon()
     {
         winTextObject.SetActive(true);
+	Debug.Log("TIME ELAPSED: " + Time.time);
     }
 
     public void Respawn()

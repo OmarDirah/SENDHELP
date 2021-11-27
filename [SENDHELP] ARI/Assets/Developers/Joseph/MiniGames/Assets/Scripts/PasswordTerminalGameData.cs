@@ -84,6 +84,7 @@ enum Screen
         }
         else if (Input.ToLower() == "quit" || Input.ToLower() == "exit" || Input.ToLower() == "close" || Input.ToLower() == "leave")
         {
+	    Debug.Log("TIME ELAPSED: " + Time.time);
             Application.Quit();
         }
         else if (currentScreen == Screen.StartingScreen)
@@ -281,6 +282,7 @@ enum Screen
         if (uniqueness && length && complexity && secrecy && passphrases && multifactor && goodpractice)
         {
             DisplayWinScreen();
+	    Debug.Log("TIME ELAPSED: " + Time.time);
         }
         else
         {
