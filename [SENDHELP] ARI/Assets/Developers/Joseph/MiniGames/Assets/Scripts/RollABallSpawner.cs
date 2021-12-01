@@ -71,7 +71,7 @@ public class RollABallSpawner : MonoBehaviour
 		{
 			toSpawn = spawnPool[0];
 
-			bouncerY = Random.Range(-.5f, 1f);
+			bouncerY = Random.Range(1f, 4f);
 
 			screenX = Random.Range(c.bounds.min.x + .5f, c.bounds.max.x - .5f);
 			screenZ = Random.Range(c.bounds.min.z + .3f, c.bounds.max.z - 1.5f);
