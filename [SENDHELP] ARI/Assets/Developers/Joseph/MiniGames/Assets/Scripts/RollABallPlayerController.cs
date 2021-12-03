@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using TMPro;
 using System.Linq;
@@ -10,8 +12,10 @@ public class RollABallPlayerController : MonoBehaviour
     public string SceneToLoad;
 	public float speed;
 	public float maxSpeed = 15.0f;
+    public Animator anim;
+    public int delayTime;
 
-	public TextMeshProUGUI countText;
+    public TextMeshProUGUI countText;
 	public GameObject winTextObject;
 
 	private float movementX;
@@ -34,6 +38,7 @@ public class RollABallPlayerController : MonoBehaviour
 
 	public TextMeshPro objectText;
 
+    // START
 	void Start()
 	{
 		rb = GetComponent<Rigidbody>();
@@ -49,6 +54,7 @@ public class RollABallPlayerController : MonoBehaviour
 		winTextObject.SetActive(false);
 	}
 
+    // FIXED UPDATE
 	void FixedUpdate()
 	{
 		Vector3 movement = new Vector3(movementX, 0.0f, movementY);
@@ -58,7 +64,8 @@ public class RollABallPlayerController : MonoBehaviour
 		EnforceMaxSpeed();
 	}
 
-	void EnforceMaxSpeed()
+    // ENFORCE MAX SPEED
+    void EnforceMaxSpeed()
     {
 		if (rb.velocity.magnitude > maxSpeed)
         {
@@ -66,6 +73,7 @@ public class RollABallPlayerController : MonoBehaviour
         }
     }
 
+    // ON TRIGGER ENTER
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.CompareTag("PickUps"))
@@ -90,6 +98,7 @@ public class RollABallPlayerController : MonoBehaviour
 
 	}
 
+    // ON MOVE
 	void OnMove(InputValue value)
 	{
 		Vector2 v = value.Get<Vector2>();
@@ -98,11 +107,13 @@ public class RollABallPlayerController : MonoBehaviour
 		movementY = v.y;
 	}
 
+    // SET COUNT TEXT
 	void SetCountText()
 	{
-		countText.text = "Password: " + count.ToString();
+		countText.text = "PASSWORD: " + count.ToString();
 	}
 
+    // WIN CONDITION
 	void WinCondition()
     {
 		if (count.Length >= 8)
@@ -132,9 +143,12 @@ public class RollABallPlayerController : MonoBehaviour
 			if(hasLower & hasUpper & hasDigit & hasSpecial)
             {
                 // WIN CONDITION!
-		Debug.Log("Time Elapsed: " + Time.time);
-                SceneManager.LoadScene(SceneToLoad);
+		        Debug.Log("Time Elapsed: " + Time.time);
                 winTextObject.SetActive(true);
+
+                anim.SetBool("MinigameWon", true);
+                Invoke("DelayedAction", delayTime);
+
             }
             else
             {
@@ -148,6 +162,14 @@ public class RollABallPlayerController : MonoBehaviour
 		}
 	}
 
+    // DELAYED ACTION
+    void DelayedAction()
+    {
+        Debug.Log("Waiting for " + delayTime + " Seconds till next task.");
+        SceneManager.LoadScene(SceneToLoad);
+    }
+
+    // RESTART
 	void Restart()
     {
 		count = "";
