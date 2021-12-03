@@ -10,21 +10,19 @@ public class UIBehavior : MonoBehaviour
 {
 
     // VARIABLES
-    //bool buttonSelect = false;
+    public int delayTime;
+    public string ScreenName;
 
-
-    public void OnClickSwitchScene(string ScreenName)
+    public void OnClickSwitchScene()
     {
-        SceneManager.LoadScene(ScreenName);
+        Invoke("DelayedAction", delayTime);
     }
 
-    
-    /*public void OnClickChangeView(GameObject camera)
+    void DelayedAction()
     {
-        // Run CameraController Update Method to change to appropriate view
-        CameraController.Update();
-    }*/
-    
+        Debug.Log("Waiting for " + delayTime + " Seconds till next task.");
+        SceneManager.LoadScene(ScreenName);
+    }
 
     public void OnClickExitGame()
     {

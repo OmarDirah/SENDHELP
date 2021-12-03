@@ -15,18 +15,20 @@ public class CameraControllerQuizzes : MonoBehaviour
 
     // VARIABLES - For mapping to buttons to change views
     public Button[] selections;
+    public  float delayTime;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        // N/A
+        currentView = views[0];
+        Invoke("DelayedAction", delayTime);
     }
 
     void Update()
     {
         // TESTING
-        if(Input.GetKeyDown(KeyCode.Alpha1))
+        /*if(Input.GetKeyDown(KeyCode.Alpha1))
         {
             currentView = views[0];
         }
@@ -41,7 +43,7 @@ public class CameraControllerQuizzes : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha4))
         {
             currentView = views[3];
-        }
+        }*/
     }
 
     // Update is called once per frame
@@ -61,5 +63,13 @@ public class CameraControllerQuizzes : MonoBehaviour
 
         // Move to rotation of view
         transform.eulerAngles = currentAngle;
-    } 
+    }
+
+    void DelayedAction()
+    {
+        Debug.Log("Waiting for " + delayTime + " Seconds till next task.");
+        currentView = views[1];
+        Debug.Log("view is now set to quiz taking position.");
+    }
+
 }

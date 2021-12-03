@@ -12,6 +12,9 @@ public class QuizContents : MonoBehaviour
     int currLevel = 1;
     Button thisButton;
 
+    public Animator anim;
+    public int delayTime;
+
     Button nextButton;
 
     bool firstTry = true;
@@ -19,7 +22,7 @@ public class QuizContents : MonoBehaviour
 
     List<bool> level1UserCorrectness = new List<bool>()
     {
-        false, //1
+        //false, //1
         false, //2
         false, //3
         false, //4
@@ -35,16 +38,16 @@ public class QuizContents : MonoBehaviour
     Text questionNumber, question, option1, option2, option3, option4, option5;
     Button button1, button2, button3, button4, button5;
 
-    List<string> level1questionNumberList = new List<string>() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11" };
+    List<string> level1questionNumberList = new List<string>() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"};
 
     List<string> level1questionList = new List<string>()
     {
-        "What should a good password include?",  //THIS IS MULTIPLE CORRECT, SO IGNORE FOR NOW
+        //"What should a good password include?",  //THIS IS MULTIPLE CORRECT, SO IGNORE FOR NOW
         "Which of the following is the strongest password?",
         "In general, the use of a passphrase is considered a best practice. Which of the following is the strongest example of a passphrase?",
         "By following best practices, what is the best way to create and store passwords?",
         "It is generally a good strategy to reuse passwords across multiple sites.",
-        "______ is the study of secure communications techniques that allow only the sender and intended recipient of a message to view its contents",
+        "\"____\" is the study of secure communications techniques that allow only the sender and intended recipient of a message to view its contents",
         "Can you decode this?",
         "Which of the following is not an aspect of multi-factor authentication?",
         "In order to login to an account, you need a fingerprint and a password. This is an example of:",
@@ -54,12 +57,12 @@ public class QuizContents : MonoBehaviour
 
     List<List<string>> level1questionChoiceList = new List<List<string>>()
     {
-        new List<string> {
+        /*new List<string> { // IGNORE FIRST QUESTION
             "Uppercase letters",
             "Lowercase letters",
             "Special characters",
             "Numbers",
-            "Spaces"},  //1
+            "Spaces"},  //1 */
         
         new List<string> {
             "password",
@@ -119,7 +122,7 @@ public class QuizContents : MonoBehaviour
 
     List<string> level1questionAnswerList = new List<string>()
     {
-        "Uppercase letters",  //1
+        //"Uppercase letters",  //1
         "p@sSw0rd!",  //2
         "i<3C$4L!fe",  //3
         "Password Manager",  //4
@@ -173,10 +176,10 @@ public class QuizContents : MonoBehaviour
         List<Text> optionsList = new List<Text>() { option1, option2, option3, option4, option5 };
         List<Button> buttonList = new List<Button>() { button1, button2, button3, button4, button5 };
 
-        List<string> thisQuestion = level1questionChoiceList[currQuestion - 1];
+        List<string> thisQuestion = level1questionChoiceList[currQuestion - 2];
 
-        questionNumber.text = "Question " + level1questionNumberList[currQuestion - 1];
-        question.text = level1questionList[currQuestion - 1];
+        questionNumber.text = "Question " + level1questionNumberList[currQuestion - 2];
+        question.text = level1questionList[currQuestion - 2];
 
         int i = 0;
 
@@ -195,6 +198,55 @@ public class QuizContents : MonoBehaviour
             i++;
         }
 
+        if (currQuestion == 1)
+        {
+            Debug.Log("All Options are used in question 1");
+        }
+        else if (currQuestion == 2)
+        {
+            button5.gameObject.SetActive(false);
+        }
+        else if (currQuestion == 3)
+        {
+            button5.gameObject.SetActive(false);
+        }
+        else if (currQuestion == 4)
+        {
+            button5.gameObject.SetActive(false);
+        }
+        else if (currQuestion == 5)
+        {
+            button3.gameObject.SetActive(false);
+            button4.gameObject.SetActive(false);
+            button5.gameObject.SetActive(false);
+        }
+        else if (currQuestion == 6)
+        {
+            button5.gameObject.SetActive(false);
+        }
+        else if (currQuestion == 7)
+        {
+            button5.gameObject.SetActive(false);
+        }
+        else if (currQuestion == 8)
+        {
+            button5.gameObject.SetActive(false);
+        }
+        else if (currQuestion == 9)
+        {
+            button5.gameObject.SetActive(false);
+        }
+        else if (currQuestion == 10)
+        {
+            button4.gameObject.SetActive(false);
+            button5.gameObject.SetActive(false);
+        }
+        else if (currQuestion == 11)
+        {
+            button3.gameObject.SetActive(false);
+            button4.gameObject.SetActive(false);
+            button5.gameObject.SetActive(false);
+        }
 
         if (currQuestion == 7)
         {
@@ -208,7 +260,7 @@ public class QuizContents : MonoBehaviour
 
     public void CheckAnswer(Button buttonObj)
     {
-        string rightAnswer = level1questionAnswerList[currQuestion - 1];
+        string rightAnswer = level1questionAnswerList[currQuestion - 2];
 
         Text buttonText = buttonObj.GetComponentInChildren<Text>();
         string userChoiceStr = buttonText.text;
@@ -221,7 +273,7 @@ public class QuizContents : MonoBehaviour
         {
             if (firstTry)
             {
-                level1UserCorrectness[currQuestion - 1] = true;
+                level1UserCorrectness[currQuestion - 2] = true;
             }
             else
             {
@@ -267,12 +319,17 @@ public class QuizContents : MonoBehaviour
                 }
             }
 
-            question.text = correctCount + " / " + level1UserCorrectness.Count;
+            question.text = "YOU HAVE ANSWERED ( " + correctCount + " ) OUT OF ( " + level1UserCorrectness.Count + " ) CORRECT ON THE FIRST TRY.";
 
             questionNumber.text = " ";
             option1.text = " ";
             option2.text = " ";
 
+            button1.gameObject.SetActive(false);
+            button2.gameObject.SetActive(false);
+            button3.gameObject.SetActive(false);
+            button4.gameObject.SetActive(false);
+            button5.gameObject.SetActive(false);
 
             currLevel++;
             currQuestion++;
@@ -281,8 +338,15 @@ public class QuizContents : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene(SceneToLoad);
+            anim.SetBool("MinigameWon", true);
+            Invoke("DelayedAction", delayTime);
         }
+    }
+
+    void DelayedAction()
+    {
+        Debug.Log("Waiting for " + delayTime + " Seconds till next task.");
+        SceneManager.LoadScene(SceneToLoad);
     }
 
     void ResetButtonColor()

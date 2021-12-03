@@ -10,7 +10,9 @@ public class SceneChangeInteract : Interactable
 {
     // VARIABLES
     public string SceneToLoad;
+    public int delayTime;
     public int levelDone;
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +26,14 @@ public class SceneChangeInteract : Interactable
     {
         // Immediate Change to Scene Specified by Name - Will change to accommodate for loading screens
         LevelSelection.levelListDone.Add(levelDone);
+
+        anim.SetBool("MinigameWon", true);
+        Invoke("DelayedAction", delayTime);
+    }
+
+    void DelayedAction()
+    {
+        Debug.Log("Waiting for " + delayTime + " Seconds till next task.");
         SceneManager.LoadScene(SceneToLoad);
     }
 }
