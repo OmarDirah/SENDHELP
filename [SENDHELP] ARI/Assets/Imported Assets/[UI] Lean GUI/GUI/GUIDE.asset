@@ -1,17 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65f14352023e7024bbd09d26a3e8379e, type: 3}
-  m_Name: GUIDE
-  m_EditorClassIdentifier: 
-  LongName: Lean GUI
-  ShortName: LeanGUI
-  Documentation: {fileID: 4900000, guid: f96e0a2ded004f9448270da12263320a, type: 3}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a644b9487eb71ace2c1e08f7e10a2d290d75f40b28819cf97a57288b5b33d61
+size 537
