@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Developers/Joseph/MiniGames/Assets/Scenes/RollABall.unity
+- path: Assets/Developers/Joseph/Scenes/Post Quiz 1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

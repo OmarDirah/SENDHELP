@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIFade : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class UIFade : MonoBehaviour
     // These methods will be triggered by events from other scripts
     public void FadeToBlack()
     {
-        anim.SetBool("MinigameWon", true);
+        anim.SetBool("MinigameWon", true);  
     }
 
     public void FadeFromBlack()
