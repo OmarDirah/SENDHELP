@@ -24,6 +24,18 @@ EditorBuildSettings:
     path: Assets/Developers/Erin/Scenes/Novice/Level01.unity
     guid: b20940c2ff1a33b4cac90a686c1ae74d
   - enabled: 1
+    path: Assets/Developers/Erin/Scenes/Novice/Level01Terminal1.unity
+    guid: 10b26b5ca1ba54548967f31584d05de8
+  - enabled: 1
+    path: Assets/Developers/Erin/Scenes/Novice/Level01Terminal2.unity
+    guid: 9e66c7edf7c84874ead0c9150bdef492
+  - enabled: 1
+    path: Assets/Developers/Erin/Scenes/Novice/Level01Terminal3.unity
+    guid: 38dadcafc9841f64fbd98196b1f60d0d
+  - enabled: 1
+    path: Assets/Developers/Erin/Scenes/Novice/Level01ScoreScene.unity
+    guid: fb64c673611533c4aad7194d15c8cd2f
+  - enabled: 1
     path: Assets/Developers/Joseph/MiniGames/Assets/Scenes/PasswordTerminal.unity
     guid: 7267c10c2497b894fb77954c622dbcff
   - enabled: 1

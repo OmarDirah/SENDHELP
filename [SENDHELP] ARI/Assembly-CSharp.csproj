@@ -122,6 +122,7 @@
      <Compile Include="Assets\Developers\Erin\Scripts\Player Prefs\PlayerData.cs" />
      <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\PlatformerRotator.cs" />
      <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\AsteroidsPlayer.cs" />
+     <Compile Include="Assets\Developers\Erin\Scripts\Interactables\AccessGranted.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

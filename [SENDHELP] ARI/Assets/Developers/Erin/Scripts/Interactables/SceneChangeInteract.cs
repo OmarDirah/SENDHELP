@@ -21,7 +21,7 @@ public class SceneChangeInteract : Interactable
         this.enabled = false;
     }
 
-    // Destroy object by overriding Interact method
+    // Bool will initiate fade sequence and call delayed scene change
     public override void Interact()
     {
         // Immediate Change to Scene Specified by Name - Will change to accommodate for loading screens
