@@ -129,6 +129,7 @@
     <Compile Include="Assets\Developers\Erin\Scripts\Player Prefs\PlayerData.cs" />
     <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\PlatformerRotator.cs" />
     <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\AsteroidsPlayer.cs" />
+    <Compile Include="Assets\Developers\Omar\Scripts\Interactables\KeyControler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
