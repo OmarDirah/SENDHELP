@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< Updated upstream
-- path: Assets/Developers/Erin/Scenes/StartingScene.unity
-=======
 - path: Assets/Developers/Erin/Scenes/Novice/TutorialLevel.unity
->>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
   isSubScene: 0
