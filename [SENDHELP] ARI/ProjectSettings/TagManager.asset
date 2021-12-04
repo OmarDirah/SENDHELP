@@ -34,6 +34,11 @@ TagManager:
   - NavigationRoomLearningSheet
   - StorageRoomLearningSheet
   - LivingQuatersLearningSheet
+  - PickUps
+  - ArtDialogue
+  - VendingMachineTutorial
+  - BlackBoardDialogue
+  - PlantDialogue
   layers:
   - Default
   - TransparentFX

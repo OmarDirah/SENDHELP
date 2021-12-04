@@ -14,6 +14,8 @@ public class DialogueManager : MonoBehaviour
     public Animator conversation;
     public Queue<string> names;
     public Queue<string> sentences;
+    public AudioSource source;
+    public AudioClip clip;
 
     // Start is called before the first frame update
     void Start()
@@ -54,6 +56,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+        source.PlayOneShot(clip, 7f);
         string name = names.Dequeue();
         nameText.text = name;
         Debug.Log(name);
@@ -68,6 +71,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+        source.PlayOneShot(clip, 7f);
         string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
