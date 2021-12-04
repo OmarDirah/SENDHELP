@@ -9116,19 +9116,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 539745478100655087, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.9982467
+      value: 0.99905014
       objectReference: {fileID: 0}
     - target: {fileID: 539745478100655087, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.043540776
+      value: 0.04357582
       objectReference: {fileID: 0}
     - target: {fileID: 539745478100655087, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.040058985
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 539745478100655087, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0017472627
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 539745478100655087, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9136,7 +9136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 539745478100655087, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -364.596
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 539745478100655087, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -10492,9 +10492,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS GRANTED
 --- !u!114 &145520478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78706,9 +78706,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS GRANTED
 --- !u!114 &1361280759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104881,9 +104881,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS DENIED. TRY TO FIND A TERMINAL TO GRANT ACCESS
 --- !u!114 &1797893257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105220,9 +105220,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS GRANTED
 --- !u!114 &1810698265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108105,9 +108105,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS DENIED. TRY TO FIND A TERMINAL TO GRANT ACCESS
 --- !u!114 &1918623380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109605,9 +109605,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS DENIED. TRY TO FIND A TERMINAL TO GRANT ACCESS
 --- !u!114 &1966344472
 MonoBehaviour:
   m_ObjectHideFlags: 0
