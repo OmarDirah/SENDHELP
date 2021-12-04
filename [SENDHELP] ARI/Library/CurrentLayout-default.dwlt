@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 342}
   m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
-  controlID: 19
+  controlID: 127
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 342}
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
-  controlID: 54
+  controlID: 101
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 55
+  controlID: 102
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,8 +245,8 @@ MonoBehaviour:
     y: 774
     width: 1903
     height: 533
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 17}
@@ -254,7 +254,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 12}
   m_Selected: 2
-  m_LastSelected: 3
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -420,7 +420,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 257230
+  m_LastSelectedObjectID: 82952
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -538,20 +538,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f6eb030086ed030060ef0300ceec0300
-      m_LastClickedID: 257230
-      m_ExpandedIDs: 4004fdffa60efdff6a3dfdfff648fdffa257feff0c68feffa0abfeffaaabfeffa6aefeff0cc8feff74d3feff5225ffffda3bfffff03cffff543dffffc641ffffb457fffff07effffee88ffff12dbffffdef4fffffe31010092330100668d0100dc9001000c9101005a9301005c940100ba94010050950100c4950100cc9501004a970100769a0100e2960200a49702003e980200489802000e99020052a0020046a6020048a7020038b002007eb10200b6360300063703008e37030024380300749c0300c49c0300249d0300e29d0300409e03002aa1030018e80300ace90300f2eb030082ec03000eed03004aed03006aef0300faef0300
+      m_SelectedIDs: 08440100
+      m_LastClickedID: 82952
+      m_ExpandedIDs: 6a7fffff727fffff6882ffff0e89ffffe290ffff3099ffff62b3ffff6ec2ffff4adbffff3eefffff3efbffffa4680000441b01006c1b0100d01c0100de2b01005e2c01000a2d01002c2d0100963c0100003d01004e3d0100383e0100d04201005a430100da440100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: '[UI] Canvas'
-        m_OriginalName: '[UI] Canvas'
+        m_Name: MiniMapCamera
+        m_OriginalName: MiniMapCamera
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 257354
+        m_UserData: -32910
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -600,9 +600,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.4312496, y: -0.49436378, z: 24.577501}
+    m_Target: {x: 8.273152, y: 1.5727928, z: -4.909351}
     speed: 2
-    m_Value: {x: 5.4312496, y: -0.49436378, z: 24.577501}
+    m_Value: {x: 8.273152, y: 1.5727928, z: -4.909351}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -649,13 +649,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.18975072, y: 0.16785362, z: -0.0331602, w: -0.9669598}
+    m_Target: {x: -0.09611683, y: 0.032245725, z: -0.0033407386, w: -0.99498874}
     speed: 2
-    m_Value: {x: -0.18972312, y: 0.16782922, z: -0.033155378, w: -0.96681917}
+    m_Value: {x: -0.09609768, y: 0.03373325, z: -0.0034844014, w: -0.994794}
   m_Size:
-    m_Target: 26.844374
+    m_Target: 1.640104
     speed: 2
-    m_Value: 26.844374
+    m_Value: 1.940104
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -702,7 +702,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 847
-    width: 1859
+    width: 1902
     height: 512
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -718,22 +718,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Developers/Erin/Animations/UI
+    - Assets/Developers/Erin/Scenes/Novice
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Developers/Erin/Animations/UI
+  - Assets/Developers/Erin/Scenes/Novice
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\erina\Documents\GitHub\SENDHELP\[SENDHELP] ARI
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 12700000
-    m_LastClickedID: 28690
-    m_ExpandedIDs: 00000000b26f0000b46f0000b66f0000b86f0000ba6f0000bc6f0000be6f0000c06f0000c26f0000c46f0000027000001a7000005070000000ca9a3b
+    m_SelectedIDs: 6c4e0000
+    m_LastClickedID: 20076
+    m_ExpandedIDs: 00000000244e0000264e0000284e00002a4e00002c4e00002e4e0000304e0000324e0000344e0000364e0000384e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -761,7 +761,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b26f0000b46f0000b66f0000b86f0000ba6f0000bc6f0000be6f0000c06f0000c26f0000c46f0000
+    m_ExpandedIDs: 00000000244e0000264e0000284e00002a4e00002c4e00002e4e0000304e0000324e0000344e0000364e0000384e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -786,8 +786,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 1001fdff
-    m_LastClickedInstanceID: -196336
+    m_SelectedInstanceIDs: de430100
+    m_LastClickedInstanceID: 82910
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000deec000000000000
     m_RenameOverlay:
@@ -839,7 +839,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 847
-    width: 1859
+    width: 1902
     height: 512
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &19

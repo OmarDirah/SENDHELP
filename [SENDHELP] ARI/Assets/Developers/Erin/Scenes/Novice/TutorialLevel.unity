@@ -2851,7 +2851,7 @@ Transform:
   m_Children:
   - {fileID: 1181504309}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &547612226 stripped
 GameObject:
@@ -4228,7 +4228,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -752, y: 380}
+  m_AnchoredPosition: {x: 704, y: 284}
   m_SizeDelta: {x: 136.1, y: 102.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &696533329
@@ -4827,7 +4827,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4116153384451826572, guid: 67a1d72c768b41048b2896c4356abfb1, type: 3}
       propertyPath: near clip plane
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4116153384451826572, guid: 67a1d72c768b41048b2896c4356abfb1, type: 3}
       propertyPath: orthographic size
@@ -4839,7 +4839,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4116153384451826573, guid: 67a1d72c768b41048b2896c4356abfb1, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4116153384451826573, guid: 67a1d72c768b41048b2896c4356abfb1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4903,7 +4903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4116153384634630911, guid: 67a1d72c768b41048b2896c4356abfb1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -869
+      value: -216
       objectReference: {fileID: 0}
     - target: {fileID: 4116153384638321417, guid: 67a1d72c768b41048b2896c4356abfb1, type: 3}
       propertyPath: m_UVRect.width
@@ -4988,7 +4988,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 813631953}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.312, z: 0.171}
+  m_LocalPosition: {x: 0, y: 1.312, z: 0.234}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 853335777}
@@ -10050,7 +10050,7 @@ GameObject:
   - component: {fileID: 1525424785}
   - component: {fileID: 1525424784}
   m_Layer: 0
-  m_Name: EventSystem
+  m_Name: '[EventSystem] Events'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10396,7 +10396,7 @@ Transform:
   m_Children:
   - {fileID: 1185423292}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1601797345
 PrefabInstance:
