@@ -67,6 +67,7 @@
     <Compile Include="Assets\Imported Assets\[Obj] Earth\SpinFree.cs" />
     <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\Prop.cs" />
     <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\CameraRig.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\UIDelayTrigger.cs" />
     <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\WM2000\Terminal\PasswordTerminalInputBuffer.cs" />
     <Compile Include="Assets\Imported Assets\[Obj] Gems\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\WM2000\Terminal\PasswordTerminalTerminal.cs" />
