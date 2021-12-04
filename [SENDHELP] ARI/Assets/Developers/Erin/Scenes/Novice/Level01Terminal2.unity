@@ -10492,9 +10492,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS GRANTED
 --- !u!114 &145520478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78883,9 +78883,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS GRANTED
 --- !u!114 &1361280759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105058,9 +105058,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS DENIED. TRY TO FIND A TERMINAL TO GRANT ACCESS
 --- !u!114 &1797893257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105397,9 +105397,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS GRANTED
 --- !u!114 &1810698265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108352,9 +108352,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS DENIED. TRY TO FIND A TERMINAL TO GRANT ACCESS
 --- !u!114 &1918623380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109852,9 +109852,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS DENIED. TRY TO FIND A TERMINAL TO GRANT ACCESS
 --- !u!114 &1966344472
 MonoBehaviour:
   m_ObjectHideFlags: 0

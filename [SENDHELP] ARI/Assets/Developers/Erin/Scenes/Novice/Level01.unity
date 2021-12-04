@@ -10360,9 +10360,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS GRANTED
 --- !u!114 &145520478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31569,6 +31569,10 @@ PrefabInstance:
       objectReference: {fileID: 1229165333}
     - target: {fileID: 7737259515347223966, guid: 2df01c394d528d142b71614633789a12, type: 3}
       propertyPath: reachableNodes.Array.data[2]
+      value: 
+      objectReference: {fileID: 207586354}
+    - target: {fileID: 7737259515347223966, guid: 2df01c394d528d142b71614633789a12, type: 3}
+      propertyPath: reachableNodes.Array.data[3]
       value: 
       objectReference: {fileID: 207586354}
     - target: {fileID: 7737259515347223967, guid: 2df01c394d528d142b71614633789a12, type: 3}
@@ -78373,9 +78377,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS GRANTED
 --- !u!114 &1361280759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104426,9 +104430,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS DENIED. TRY TO FIND A TERMINAL TO GRANT ACCESS
 --- !u!114 &1797893257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104765,9 +104769,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS GRANTED
 --- !u!114 &1810698265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107655,9 +107659,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS DENIED. TRY TO FIND A TERMINAL TO GRANT ACCESS
 --- !u!114 &1918623380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109155,9 +109159,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     names:
-    - A.R.I
+    - STATION AI
     sentences:
-    - Greenhouse Dialogue
+    - SWIPE ACCESS DENIED. TRY TO FIND A TERMINAL TO GRANT ACCESS
 --- !u!114 &1966344472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127635,7 +127639,7 @@ PrefabInstance:
     - target: {fileID: 1888296233316019565, guid: 62c2d2863cc91ae4c969b5dfbaba465c, type: 3}
       propertyPath: reachableNodes.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 883088780}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62c2d2863cc91ae4c969b5dfbaba465c, type: 3}
 --- !u!4 &2124793013 stripped
