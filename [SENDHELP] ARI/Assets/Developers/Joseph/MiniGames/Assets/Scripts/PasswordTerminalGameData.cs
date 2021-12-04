@@ -7,6 +7,8 @@ public class PasswordTerminalGameData : MonoBehaviour
 {
     // VARIABLES
     public string SceneToLoad;
+    public Animator anim;
+    public int delayTime;
     int level;
     int index;
     Screen currentScreen;
@@ -295,8 +297,11 @@ enum Screen
         currentScreen = Screen.Completed;
         PasswordTerminalTerminal.ClearScreen();
         PasswordTerminalTerminal.WriteLine("You have successfully completed all the modules");
+
+
         // WIN CONDITION!
-        SceneManager.LoadScene(SceneToLoad);
+        anim.SetBool("MinigameWon", true);
+        Invoke("DelayedAction", delayTime);
     }
 
     void IncludeBadAnswers(List<string> theList)
@@ -406,6 +411,12 @@ enum Screen
         PasswordTerminalTerminal.WriteLine("Once a good password is created, you need tomake sure it stays safe. Using password managers       instead of sticky notes is one great way. Also    avoiding public terminals and password reuse can  help.");
         PasswordTerminalTerminal.WriteLine(" ");
         PasswordTerminalTerminal.WriteLine("Out of the following, which would you recommend?");
+    }
+
+    void DelayedAction()
+    {
+        Debug.Log("Waiting for " + delayTime + " Seconds till next task.");
+        SceneManager.LoadScene(SceneToLoad);
     }
 
 }
