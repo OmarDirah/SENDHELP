@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Developers/Joseph/MiniGames/Assets/Scenes/RollABall.unity
+- path: Assets/Developers/Erin/Scenes/Novice/TutorialLevel.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
