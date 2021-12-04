@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Developers/Joseph/Scenes/Pre Quiz 1.unity
+- path: Assets/Developers/Erin/Scenes/StartingScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
