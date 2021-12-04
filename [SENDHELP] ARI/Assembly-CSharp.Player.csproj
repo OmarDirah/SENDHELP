@@ -87,6 +87,7 @@
     <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\CryptographyGameManager.cs" />
     <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\PlatformerPlatformMovement.cs" />
     <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\GameManager.cs" />
+    <Compile Include="Assets\Developers\Jonny\Minimap.cs" />
     <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\Node.cs" />
     <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\RollABallSpawner.cs" />
     <Compile Include="Assets\Developers\Erin\Scripts\Dialogue\DialoguePrompt.cs" />

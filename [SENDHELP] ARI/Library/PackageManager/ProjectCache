@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637726855620780979
-    m_Hash: 1034375320
+      ticks: 637741758621760599
+    m_Hash: 2597613384
   m_LockFileStatus:
     m_FilePath: C:/Users/Omar's Bitchu/Documents/GitHub/SENDHELP/[SENDHELP] ARI/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637726855620780979
-    m_Hash: 3014920686
+      ticks: 637741758621760599
+    m_Hash: 1423721256
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
