@@ -5839,7 +5839,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: CONSOLA SDF Material
   m_Shader: {fileID: 4800000, guid: f6d86bb3f9b605342939a6e813c2f865, type: 3}
-  m_ShaderKeywords: BEVEL_ON GLOW_ON
+  m_ShaderKeywords: BEVEL_ON GLOW_ON UNDERLAY_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -5915,7 +5915,7 @@ Material:
     - _TextureWidth: 512
     - _UnderlayDilate: 0
     - _UnderlayOffsetX: 0
-    - _UnderlayOffsetY: 0
+    - _UnderlayOffsetY: -0.3
     - _UnderlaySoftness: 0
     - _VertexOffsetX: 1
     - _VertexOffsetY: 1
@@ -5924,12 +5924,12 @@ Material:
     m_Colors:
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
     - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
-    - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FaceColor: {r: 0.23851903, g: 0.754717, b: 0.23851903, a: 1}
     - _GlowColor: {r: 0, g: 1, b: 0, a: 0.5}
     - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.78431374}
   m_BuildTextureStacks: []
