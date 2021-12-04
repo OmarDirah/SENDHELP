@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\Player\</OutputPath>
-    <DefineConstants>UNITY_2020_3_18;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2020_3_18;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -53,46 +53,125 @@
     <UnityVersion>2020.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Developers\Erin\Scripts\Dialogue\DialogueManager.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\LockGameManager.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\PlatformerPlayer.cs" />
     <Compile Include="Assets\Imported Assets\[Character] Jammo\Scripts\CharacterSkinController.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\Dialogue\DialogueTrigger.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\Interactables\PropPrompt.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\LockGameEvent.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\Interactables\SceneChangeInteract.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\Scene Management\SceneManagerLevelSelection.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\RollABallPlayerController.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\WM2000\Keyboard\PasswordTerminalKeyboard.cs" />
     <Compile Include="Assets\Imported Assets\[Obj] Earth\SpinFree.cs" />
-    <Compile Include="Assets\Scripts\Prop.cs" />
-    <Compile Include="Assets\Scripts\CameraRig.cs" />
+    <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\Prop.cs" />
+    <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\CameraRig.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\WM2000\Terminal\PasswordTerminalInputBuffer.cs" />
     <Compile Include="Assets\Imported Assets\[Obj] Gems\Scripts\AnimationScript.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\WM2000\Terminal\PasswordTerminalTerminal.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\Player Prefs\Player.cs" />
     <Compile Include="Assets\Imported Assets\[World Building] SNAPS Sci-Fi Assets\About\Scripts\Readme.cs" />
+    <Compile Include="Assets\Developers\Joseph\Scripts\QuizContents.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\WM2000\Display\PasswordTerminalDisplay.cs" />
     <Compile Include="Assets\Imported Assets\[Character] Jammo\Scripts\MovementInput.cs" />
-    <Compile Include="Assets\Scripts\WayPoint.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Node.cs" />
-    <Compile Include="Assets\Scripts\MouseControl.cs" />
-    <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\Location.cs" />
-    <Compile Include="Assets\Scripts\dialog.cs" />
-    <Compile Include="Assets\Scripts\UIBehavior.cs" />
-    <Compile Include="Assets\Scripts\MouseViewController.cs" />
-    <Compile Include="Assets\Scripts\Spin.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\RollABallSpin.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\LockAnchoredMotor.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\LockGoalDetection.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\FroggerMoveLoop.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\RollABallRotator.cs" />
+    <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\WayPoint.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\LockColorManager.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\DoorDetector.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\RollABallBounce.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\CryptographyGameManager.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\PlatformerPlatformMovement.cs" />
+    <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\GameManager.cs" />
+    <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\Node.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\RollABallSpawner.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\Dialogue\DialoguePrompt.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\LockGoalUpdate.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\Frogger.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\Player Prefs\SaveSystem.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\LockGoalSpawner.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\CameraControllerStartingScreen.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\CryptographyRotateWheel.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\LockEventListener.cs" />
+    <Compile Include="Assets\Developers\Joseph\Scripts\LevelSelection.cs" />
+    <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\MouseControl.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\PlatformerCameraController.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\AsteroidsBullet.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\WM2000\PasswordTerminalUtility.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\Scene Management\UIFade.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\CameraControllerLevelSelection.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\PasswordTerminalGameData.cs" />
+    <Compile Include="Assets\Developers\Omar\Scripts\Interactables\DestroyInteract.cs" />
+    <Compile Include="Assets\Developers\Joseph\Scripts\MoveToNextLevel.cs" />
+    <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\Location.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\RollABallCameraController.cs" />
+    <Compile Include="Assets\Developers\Omar\Scripts\Interactables\Interactable.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\UIBehavior.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\Dialogue\Dialogue.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\MouseViewController.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\CryptographyTextGenerator.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\AsteroidsSpawner.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\Spin.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\WM2000\Terminal\PasswordTerminalDisplayBuffer.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\CameraControllerQuizzes.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\CryptographyResponseCheck.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\LockGameData.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\AsteroidsGameManager.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\Asteroid.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\Player Prefs\SaveTrigger.cs" />
+    <Compile Include="Assets\Developers\Erin\Scripts\Player Prefs\PlayerData.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\PlatformerRotator.cs" />
+    <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\AsteroidsPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Developers\Joseph\MiniGames\ProjectSettings\ProjectVersion.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Imported Assets\[Obj] Gems\READ ME.txt" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\Imported Assets\[UI] Lean GUI\READ ME.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Developers\Omar\Scripts\Interactables\ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Imported Assets\[Particles] Fire\Shaders\FireSphere.shader" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Imported Assets\[UI] Lean GUI\Third-Party Notices.txt" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Imported Assets\[World Building] Sci-Fi\Readme.txt" />
@@ -299,9 +378,6 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -311,8 +387,8 @@
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
@@ -323,11 +399,17 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.ProGrids.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="LeanTransition.Editor">
       <HintPath>Library\ScriptAssemblies\LeanTransition.Editor.dll</HintPath>
@@ -689,6 +771,9 @@
     <Reference Include="Unity.ProBuilder">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.ProGrids">
       <HintPath>Library\ScriptAssemblies\Unity.ProGrids.dll</HintPath>
     </Reference>
@@ -698,14 +783,6 @@
       <Project>{DC679E53-A7EC-A396-8999-A1C2BE8AC0B4}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
-    <ProjectReference Include="LeanCommon.csproj">
-      <Project>{F6E3F93D-AAA0-9CA7-712D-343FF9A8C43F}</Project>
-      <Name>LeanCommon</Name>
-    </ProjectReference>
-    <ProjectReference Include="LeanGUI.csproj">
-      <Project>{23E5A419-E9A2-097B-20C2-12D2EBF31971}</Project>
-      <Name>LeanGUI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{2CC12135-C653-9901-5097-09D4294F3BF8}</Project>
       <Name>UnityEngine.UI</Name>
@@ -713,6 +790,14 @@
     <ProjectReference Include="LeanTransition.csproj">
       <Project>{28DD4A4D-75CC-2188-9692-DB3892117FA2}</Project>
       <Name>LeanTransition</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{F6E3F93D-AAA0-9CA7-712D-343FF9A8C43F}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanGUI.csproj">
+      <Project>{23E5A419-E9A2-097B-20C2-12D2EBF31971}</Project>
+      <Name>LeanGUI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
