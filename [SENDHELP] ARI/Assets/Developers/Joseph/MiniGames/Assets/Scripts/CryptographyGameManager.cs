@@ -9,8 +9,6 @@ public class CryptographyGameManager : MonoBehaviour
 {
     // VARIABLES
     public string SceneToLoad;
-    public Animator anim;
-    public int delayTime;
     
     public TextMeshProUGUI keyText;
     public TextMeshProUGUI plainText;
@@ -136,10 +134,9 @@ public class CryptographyGameManager : MonoBehaviour
             cipherEntryObject.SetActive(false);
             cipherText.enabled = false;
             // WIN CONDITION!
-
-            anim.SetBool("MinigameWon", true);
-            Invoke("DelayedAction", delayTime);
-            return;
+	    
+            SceneManager.LoadScene(SceneToLoad);
+	    return;
         }
 
         Debug.Log("Stage: " + levelStage);
@@ -199,11 +196,6 @@ public class CryptographyGameManager : MonoBehaviour
         return levelStage;
     }
 
-    void DelayedAction()
-    {
-        Debug.Log("Waiting for " + delayTime + " Seconds till next task.");
-        SceneManager.LoadScene(SceneToLoad);
-    }
 
 
     IEnumerator ExampleCoroutine()
