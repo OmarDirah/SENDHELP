@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.28174758, g: 0.25501078, b: 0.26614136, a: 1}
+  m_IndirectSpecularColor: {r: 0.2817481, g: 0.25501117, b: 0.26614207, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -18893,9 +18893,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneToLoad: Cryptography
-  delayTime: 0
-  levelDone: 0
-  anim: {fileID: 0}
+  delayTime: 1
+  levelDone: 3
+  anim: {fileID: 1304427068}
 --- !u!65 &344583385
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36962,9 +36962,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneToLoad: PasswordTerminal
-  delayTime: 0
-  levelDone: 0
-  anim: {fileID: 0}
+  delayTime: 2
+  levelDone: 3
+  anim: {fileID: 1304427068}
 --- !u!65 &717708811
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -127162,9 +127162,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneToLoad: RollABall
-  delayTime: 0
-  levelDone: 0
-  anim: {fileID: 0}
+  delayTime: 1
+  levelDone: 3
+  anim: {fileID: 1304427068}
 --- !u!65 &2138601144
 BoxCollider:
   m_ObjectHideFlags: 0
