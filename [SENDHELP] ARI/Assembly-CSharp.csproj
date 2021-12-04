@@ -104,7 +104,10 @@
      <Compile Include="Assets\Developers\Omar\Scripts\Interactables\DestroyInteract.cs" />
      <Compile Include="Assets\Developers\Joseph\Scripts\MoveToNextLevel.cs" />
      <Compile Include="Assets\Developers\Omar\Scripts\Node Movement\Location.cs" />
+<<<<<<< Updated upstream
+=======
      <Compile Include="Assets\Developers\Erin\Scripts\Interactables\AccessGranted.cs" />
+>>>>>>> Stashed changes
      <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\RollABallCameraController.cs" />
      <Compile Include="Assets\Developers\Omar\Scripts\Interactables\Interactable.cs" />
      <Compile Include="Assets\Developers\Erin\Scripts\UIBehavior.cs" />
@@ -123,6 +126,10 @@
      <Compile Include="Assets\Developers\Erin\Scripts\Player Prefs\PlayerData.cs" />
      <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\PlatformerRotator.cs" />
      <Compile Include="Assets\Developers\Joseph\MiniGames\Assets\Scripts\AsteroidsPlayer.cs" />
+<<<<<<< Updated upstream
+     <Compile Include="Assets\Developers\Erin\Scripts\Interactables\AccessGranted.cs" />
+=======
+>>>>>>> Stashed changes
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Developers\Joseph\MiniGames\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
