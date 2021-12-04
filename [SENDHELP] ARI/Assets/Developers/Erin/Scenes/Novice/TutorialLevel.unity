@@ -13075,19 +13075,6 @@ MonoBehaviour:
   source: {fileID: 1490930400}
   clip: {fileID: 8300000, guid: fe0f48c6131a8c544a4a14e0012b1371, type: 3}
   objectTag: ChipCollectible
---- !u!114 &2036008222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2036008217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c58673caa022e44c84f6246298d22aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  terminal: {fileID: 1181156860}
 --- !u!4 &2039073576 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 483054, guid: 857b9bcf7311f5a49b829c4fd3cc791f, type: 3}
