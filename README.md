@@ -1,4 +1,4 @@
-# ARI by SENDHELP Studios <img src="./[SENDHELP] Logos/shs_transparent.png" alt="drawing" width="100"/>
+# ARI by SENDHELP Studios <img src="./[SENDHELP] Studios/[SENDHELP] Logos/shs_transparent.png" alt="SHS" width="100"/>
 
 ### Overview
 ARI is an educational first-person puzzle escape room game designed to teach good cybersecurity practices to all audiences. Our goal is to create an enjoyable learning experience through interactive gameplay while simultaneously providing a robust cybersecurity education. ARI will provide insight into the level of knowledge students or employees have and gain as they progress through the levels of the game, and it won’t break the bank in the process. 
