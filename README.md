@@ -1,5 +1,10 @@
-# ARI by SENDHELP Studios <img src="./[SENDHELP] Studios/[SENDHELP] Logos/shs_transparent.png" alt="SHS" align="right" width="100"/>
+# ARI by SENDHELP Studios <img src="./[SENDHELP] Studios/[SENDHELP] Logos/shs_transparent.png" alt="SHS" align="right" width="150"/>
 
+---
+### Trailer
+[![Watch the trailer here](https://i.imgur.com/aIieKXf.png)](https://youtu.be/d_8eWLMA32Y)
+
+---
 ### Overview
 ARI is an educational first-person puzzle escape room game designed to teach good cybersecurity practices to all audiences. Our goal is to create an enjoyable learning experience through interactive gameplay while simultaneously providing a robust cybersecurity education. ARI will provide insight into the level of knowledge students or employees have and gain as they progress through the levels of the game, and it won’t break the bank in the process. 
 
@@ -15,10 +20,17 @@ Can download the executable and learn more at http://aricyberthink.com/
     <img src="./[SENDHELP] Studios/aricyberthink.png" alt="WebsiteQR" width="200"/>
 </p>
 
-
 ---
-### Trailer
-[![Watch the trailer here](https://i.imgur.com/aIieKXf.png)](https://youtu.be/d_8eWLMA32Y)
+### Reviews
+
+Open House Visitor #1 
+>“We have to do a lot of cybersecurity training at work. This would be much more fun and enjoyable”
+
+Beta Tester #8
+>“I thought it was real good for learning about cyber security!”
+
+Beta Tester #15
+>“I learned enough about passwords that it made me reconsider my current methods”    
 
 ---
 ### SENDHELP Studios Members:
@@ -48,15 +60,3 @@ Aiden Sweeney (aidansweeney42@gmail.com) - Computer Science Programmer
 `[SENDHELP] ARI` for the game
 
 `[SENDHELP] Studios` for documentation and presentation material 
-
----
-### Reviews
-
-Open House Visitor #1 
->“We have to do a lot of cybersecurity training at work. This would be much more fun and enjoyable”
-
-Beta Tester #8
->“I thought it was real good for learning about cyber security!”
-
-Beta Tester #15
->“I learned enough about passwords that it made me reconsider my current methods”    
