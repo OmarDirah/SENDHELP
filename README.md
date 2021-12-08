@@ -11,7 +11,9 @@ This game was developed during the fall of 2021 over the span of fourteen weeks.
 
 Can download the executable and learn more at http://aricyberthink.com/
 
-<img src="./[SENDHELP] Studios/aricyberthink.png" alt="WebsiteQR" width="100"/>
+<p align="center">
+    <img src="./[SENDHELP] Studios/aricyberthink.png" alt="WebsiteQR" width="200"/>
+</p>
 
 ---
 ### SENDHELP Studios Members:
