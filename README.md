@@ -1,15 +1,42 @@
-# SENDHELP
-Cybersecurity Capping Game Project
+# ARI by SENDHELP Studios <img src="./[SENDHELP] Logos/shs_transparent.png" alt="drawing" width="100"/>
 
-Cryptography minigame - user gets to learn how a caesar cipher works, solves their own, learns difference between caesar and rot13 to solve their own
+### Overview
+ARI is an educational first-person puzzle escape room game designed to teach good cybersecurity practices to all audiences. Our goal is to create an enjoyable learning experience through interactive gameplay while simultaneously providing a robust cybersecurity education. ARI will provide insight into the level of knowledge students or employees have and gain as they progress through the levels of the game, and it won’t break the bank in the process. 
 
-Use right/up arrow and left/down arrow to rotate the wheel to aid with determining the key
+Human error is often the biggest threat to cybersecurity. Currently, there exist few teaching software applications designed to prevent cybersecurity breaches due to this. The ones that do exist are often simple, ineffective video modules, or extremely expensive. ARI strives to provide a low cost, interactive, enjoyable, and effective way to teach people about the risks that exist in their day-to-day online activities. By teaching users about concepts like good password development and phishing, ARI aims to help prevent security breaches caused by human error. 
 
-Caesar Cipher
-Stage 1 - determine key number given the plaintext and ciphertext
-Stage 2 - determine the plaintext given the key and ciphertext
-Stage 3 - determine the ciphertext given the key and plaintext
+ARI is designed for all audiences, but is particularly effective for high school and college students, as well as young professionals. 
 
-ROT13
-Stage 4 - determine the plaintext given the ciphertext and key of 13
-Stage 5 - determine the ciphertext given the plaintext and key of 13
+This game was developed during the fall of 2021 over the span of fourteen weeks. Under the supervision of Marist professors Brian Gormanly (brian.gormanly@marist.edu) and Casimer DeCusatis (casimer.decusatis@marist.edu), a team of ten senior students elected to make this cybersecurity training experience a reality.   
+
+---
+### SENDHELP Studios Members:
+Omar Dirahoui (OmarDirah92@gmail.com) - Information Technology Stand-In & Leader 
+
+Erin Alvarico (erinalvarico@gmail.com) - Information Systems Stand-In & Producer
+
+Dominick Avitabile (zxcthunder@gmail.com) - Cybsecurity Designer
+
+Liyuan Jin (jonny.jin14@gmail.com) - Computer Science Programmer
+
+Bryan Mah (bmah818@gmail.com) - Cybersecurity Designer
+
+Michelle Maloney (mmaloney11600@gmail.com) - Cybersecurity Designer
+
+Joseph McDonough (josephlmcdonough@gmail.com) - Computer Science Programmer and Cybersecurity Designer
+
+Scott Scherzer (scottyscherzer@gmail.com) - Computer Science Programmer
+
+Brian Sprague (spraguebrian2@gmail.com) - Cybersecurity Designer
+
+Aiden Sweeney (aidansweeney42@gmail.com) - Computer Science Programmer
+
+--- 
+### Repository Contents
+
+`[SENDHELP] ARI` for the game
+
+`[SENDHELP] Studios` for documentation and presentation material 
+
+    
+    
