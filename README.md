@@ -15,6 +15,11 @@ Can download the executable and learn more at http://aricyberthink.com/
     <img src="./[SENDHELP] Studios/aricyberthink.png" alt="WebsiteQR" width="200"/>
 </p>
 
+
+---
+### Trailer
+[![Watch the trailer here](https://i.imgur.com/GUWSN5u.png)](https://youtu.be/d_8eWLMA32Y)
+
 ---
 ### SENDHELP Studios Members:
 Omar Dirahoui (OmarDirah92@gmail.com) - Information Technology Stand-In & Leader 
