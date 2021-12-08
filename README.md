@@ -18,7 +18,7 @@ Can download the executable and learn more at http://aricyberthink.com/
 
 ---
 ### Trailer
-[![Watch the trailer here](https://i.imgur.com/GUWSN5u.png)](https://youtu.be/d_8eWLMA32Y)
+[![Watch the trailer here](https://i.imgur.com/aIieKXf.png)](https://youtu.be/d_8eWLMA32Y)
 
 ---
 ### SENDHELP Studios Members:
