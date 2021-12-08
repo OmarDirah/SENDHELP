@@ -7,7 +7,11 @@ Human error is often the biggest threat to cybersecurity. Currently, there exist
 
 ARI is designed for all audiences, but is particularly effective for high school and college students, as well as young professionals. 
 
-This game was developed during the fall of 2021 over the span of fourteen weeks. Under the supervision of Marist professors Brian Gormanly (brian.gormanly@marist.edu) and Casimer DeCusatis (casimer.decusatis@marist.edu), a team of ten senior students elected to make this cybersecurity training experience a reality.   
+This game was developed during the fall of 2021 over the span of fourteen weeks. Under the supervision of Marist professors Brian Gormanly (brian.gormanly@marist.edu) and Casimer DeCusatis (casimer.decusatis@marist.edu), a team of ten senior students elected to make this cybersecurity training experience a reality.  
+
+Can download the executable and learn more at http://aricyberthink.com/
+
+<img src="./[SENDHELP] Studios/aricyberthink.png" alt="WebsiteQR" width="100"/>
 
 ---
 ### SENDHELP Studios Members:
@@ -38,5 +42,14 @@ Aiden Sweeney (aidansweeney42@gmail.com) - Computer Science Programmer
 
 `[SENDHELP] Studios` for documentation and presentation material 
 
-    
-    
+---
+### Reviews
+
+Open House Visitor #1 
+>“We have to do a lot of cybersecurity training at work. This would be much more fun and enjoyable”
+
+Beta Tester #8
+>“I thought it was real good for learning about cyber security!”
+
+Beta Tester #15
+>“I learned enough about passwords that it made me reconsider my current methods”    
