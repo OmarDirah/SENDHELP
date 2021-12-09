@@ -32,7 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Developers/Erin/Scenes/Novice/Level01Terminal3.unity
     guid: 38dadcafc9841f64fbd98196b1f60d0d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Developers/Erin/Scenes/Novice/Level01ScoreScene.unity
     guid: fb64c673611533c4aad7194d15c8cd2f
   - enabled: 1
@@ -44,13 +44,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Developers/Joseph/MiniGames/Assets/Scenes/Cryptography.unity
     guid: cbcad16719db2dc49bcac0b930c947dd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Developers/Joseph/MiniGames/Assets/Scenes/Frogger.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Developers/Joseph/MiniGames/Assets/Scenes/Asteroids.unity
     guid: 30258fb24c72d594b8c5b443778cef31
-  - enabled: 1
+  - enabled: 0
     path: Assets/Developers/Joseph/MiniGames/Assets/Scenes/Platformer.unity
     guid: 9d622ea01a0bb4c40b13ee908a557071
   m_configObjects: {}

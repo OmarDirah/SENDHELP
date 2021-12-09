@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.28174758, g: 0.25501078, b: 0.26614136, a: 1}
+  m_IndirectSpecularColor: {r: 0.2817481, g: 0.25501117, b: 0.26614207, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8612,8 +8612,8 @@ MonoBehaviour:
   nameText: {fileID: 1313695769}
   dialogueText: {fileID: 1948130918}
   conversation: {fileID: 888606028}
-  source: {fileID: 0}
-  clip: {fileID: 0}
+  source: {fileID: 1490930400}
+  clip: {fileID: 8300000, guid: 881e3f52c86c94f26a60718d35627cd8, type: 3}
 --- !u!4 &1142036825
 Transform:
   m_ObjectHideFlags: 0
