@@ -8,6 +8,9 @@ public class QuizContents : MonoBehaviour
 {
     // VARIABLES
     public string SceneToLoad;
+    public AudioSource source;
+    public AudioClip clip;
+
     int currQuestion = 2;
     int currLevel = 1;
     Button thisButton;
@@ -293,6 +296,8 @@ public class QuizContents : MonoBehaviour
 
     public void GoNext()
     {
+        source.PlayOneShot(clip, 7f);
+
         ResetButtonColor();
         Invoke(nameof(SwitchQuestion), 0f);
         nextButton.interactable = false;

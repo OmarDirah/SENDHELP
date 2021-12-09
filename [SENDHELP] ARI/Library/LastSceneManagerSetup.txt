@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Developers/Erin/Scenes/Novice/TutorialLevel.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
