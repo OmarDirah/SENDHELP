@@ -1,5 +1,9 @@
 # ARI by SENDHELP Studios <img src="./[SENDHELP] Studios/[SENDHELP] Logos/shs_transparent.png" alt="SHS" align="right" width="150"/>
 
+<br>
+
+## _An Innovative First-Person, Sci-Fi, Cybersecurity Escape Room Experience_
+
 ---
 ### Trailer
 [![Watch the trailer here](https://i.imgur.com/aIieKXf.png)](https://youtu.be/d_8eWLMA32Y)
