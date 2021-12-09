@@ -112593,7 +112593,6 @@ GameObject:
   - component: {fileID: 2041454525}
   - component: {fileID: 2041454524}
   - component: {fileID: 2041454523}
-  - component: {fileID: 2041454526}
   m_Layer: 0
   m_Name: GreenhouseLearningSheetNode
   m_TagString: Untagged
@@ -112647,20 +112646,6 @@ Transform:
   m_Father: {fileID: 1154184780}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -14.864, y: -77.133, z: 48.315}
---- !u!114 &2041454526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2041454522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebc4646f4efd77f498b43a9a5a7cec73, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 1837680142}
-  clip: {fileID: 8300000, guid: a0ca8964c08d54c5dbebf245bdc474ca, type: 3}
 --- !u!1 &2041598049
 GameObject:
   m_ObjectHideFlags: 0
