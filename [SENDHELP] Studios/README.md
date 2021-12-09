@@ -5,7 +5,7 @@ Repository containing pertinent information about both SENDHELP Studios and thei
 ---
 ## Repository Contents
 
-`[SENDHELP] Documentation` for code and business documentation
+`[SENDHELP] Documentation` for business and studio documentation
 
 `[SENDHELP] Presentations` for presentation material 
 
