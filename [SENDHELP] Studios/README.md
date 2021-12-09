@@ -12,7 +12,7 @@ Repository containing pertinent information about both SENDHELP Studios and thei
 ---
 
 <p align="center">
-    Visit [aricyberthink.com](aricyberthink.com) for more information
+    Visit [aricyberthink.com](http://aricyberthink.com/) for more information
     <br>
     <img src="aricyberthink.png" alt="WebsiteQR" width="200"/>
 </p>
