@@ -18,7 +18,7 @@ ARI is designed for all audiences, but is particularly effective for high school
 
 This game was developed during the fall of 2021 over the span of fourteen weeks. Under the supervision of Marist professors Brian Gormanly (brian.gormanly@marist.edu) and Casimer DeCusatis (casimer.decusatis@marist.edu), a team of ten senior students elected to make this cybersecurity training experience a reality.  
 
-Can download the executable and learn more at [aricyberthink.com](http://aricyberthink.com/). For those interested in playtesting the game, please consider filling out [this survey](https://forms.gle/uFqK139JihfDxVa16) with your feedback.
+Can [download the executable](https://sendhelp-studios.itch.io/ari) and learn more at [aricyberthink.com](http://aricyberthink.com/). For those interested in playtesting the game, please consider filling out [this survey](https://forms.gle/uFqK139JihfDxVa16) with your feedback.
 
 <p align="center">
     <img src="./[SENDHELP] Studios/aricyberthink.png" alt="WebsiteQR" width="200"/>
