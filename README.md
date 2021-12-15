@@ -30,6 +30,9 @@ Can [download the executable](https://sendhelp-studios.itch.io/ari) and learn mo
 Open House Visitor #1 
 >“We have to do a lot of cybersecurity training at work. This would be much more fun and enjoyable”
 
+Open House Visitor #3
+>"ARI melds the fun of gaming with the difficult concepts of cybersecurity. Its a successful crossover of both industries"
+
 Beta Tester #8
 >“I thought it was real good for learning about cyber security!”
 
@@ -38,9 +41,9 @@ Beta Tester #15
 
 ---
 ### SENDHELP Studios Members:
-Omar Dirahoui (OmarDirah92@gmail.com) - Information Technology Stand-In & Leader 
+Omar Dirahoui (OmarDirah92@gmail.com) - Information Technology Stand-In, Leader, and Computer Science Programmer 
 
-Erin Alvarico (erinalvarico@gmail.com) - Information Systems Stand-In & Producer
+Erin Alvarico (erinalvarico@gmail.com) - Information Systems Stand-In, Producer, and Computer Science Programmer
 
 Dominick Avitabile (zxcthunder@gmail.com) - Cybsecurity Designer
 
